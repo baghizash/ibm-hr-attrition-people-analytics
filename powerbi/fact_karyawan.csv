@@ -1,0 +1,1471 @@
+karyawan_id,departemen_id,peran_id,pendidikan_id,attrition_flag,overtime_flag,monthly_income,age,years_at_company,total_working_years,distance_from_home,job_satisfaction,environment_satisfaction,work_life_balance,gender,marital_status,business_travel,tingkat_pendidikan,kelompok_usia,kelompok_usia_urutan,kelompok_gaji,kelompok_gaji_urutan,kelompok_masa_kerja,kelompok_masa_kerja_urutan,kelompok_jarak,kelompok_jarak_urutan
+1,DEP03,ROL08,EDU02,1,1,5993,41,6,8,1,Very High,Medium,Bad,Female,Single,Travel_Rarely,College,40-49,3,3000-5999,2,6-10,3,1-4,1
+2,DEP02,ROL07,EDU02,0,0,5130,49,10,10,8,Medium,High,Better,Male,Married,Travel_Frequently,Below College,40-49,3,3000-5999,2,6-10,3,5-9,2
+4,DEP02,ROL03,EDU05,1,1,2090,37,0,7,2,High,Very High,Better,Male,Single,Travel_Rarely,College,30-39,2,< 3000,1,0-2,1,1-4,1
+5,DEP02,ROL07,EDU02,0,1,2909,33,8,8,3,High,Very High,Better,Female,Married,Travel_Frequently,Master,30-39,2,< 3000,1,6-10,3,1-4,1
+7,DEP02,ROL03,EDU04,0,0,3468,27,2,6,2,Medium,Low,Better,Male,Married,Travel_Rarely,Below College,< 30,1,3000-5999,2,0-2,1,1-4,1
+8,DEP02,ROL03,EDU02,0,0,3068,32,7,8,2,Very High,Very High,Good,Male,Single,Travel_Frequently,College,30-39,2,3000-5999,2,6-10,3,1-4,1
+10,DEP02,ROL03,EDU04,0,1,2670,59,1,12,3,Low,High,Good,Female,Married,Travel_Rarely,Bachelor,50+,4,< 3000,1,0-2,1,1-4,1
+11,DEP02,ROL03,EDU02,0,0,2693,30,1,1,24,High,Very High,Better,Male,Divorced,Travel_Rarely,Below College,30-39,2,< 3000,1,0-2,1,15+,4
+12,DEP02,ROL05,EDU02,0,0,9526,38,9,10,23,High,Very High,Better,Male,Single,Travel_Frequently,Bachelor,30-39,2,6000-9999,3,6-10,3,15+,4
+13,DEP02,ROL01,EDU04,0,0,5237,36,7,17,27,High,High,Good,Male,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,6-10,3,15+,4
+14,DEP02,ROL03,EDU04,0,0,2426,35,5,6,16,Medium,Low,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,< 3000,1,3-5,2,15+,4
+15,DEP02,ROL03,EDU02,0,1,4193,29,9,10,15,High,Very High,Better,Female,Single,Travel_Rarely,College,< 30,1,3000-5999,2,6-10,3,15+,4
+16,DEP02,ROL07,EDU02,0,0,2911,31,5,5,26,High,Low,Good,Male,Divorced,Travel_Rarely,Below College,30-39,2,< 3000,1,3-5,2,15+,4
+18,DEP02,ROL03,EDU04,0,0,2661,34,2,3,19,Very High,Medium,Better,Male,Divorced,Travel_Rarely,College,30-39,2,< 3000,1,0-2,1,15+,4
+19,DEP02,ROL03,EDU02,1,1,2028,28,4,6,24,High,High,Better,Male,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,3-5,2,15+,4
+20,DEP02,ROL05,EDU02,0,0,9980,29,10,10,21,Low,Medium,Better,Female,Divorced,Travel_Rarely,Master,< 30,1,6000-9999,3,6-10,3,15+,4
+21,DEP02,ROL07,EDU02,0,1,3298,32,6,7,5,Medium,Low,Good,Male,Divorced,Travel_Rarely,College,30-39,2,3000-5999,2,6-10,3,5-9,2
+22,DEP02,ROL03,EDU04,0,1,2935,22,1,1,16,Very High,Very High,Good,Male,Divorced,Non-Travel,College,< 30,1,< 3000,1,0-2,1,15+,4
+23,DEP03,ROL04,EDU02,0,0,15427,53,25,31,2,Very High,Low,Better,Female,Married,Travel_Rarely,Master,50+,4,>= 10000,4,11+,4,1-4,1
+24,DEP02,ROL07,EDU02,0,1,3944,38,3,6,2,Very High,Very High,Better,Male,Single,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,1-4,1
+26,DEP02,ROL05,EDU05,0,0,4011,24,4,5,11,High,Low,Good,Female,Divorced,Non-Travel,College,< 30,1,3000-5999,2,3-5,2,10-14,3
+27,DEP03,ROL09,EDU02,1,0,3407,36,5,10,9,Low,High,Better,Male,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,3-5,2,5-9,2
+28,DEP02,ROL06,EDU02,0,0,11994,34,12,13,7,Medium,Low,Better,Female,Single,Travel_Rarely,Master,30-39,2,>= 10000,4,11+,4,5-9,2
+30,DEP02,ROL07,EDU02,0,0,1232,21,0,0,15,Very High,High,Better,Male,Single,Travel_Rarely,College,< 30,1,< 3000,1,0-2,1,15+,4
+31,DEP02,ROL07,EDU04,1,0,2960,34,4,8,6,Low,Medium,Better,Male,Single,Travel_Rarely,Below College,30-39,2,< 3000,1,3-5,2,5-9,2
+32,DEP02,ROL04,EDU05,0,0,19094,53,14,26,5,High,High,Good,Female,Divorced,Travel_Rarely,Bachelor,50+,4,>= 10000,4,11+,4,5-9,2
+33,DEP02,ROL07,EDU02,1,1,3919,32,10,10,16,Low,Medium,Better,Female,Single,Travel_Frequently,Below College,30-39,2,3000-5999,2,6-10,3,15+,4
+35,DEP03,ROL08,EDU03,0,0,6825,42,9,10,8,Medium,High,Better,Male,Married,Travel_Rarely,Master,40-49,3,6000-9999,3,6-10,3,5-9,2
+36,DEP02,ROL01,EDU04,0,0,10248,44,22,24,7,Very High,Low,Better,Female,Married,Travel_Rarely,Master,40-49,3,>= 10000,4,11+,4,5-9,2
+38,DEP03,ROL04,EDU03,0,0,18947,46,2,22,2,Low,Medium,Good,Female,Single,Travel_Rarely,Master,40-49,3,>= 10000,4,0-2,1,1-4,1
+39,DEP02,ROL03,EDU04,0,0,2496,33,1,7,2,Very High,High,Better,Male,Single,Travel_Rarely,Bachelor,30-39,2,< 3000,1,0-2,1,1-4,1
+40,DEP02,ROL01,EDU05,0,1,6465,44,4,9,10,Very High,Very High,Best,Male,Married,Travel_Rarely,Master,40-49,3,6000-9999,3,3-5,2,10-14,3
+41,DEP02,ROL03,EDU04,0,0,2206,30,10,10,9,High,Very High,Better,Male,Single,Travel_Rarely,College,30-39,2,< 3000,1,6-10,3,5-9,2
+42,DEP03,ROL09,EDU06,1,0,2086,39,1,19,5,Very High,Very High,Best,Male,Married,Travel_Rarely,Bachelor,30-39,2,< 3000,1,0-2,1,5-9,2
+45,DEP02,ROL07,EDU04,1,1,2293,24,2,6,1,Very High,Medium,Good,Male,Married,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,1-4,1
+46,DEP02,ROL07,EDU04,0,0,2645,43,5,6,2,High,Very High,Good,Female,Divorced,Travel_Rarely,College,40-49,3,< 3000,1,3-5,2,1-4,1
+47,DEP03,ROL09,EDU03,1,1,2683,50,3,3,3,High,Low,Better,Male,Married,Travel_Rarely,College,50+,4,< 3000,1,3-5,2,1-4,1
+49,DEP03,ROL09,EDU03,0,0,2014,35,2,2,2,Very High,Very High,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,< 3000,1,0-2,1,1-4,1
+51,DEP02,ROL07,EDU02,0,1,3419,36,1,6,5,Low,Medium,Best,Female,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,0-2,1,5-9,2
+52,DEP03,ROL08,EDU02,0,0,5376,33,5,10,1,Low,High,Better,Female,Married,Travel_Frequently,Bachelor,30-39,2,3000-5999,2,3-5,2,1-4,1
+53,DEP02,ROL03,EDU05,0,0,1951,35,1,1,4,Very High,High,Better,Male,Divorced,Travel_Rarely,College,30-39,2,< 3000,1,0-2,1,1-4,1
+54,DEP02,ROL03,EDU02,0,0,2341,27,1,1,2,Low,Very High,Better,Female,Divorced,Travel_Rarely,Master,< 30,1,< 3000,1,0-2,1,1-4,1
+55,DEP02,ROL03,EDU02,1,0,2293,26,1,1,25,High,Low,Good,Male,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,15+,4
+56,DEP03,ROL08,EDU02,0,0,8726,27,9,9,8,High,Very High,Better,Male,Single,Travel_Frequently,Bachelor,< 30,1,6000-9999,3,6-10,3,5-9,2
+57,DEP02,ROL03,EDU04,0,0,4011,30,12,12,1,Very High,High,Better,Female,Single,Travel_Frequently,College,30-39,2,3000-5999,2,11+,4,1-4,1
+58,DEP02,ROL06,EDU06,1,0,19545,41,22,23,12,High,Medium,Better,Female,Married,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,10-14,3
+60,DEP03,ROL08,EDU03,0,0,4568,34,9,10,23,High,Medium,Better,Male,Single,Non-Travel,Master,30-39,2,3000-5999,2,6-10,3,15+,4
+61,DEP02,ROL07,EDU02,0,0,3022,37,1,8,19,Medium,Medium,Better,Male,Married,Travel_Rarely,College,30-39,2,3000-5999,2,0-2,1,15+,4
+62,DEP03,ROL08,EDU03,0,1,5772,46,9,14,5,Very High,Low,Better,Male,Single,Travel_Frequently,Master,40-49,3,3000-5999,2,6-10,3,5-9,2
+63,DEP02,ROL03,EDU02,0,0,2269,35,1,1,8,Very High,Very High,Better,Male,Married,Travel_Rarely,Below College,30-39,2,< 3000,1,0-2,1,5-9,2
+64,DEP02,ROL03,EDU02,1,1,5381,48,1,23,1,High,Low,Better,Male,Single,Travel_Rarely,College,40-49,3,3000-5999,2,0-2,1,1-4,1
+65,DEP02,ROL03,EDU06,1,1,3441,28,2,2,5,High,High,Good,Male,Single,Travel_Rarely,Master,< 30,1,3000-5999,2,0-2,1,5-9,2
+68,DEP03,ROL08,EDU03,0,1,5454,44,4,9,1,Low,Medium,Good,Female,Divorced,Travel_Rarely,Doctor,40-49,3,3000-5999,2,3-5,2,1-4,1
+70,DEP02,ROL01,EDU04,0,1,9884,35,4,10,11,Low,High,Better,Male,Married,Non-Travel,College,30-39,2,6000-9999,3,3-5,2,10-14,3
+72,DEP03,ROL08,EDU03,0,1,4157,26,2,5,23,Very High,High,Good,Female,Married,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,0-2,1,15+,4
+73,DEP02,ROL06,EDU02,0,1,13458,33,15,15,1,Very High,Low,Better,Female,Single,Travel_Frequently,College,30-39,2,>= 10000,4,11+,4,1-4,1
+74,DEP03,ROL08,EDU02,0,0,9069,35,9,9,18,Low,Medium,Good,Male,Married,Travel_Frequently,Doctor,30-39,2,6000-9999,3,6-10,3,15+,4
+75,DEP02,ROL03,EDU04,0,1,4014,35,2,4,23,Low,High,Better,Female,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,0-2,1,15+,4
+76,DEP02,ROL03,EDU02,0,0,5915,31,7,10,7,Very High,Very High,Good,Male,Divorced,Travel_Rarely,Master,30-39,2,3000-5999,2,6-10,3,5-9,2
+77,DEP02,ROL05,EDU02,0,0,5993,37,7,7,1,High,Low,Best,Male,Divorced,Travel_Rarely,Master,30-39,2,3000-5999,2,6-10,3,1-4,1
+78,DEP02,ROL05,EDU04,0,1,6162,32,9,9,1,Very High,Low,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,1-4,1
+79,DEP02,ROL03,EDU02,0,0,2406,38,10,10,29,Very High,Very High,Better,Female,Single,Travel_Frequently,Doctor,30-39,2,< 3000,1,6-10,3,15+,4
+80,DEP02,ROL06,EDU04,0,1,18740,50,27,29,7,High,Medium,Good,Female,Divorced,Travel_Rarely,College,50+,4,>= 10000,4,11+,4,5-9,2
+81,DEP03,ROL08,EDU02,0,0,7637,59,21,28,25,Low,Low,Good,Female,Single,Travel_Rarely,Bachelor,50+,4,6000-9999,3,11+,4,15+,4
+83,DEP02,ROL01,EDU06,0,0,10096,36,17,17,8,High,High,Better,Female,Divorced,Travel_Rarely,Bachelor,30-39,2,>= 10000,4,11+,4,5-9,2
+84,DEP02,ROL04,EDU04,0,1,14756,55,5,21,8,High,Very High,Better,Female,Divorced,Travel_Rarely,Bachelor,50+,4,>= 10000,4,3-5,2,5-9,2
+85,DEP02,ROL05,EDU02,0,0,6499,36,6,6,11,Medium,Medium,Better,Male,Single,Travel_Frequently,Bachelor,30-39,2,6000-9999,3,6-10,3,10-14,3
+86,DEP02,ROL07,EDU02,0,0,9724,45,1,25,7,Low,Medium,Better,Male,Divorced,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,0-2,1,5-9,2
+88,DEP02,ROL07,EDU04,0,0,2194,35,3,5,1,Low,Medium,Good,Male,Married,Travel_Frequently,Bachelor,30-39,2,< 3000,1,3-5,2,1-4,1
+90,DEP02,ROL07,EDU04,1,1,3388,36,1,2,9,High,Very High,Good,Male,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,0-2,1,5-9,2
+91,DEP03,ROL08,EDU02,0,0,5473,59,4,20,1,High,Low,Good,Female,Single,Travel_Frequently,Below College,50+,4,3000-5999,2,3-5,2,1-4,1
+94,DEP02,ROL07,EDU02,0,0,2703,29,5,6,2,Medium,High,Better,Male,Married,Travel_Rarely,Bachelor,< 30,1,< 3000,1,3-5,2,1-4,1
+95,DEP02,ROL07,EDU04,0,0,2501,31,1,1,1,Medium,High,Better,Male,Single,Travel_Rarely,Master,30-39,2,< 3000,1,0-2,1,1-4,1
+96,DEP02,ROL07,EDU02,0,0,6220,32,10,10,1,Medium,Medium,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,1-4,1
+97,DEP02,ROL03,EDU02,0,0,3038,36,1,5,6,Very High,Medium,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,0-2,1,5-9,2
+98,DEP02,ROL05,EDU02,0,0,4424,31,11,11,8,Very High,High,Better,Female,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,11+,4,5-9,2
+100,DEP03,ROL08,EDU03,0,0,4312,35,15,16,1,Low,High,Better,Male,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,11+,4,1-4,1
+101,DEP02,ROL06,EDU05,0,1,13245,45,0,17,6,Low,Very High,Best,Male,Married,Travel_Rarely,Master,40-49,3,>= 10000,4,0-2,1,5-9,2
+102,DEP02,ROL06,EDU04,0,0,13664,37,5,16,7,High,Low,Best,Male,Single,Travel_Rarely,Master,30-39,2,>= 10000,4,3-5,2,5-9,2
+103,DEP01,ROL02,EDU04,0,1,5021,46,4,16,5,Medium,Medium,Better,Male,Divorced,Travel_Rarely,College,40-49,3,3000-5999,2,3-5,2,5-9,2
+104,DEP02,ROL03,EDU02,0,1,5126,30,10,10,1,Very High,Very High,Good,Male,Married,Travel_Rarely,Below College,30-39,2,3000-5999,2,6-10,3,1-4,1
+105,DEP02,ROL07,EDU04,0,0,2859,35,6,6,1,High,Medium,Better,Male,Single,Travel_Rarely,Bachelor,30-39,2,< 3000,1,6-10,3,1-4,1
+106,DEP03,ROL08,EDU02,0,0,10239,55,1,24,1,Very High,Low,Better,Male,Married,Travel_Rarely,College,50+,4,>= 10000,4,0-2,1,1-4,1
+107,DEP02,ROL07,EDU04,0,1,5329,38,13,17,6,Very High,Medium,Better,Female,Divorced,Non-Travel,Bachelor,30-39,2,3000-5999,2,11+,4,5-9,2
+110,DEP02,ROL05,EDU04,0,0,4325,34,5,5,1,Medium,Low,Better,Male,Married,Travel_Rarely,College,30-39,2,3000-5999,2,3-5,2,1-4,1
+112,DEP02,ROL05,EDU02,0,0,7260,56,6,37,7,Very High,Very High,Good,Male,Single,Travel_Rarely,Bachelor,50+,4,6000-9999,3,6-10,3,5-9,2
+113,DEP03,ROL09,EDU06,0,0,2322,23,0,3,2,Low,High,Better,Male,Divorced,Travel_Rarely,Below College,< 30,1,< 3000,1,0-2,1,1-4,1
+116,DEP02,ROL03,EDU02,0,0,2075,51,4,10,9,Very High,Very High,Better,Male,Married,Travel_Rarely,Master,50+,4,< 3000,1,3-5,2,5-9,2
+117,DEP02,ROL01,EDU02,0,0,4152,30,11,11,2,Very High,High,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,11+,4,1-4,1
+118,DEP03,ROL08,EDU04,1,0,9619,46,9,9,9,Very High,High,Better,Male,Single,Travel_Rarely,College,40-49,3,6000-9999,3,6-10,3,5-9,2
+119,DEP02,ROL01,EDU02,0,0,13503,40,22,22,1,Medium,High,Good,Male,Married,Travel_Frequently,Master,40-49,3,>= 10000,4,11+,4,1-4,1
+120,DEP03,ROL08,EDU03,0,1,5441,51,10,11,21,Very High,High,Bad,Male,Single,Travel_Rarely,Master,50+,4,3000-5999,2,6-10,3,15+,4
+121,DEP03,ROL08,EDU04,0,1,5209,30,11,11,4,Medium,High,Good,Female,Divorced,Travel_Rarely,College,30-39,2,3000-5999,2,11+,4,1-4,1
+124,DEP02,ROL01,EDU04,0,1,10673,46,10,21,1,Low,High,Good,Male,Married,Travel_Frequently,Bachelor,40-49,3,>= 10000,4,6-10,3,1-4,1
+125,DEP03,ROL08,EDU04,0,0,5010,32,11,12,6,High,Medium,Better,Male,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,11+,4,5-9,2
+126,DEP02,ROL06,EDU06,0,0,13549,54,4,16,2,High,Low,Bad,Female,Married,Travel_Rarely,Master,50+,4,>= 10000,4,3-5,2,1-4,1
+128,DEP03,ROL08,EDU05,0,0,4999,24,3,4,3,High,Low,Good,Female,Married,Travel_Rarely,College,< 30,1,3000-5999,2,3-5,2,1-4,1
+129,DEP03,ROL08,EDU04,0,0,4221,28,5,5,4,High,Medium,Best,Male,Married,Non-Travel,Bachelor,< 30,1,3000-5999,2,3-5,2,1-4,1
+131,DEP03,ROL08,EDU04,0,0,13872,58,37,38,10,High,Very High,Good,Male,Single,Travel_Rarely,Master,50+,4,>= 10000,4,11+,4,10-14,3
+132,DEP02,ROL03,EDU04,0,0,2042,44,3,17,23,Medium,Medium,Best,Male,Married,Non-Travel,Bachelor,40-49,3,< 3000,1,3-5,2,15+,4
+133,DEP01,ROL02,EDU01,1,1,2073,37,3,7,6,Low,High,Better,Male,Divorced,Travel_Rarely,Master,30-39,2,< 3000,1,3-5,2,5-9,2
+134,DEP02,ROL07,EDU02,0,0,2956,32,1,1,1,Low,Very High,Better,Male,Single,Travel_Rarely,Below College,30-39,2,< 3000,1,0-2,1,1-4,1
+137,DEP02,ROL03,EDU02,1,1,2926,20,1,1,6,Very High,Very High,Better,Female,Single,Travel_Frequently,Bachelor,< 30,1,< 3000,1,0-2,1,5-9,2
+138,DEP02,ROL07,EDU05,0,0,4809,34,16,16,6,High,Low,Better,Female,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,11+,4,5-9,2
+139,DEP02,ROL01,EDU02,0,0,5163,37,1,17,2,Very High,High,Best,Male,Divorced,Non-Travel,College,30-39,2,3000-5999,2,0-2,1,1-4,1
+140,DEP01,ROL04,EDU01,0,0,18844,59,3,30,2,Very High,High,Better,Female,Married,Non-Travel,Master,50+,4,>= 10000,4,3-5,2,1-4,1
+141,DEP02,ROL06,EDU02,0,1,18172,50,8,28,1,Medium,Low,Good,Female,Married,Travel_Frequently,Bachelor,50+,4,>= 10000,4,6-10,3,1-4,1
+142,DEP03,ROL08,EDU03,1,1,5744,25,6,6,5,High,High,Better,Male,Single,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,6-10,3,5-9,2
+143,DEP02,ROL07,EDU04,0,0,2889,25,2,2,7,Very High,Very High,Better,Male,Married,Travel_Rarely,Below College,< 30,1,< 3000,1,0-2,1,5-9,2
+144,DEP02,ROL03,EDU04,0,0,2871,22,0,1,15,Very High,Medium,Better,Female,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,15+,4
+145,DEP02,ROL01,EDU04,0,0,7484,51,13,23,1,Low,Low,Good,Female,Single,Travel_Frequently,Master,50+,4,6000-9999,3,11+,4,1-4,1
+147,DEP02,ROL03,EDU02,1,1,6074,34,9,9,7,High,Low,Better,Male,Single,Travel_Frequently,Bachelor,30-39,2,6000-9999,3,6-10,3,5-9,2
+148,DEP01,ROL04,EDU01,0,1,17328,54,5,23,26,Very High,Very High,Better,Female,Single,Non-Travel,Bachelor,50+,4,>= 10000,4,3-5,2,15+,4
+150,DEP02,ROL03,EDU02,0,0,2774,24,5,6,18,High,Medium,Better,Male,Married,Travel_Rarely,Below College,< 30,1,< 3000,1,3-5,2,15+,4
+151,DEP02,ROL07,EDU02,0,0,4505,34,1,12,6,Medium,High,Better,Female,Divorced,Travel_Rarely,Master,30-39,2,3000-5999,2,0-2,1,5-9,2
+152,DEP03,ROL08,EDU02,0,0,7428,37,5,12,3,Very High,High,Better,Male,Single,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,3-5,2,1-4,1
+153,DEP02,ROL04,EDU04,0,0,11631,34,11,14,5,Low,High,Better,Female,Single,Travel_Rarely,Bachelor,30-39,2,>= 10000,4,11+,4,5-9,2
+154,DEP03,ROL08,EDU06,0,0,9738,36,9,10,11,Very High,Medium,Better,Female,Married,Travel_Frequently,College,30-39,2,6000-9999,3,6-10,3,10-14,3
+155,DEP02,ROL03,EDU02,0,0,2835,36,1,7,3,Very High,Low,Better,Female,Divorced,Travel_Rarely,College,30-39,2,< 3000,1,0-2,1,1-4,1
+158,DEP03,ROL04,EDU02,0,1,16959,43,25,25,26,Very High,High,Best,Male,Married,Travel_Frequently,College,40-49,3,>= 10000,4,11+,4,15+,4
+159,DEP02,ROL07,EDU02,0,0,2613,30,10,10,23,High,Low,Good,Male,Divorced,Travel_Frequently,Bachelor,30-39,2,< 3000,1,6-10,3,15+,4
+160,DEP03,ROL08,EDU03,0,0,6146,33,7,8,22,Medium,High,Best,Male,Married,Non-Travel,College,30-39,2,6000-9999,3,6-10,3,15+,4
+161,DEP02,ROL07,EDU02,1,1,4963,56,5,7,14,Medium,Medium,Better,Female,Married,Travel_Rarely,Master,50+,4,3000-5999,2,3-5,2,10-14,3
+162,DEP02,ROL06,EDU02,0,0,19537,51,20,23,6,High,Low,Better,Male,Single,Travel_Rarely,Bachelor,50+,4,>= 10000,4,11+,4,5-9,2
+163,DEP03,ROL08,EDU02,1,1,6172,31,7,12,6,High,Medium,Good,Male,Married,Travel_Rarely,Master,30-39,2,6000-9999,3,6-10,3,5-9,2
+164,DEP02,ROL07,EDU05,0,0,2368,26,5,5,6,Medium,High,Good,Female,Married,Travel_Rarely,Bachelor,< 30,1,< 3000,1,3-5,2,5-9,2
+165,DEP02,ROL01,EDU04,1,0,10312,58,40,40,23,Very High,Very High,Good,Female,Married,Travel_Rarely,Master,50+,4,>= 10000,4,11+,4,15+,4
+167,DEP03,ROL09,EDU03,1,1,1675,19,0,0,22,High,Very High,Good,Male,Single,Travel_Rarely,Below College,< 30,1,< 3000,1,0-2,1,15+,4
+169,DEP02,ROL03,EDU06,0,0,2523,22,2,3,2,Very High,High,Better,Male,Married,Travel_Rarely,Below College,< 30,1,< 3000,1,0-2,1,1-4,1
+170,DEP02,ROL05,EDU04,0,0,6567,49,15,16,20,Low,High,Good,Female,Married,Travel_Rarely,Master,40-49,3,6000-9999,3,11+,4,15+,4
+171,DEP02,ROL07,EDU04,0,0,4739,43,3,18,28,High,Medium,Better,Female,Single,Travel_Frequently,Bachelor,40-49,3,3000-5999,2,3-5,2,15+,4
+174,DEP03,ROL08,EDU03,0,0,9208,50,2,16,12,Very High,High,Better,Female,Single,Travel_Frequently,Bachelor,50+,4,6000-9999,3,0-2,1,10-14,3
+175,DEP03,ROL08,EDU02,1,1,4559,31,2,4,20,High,Medium,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,0-2,1,15+,4
+176,DEP03,ROL08,EDU02,0,1,8189,41,9,12,9,High,High,Better,Male,Divorced,Travel_Rarely,Below College,40-49,3,6000-9999,3,6-10,3,5-9,2
+177,DEP01,ROL02,EDU02,0,0,2942,26,8,8,25,High,High,Better,Female,Married,Travel_Rarely,Below College,< 30,1,< 3000,1,6-10,3,15+,4
+178,DEP02,ROL05,EDU04,0,0,4941,36,3,7,6,Medium,Medium,Better,Male,Divorced,Travel_Rarely,College,30-39,2,3000-5999,2,3-5,2,5-9,2
+179,DEP02,ROL05,EDU02,1,0,10650,51,4,18,8,Very High,Low,Better,Male,Single,Travel_Frequently,Master,50+,4,>= 10000,4,3-5,2,5-9,2
+182,DEP03,ROL08,EDU02,0,0,5902,39,15,17,4,High,Very High,Best,Female,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,11+,4,1-4,1
+183,DEP03,ROL08,EDU02,0,0,8639,25,2,6,28,High,Low,Better,Male,Married,Travel_Rarely,Bachelor,< 30,1,6000-9999,3,0-2,1,15+,4
+184,DEP01,ROL02,EDU01,0,1,6347,30,11,12,9,Very High,High,Bad,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,11+,4,5-9,2
+190,DEP02,ROL03,EDU04,1,0,4200,32,5,10,9,Low,Low,Best,Female,Single,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,5-9,2
+192,DEP02,ROL07,EDU04,0,0,3452,45,6,9,29,Very High,High,Good,Male,Single,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,6-10,3,15+,4
+193,DEP02,ROL07,EDU06,0,1,4317,38,3,19,3,High,Very High,Better,Female,Single,Travel_Rarely,Doctor,30-39,2,3000-5999,2,3-5,2,1-4,1
+194,DEP02,ROL07,EDU02,0,0,2632,30,5,5,18,High,Low,Good,Female,Single,Travel_Rarely,Bachelor,30-39,2,< 3000,1,3-5,2,15+,4
+195,DEP03,ROL08,EDU04,0,0,4668,32,8,9,9,Very High,Very High,Best,Male,Divorced,Travel_Frequently,College,30-39,2,3000-5999,2,6-10,3,5-9,2
+197,DEP02,ROL07,EDU06,0,0,3204,30,3,8,5,Low,Very High,Better,Female,Divorced,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,5-9,2
+198,DEP02,ROL03,EDU04,0,0,2720,30,5,6,2,Very High,Medium,Better,Male,Single,Travel_Rarely,Below College,30-39,2,< 3000,1,3-5,2,1-4,1
+199,DEP02,ROL04,EDU02,0,0,17181,41,7,21,10,Low,Very High,Good,Male,Divorced,Travel_Frequently,Bachelor,40-49,3,>= 10000,4,6-10,3,10-14,3
+200,DEP02,ROL03,EDU02,0,0,2238,41,5,7,9,Low,High,Better,Male,Married,Travel_Rarely,Master,40-49,3,< 3000,1,3-5,2,5-9,2
+201,DEP02,ROL03,EDU04,0,0,1483,19,1,1,3,Medium,Medium,Better,Female,Single,Travel_Rarely,Below College,< 30,1,< 3000,1,0-2,1,1-4,1
+202,DEP02,ROL07,EDU04,0,0,5605,40,20,20,26,Medium,Medium,Better,Female,Divorced,Travel_Frequently,Bachelor,40-49,3,3000-5999,2,11+,4,15+,4
+204,DEP03,ROL08,EDU03,0,0,7295,35,10,10,1,Medium,High,Better,Male,Married,Travel_Rarely,Doctor,30-39,2,6000-9999,3,6-10,3,1-4,1
+205,DEP03,ROL09,EDU03,0,1,2306,53,7,13,6,High,Medium,Bad,Male,Married,Travel_Rarely,College,50+,4,< 3000,1,6-10,3,5-9,2
+206,DEP02,ROL03,EDU02,0,0,2348,45,17,20,9,Medium,Medium,Bad,Male,Divorced,Travel_Rarely,Bachelor,40-49,3,< 3000,1,11+,4,5-9,2
+207,DEP03,ROL08,EDU03,0,0,8998,32,9,9,8,Very High,Medium,Better,Female,Single,Travel_Frequently,Bachelor,30-39,2,6000-9999,3,6-10,3,5-9,2
+208,DEP02,ROL05,EDU06,0,0,4319,29,10,10,1,High,Very High,Better,Male,Married,Non-Travel,Below College,< 30,1,3000-5999,2,6-10,3,1-4,1
+211,DEP02,ROL05,EDU04,0,0,6132,51,1,10,7,High,Medium,Better,Male,Married,Travel_Rarely,Master,50+,4,6000-9999,3,0-2,1,5-9,2
+214,DEP02,ROL07,EDU04,0,1,3346,58,1,9,9,Medium,Medium,Good,Female,Married,Travel_Rarely,Bachelor,50+,4,3000-5999,2,0-2,1,5-9,2
+215,DEP03,ROL08,EDU03,0,0,10855,40,12,15,4,Very High,High,Good,Male,Married,Travel_Rarely,Master,40-49,3,>= 10000,4,11+,4,1-4,1
+216,DEP03,ROL09,EDU03,0,0,2231,34,4,6,2,High,High,Better,Female,Married,Travel_Frequently,Master,30-39,2,< 3000,1,3-5,2,1-4,1
+217,DEP02,ROL07,EDU04,0,0,2323,22,2,2,19,Very High,High,Better,Male,Married,Travel_Rarely,Below College,< 30,1,< 3000,1,0-2,1,15+,4
+218,DEP02,ROL07,EDU04,0,0,2024,27,2,6,9,Medium,Very High,Bad,Male,Divorced,Non-Travel,Bachelor,< 30,1,< 3000,1,0-2,1,5-9,2
+221,DEP02,ROL07,EDU04,0,0,2713,28,5,5,21,Very High,High,Bad,Male,Married,Travel_Rarely,Bachelor,< 30,1,< 3000,1,3-5,2,15+,4
+223,DEP02,ROL01,EDU02,0,1,9439,57,5,12,24,Very High,High,Bad,Male,Divorced,Travel_Rarely,College,50+,4,6000-9999,3,3-5,2,15+,4
+224,DEP02,ROL07,EDU04,0,1,2566,27,1,1,3,High,High,Good,Male,Divorced,Non-Travel,Bachelor,< 30,1,< 3000,1,0-2,1,1-4,1
+226,DEP02,ROL04,EDU02,0,0,19926,50,5,21,11,Medium,High,Better,Female,Single,Travel_Rarely,Bachelor,50+,4,>= 10000,4,3-5,2,10-14,3
+227,DEP02,ROL07,EDU02,0,0,2451,41,9,13,14,High,Low,Better,Male,Divorced,Travel_Rarely,Bachelor,40-49,3,< 3000,1,6-10,3,10-14,3
+228,DEP03,ROL08,EDU02,0,0,9419,30,10,12,5,Very High,Medium,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,5-9,2
+230,DEP03,ROL08,EDU02,0,0,8686,38,8,12,1,Very High,Low,Best,Female,Single,Travel_Rarely,Master,30-39,2,6000-9999,3,6-10,3,1-4,1
+231,DEP02,ROL07,EDU02,0,0,3038,32,5,8,6,High,High,Better,Male,Single,Travel_Rarely,Doctor,30-39,2,3000-5999,2,3-5,2,5-9,2
+233,DEP02,ROL07,EDU06,0,1,3058,27,5,6,17,Medium,High,Good,Male,Married,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,3-5,2,15+,4
+235,DEP03,ROL09,EDU06,1,0,2325,19,0,1,1,Low,High,Best,Female,Single,Travel_Frequently,Below College,< 30,1,< 3000,1,0-2,1,1-4,1
+238,DEP02,ROL03,EDU04,0,0,2088,36,8,13,3,Medium,Very High,Good,Male,Single,Travel_Frequently,College,30-39,2,< 3000,1,6-10,3,1-4,1
+239,DEP02,ROL03,EDU04,0,0,3072,30,12,12,9,Low,High,Better,Male,Divorced,Non-Travel,Bachelor,30-39,2,3000-5999,2,11+,4,5-9,2
+240,DEP03,ROL08,EDU02,0,1,5006,45,5,9,4,Low,High,Best,Female,Divorced,Travel_Rarely,College,40-49,3,3000-5999,2,3-5,2,1-4,1
+241,DEP02,ROL07,EDU02,0,1,4257,56,2,19,8,Low,High,Better,Female,Divorced,Travel_Rarely,Bachelor,50+,4,3000-5999,2,0-2,1,5-9,2
+242,DEP02,ROL07,EDU02,0,0,2500,33,3,4,2,Very High,High,Best,Male,Single,Travel_Rarely,Bachelor,30-39,2,< 3000,1,3-5,2,1-4,1
+243,DEP02,ROL03,EDU02,1,0,1102,19,1,1,2,Very High,Medium,Good,Male,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,1-4,1
+244,DEP03,ROL08,EDU03,0,0,10453,46,24,24,1,Low,Medium,Better,Female,Divorced,Travel_Rarely,College,40-49,3,>= 10000,4,11+,4,1-4,1
+245,DEP02,ROL03,EDU02,0,0,2288,38,2,2,9,Very High,High,Better,Female,Single,Travel_Rarely,College,30-39,2,< 3000,1,0-2,1,5-9,2
+246,DEP02,ROL07,EDU04,0,1,3929,31,4,7,12,Very High,High,Better,Female,Married,Travel_Rarely,Below College,30-39,2,3000-5999,2,3-5,2,10-14,3
+247,DEP02,ROL07,EDU04,0,0,2311,34,3,9,27,Medium,Very High,Better,Female,Single,Travel_Rarely,College,30-39,2,< 3000,1,3-5,2,15+,4
+248,DEP03,ROL09,EDU03,1,1,3140,41,4,4,20,Medium,Medium,Good,Female,Single,Travel_Rarely,College,40-49,3,3000-5999,2,3-5,2,15+,4
+249,DEP02,ROL03,EDU04,0,0,3690,50,3,5,1,High,High,Good,Male,Married,Travel_Rarely,Bachelor,50+,4,3000-5999,2,3-5,2,1-4,1
+250,DEP02,ROL05,EDU04,0,0,4450,53,4,5,13,Low,Very High,Better,Female,Divorced,Travel_Rarely,College,50+,4,3000-5999,2,3-5,2,10-14,3
+252,DEP02,ROL07,EDU04,0,0,2756,33,8,8,14,Medium,Very High,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,< 3000,1,6-10,3,10-14,3
+253,DEP02,ROL04,EDU04,0,0,19033,40,20,21,4,High,Very High,Better,Female,Married,Travel_Rarely,Below College,40-49,3,>= 10000,4,11+,4,1-4,1
+254,DEP02,ROL06,EDU04,0,0,18722,55,24,36,14,Medium,High,Better,Male,Single,Travel_Rarely,Master,50+,4,>= 10000,4,11+,4,10-14,3
+256,DEP02,ROL05,EDU02,0,0,9547,34,10,10,2,High,Very High,Good,Male,Married,Travel_Frequently,Below College,30-39,2,6000-9999,3,6-10,3,1-4,1
+258,DEP02,ROL01,EDU04,0,0,13734,51,7,21,3,Medium,Very High,Better,Female,Single,Travel_Rarely,Bachelor,50+,4,>= 10000,4,6-10,3,1-4,1
+259,DEP02,ROL04,EDU02,0,0,19999,52,33,34,1,High,High,Better,Male,Married,Travel_Rarely,Master,50+,4,>= 10000,4,11+,4,1-4,1
+260,DEP02,ROL07,EDU04,0,0,2279,27,7,7,9,Medium,Very High,Good,Female,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,6-10,3,5-9,2
+261,DEP02,ROL05,EDU02,1,1,5916,35,1,8,23,High,Medium,Better,Male,Married,Travel_Rarely,College,30-39,2,3000-5999,2,0-2,1,15+,4
+262,DEP02,ROL07,EDU04,0,0,2089,43,5,7,7,Very High,Very High,Best,Male,Divorced,Non-Travel,Bachelor,40-49,3,< 3000,1,3-5,2,5-9,2
+264,DEP02,ROL04,EDU04,0,0,16792,45,20,22,2,Very High,Low,Better,Male,Married,Non-Travel,College,40-49,3,>= 10000,4,11+,4,1-4,1
+267,DEP02,ROL07,EDU02,0,1,3564,37,8,8,21,Low,Medium,Good,Male,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,6-10,3,15+,4
+269,DEP02,ROL03,EDU04,0,0,4425,35,6,10,2,Medium,Medium,Better,Female,Single,Travel_Frequently,Bachelor,30-39,2,3000-5999,2,6-10,3,1-4,1
+270,DEP02,ROL05,EDU04,0,0,5265,42,5,11,21,High,High,Better,Female,Divorced,Non-Travel,College,40-49,3,3000-5999,2,3-5,2,15+,4
+271,DEP02,ROL05,EDU02,0,0,6553,38,1,14,2,High,Very High,Better,Male,Married,Travel_Rarely,Master,30-39,2,6000-9999,3,0-2,1,1-4,1
+273,DEP02,ROL05,EDU06,0,0,6261,38,7,9,29,Very High,Very High,Bad,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,15+,4
+274,DEP02,ROL05,EDU06,0,0,4298,27,2,6,1,Low,High,Better,Male,Married,Travel_Frequently,Below College,< 30,1,3000-5999,2,0-2,1,1-4,1
+275,DEP02,ROL05,EDU02,0,1,6804,49,7,7,18,Very High,Very High,Better,Male,Divorced,Non-Travel,Master,40-49,3,6000-9999,3,6-10,3,15+,4
+277,DEP02,ROL07,EDU04,0,1,3815,34,5,5,10,High,Very High,Best,Male,Divorced,Travel_Frequently,Master,30-39,2,3000-5999,2,3-5,2,10-14,3
+281,DEP02,ROL03,EDU04,0,1,2741,40,7,15,19,Very High,High,Best,Male,Married,Travel_Rarely,College,40-49,3,< 3000,1,6-10,3,15+,4
+282,DEP02,ROL01,EDU04,1,1,6673,38,1,17,29,Low,Medium,Better,Male,Married,Travel_Rarely,Below College,30-39,2,6000-9999,3,0-2,1,15+,4
+283,DEP03,ROL08,EDU03,1,0,7639,29,10,10,27,Very High,Medium,Good,Female,Married,Travel_Rarely,Bachelor,< 30,1,6000-9999,3,6-10,3,15+,4
+284,DEP02,ROL07,EDU02,0,1,2328,22,4,4,5,Medium,Very High,Good,Male,Divorced,Travel_Rarely,Bachelor,< 30,1,< 3000,1,3-5,2,5-9,2
+286,DEP02,ROL03,EDU04,0,0,2153,36,8,8,18,Very High,Medium,Better,Female,Single,Travel_Frequently,Below College,30-39,2,< 3000,1,6-10,3,15+,4
+287,DEP02,ROL01,EDU02,0,0,4876,40,3,5,9,Very High,Very High,Bad,Male,Married,Non-Travel,Doctor,40-49,3,3000-5999,2,3-5,2,5-9,2
+288,DEP02,ROL01,EDU04,0,0,9396,46,4,17,1,Low,Very High,Better,Male,Divorced,Travel_Rarely,Master,40-49,3,6000-9999,3,3-5,2,1-4,1
+291,DEP03,ROL08,EDU04,1,0,10400,32,14,14,4,Very High,Very High,Good,Male,Married,Travel_Rarely,Master,30-39,2,>= 10000,4,11+,4,1-4,1
+292,DEP02,ROL05,EDU02,0,0,8474,30,11,12,1,High,High,Better,Male,Single,Non-Travel,Below College,30-39,2,6000-9999,3,11+,4,1-4,1
+293,DEP03,ROL08,EDU02,0,0,9981,27,7,7,20,High,Very High,Better,Female,Single,Travel_Frequently,Bachelor,< 30,1,6000-9999,3,6-10,3,15+,4
+296,DEP02,ROL06,EDU02,0,0,12490,51,10,16,8,Medium,Medium,Bad,Male,Married,Travel_Rarely,Master,50+,4,>= 10000,4,6-10,3,5-9,2
+297,DEP02,ROL07,EDU06,1,1,2657,30,5,8,3,Low,Very High,Better,Female,Single,Travel_Rarely,Bachelor,30-39,2,< 3000,1,3-5,2,1-4,1
+298,DEP03,ROL04,EDU02,0,1,13591,41,1,16,6,Very High,Very High,Better,Female,Single,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,0-2,1,5-9,2
+299,DEP03,ROL08,EDU03,1,0,6696,30,6,9,26,Low,High,Good,Female,Single,Travel_Frequently,Master,30-39,2,6000-9999,3,6-10,3,15+,4
+300,DEP02,ROL07,EDU06,1,0,2058,29,6,7,1,High,High,Good,Male,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,6-10,3,1-4,1
+302,DEP03,ROL08,EDU04,0,0,8865,45,19,23,6,Very High,Very High,Better,Female,Single,Non-Travel,Bachelor,40-49,3,6000-9999,3,11+,4,5-9,2
+303,DEP03,ROL08,EDU03,0,0,5940,54,6,16,3,Low,Very High,Better,Female,Married,Travel_Rarely,Bachelor,50+,4,3000-5999,2,6-10,3,1-4,1
+304,DEP02,ROL03,EDU02,0,0,5914,36,13,16,5,Medium,Very High,Best,Male,Single,Travel_Rarely,College,30-39,2,3000-5999,2,11+,4,5-9,2
+305,DEP02,ROL07,EDU04,0,0,2622,33,3,7,4,Medium,High,Better,Female,Married,Travel_Rarely,Master,30-39,2,< 3000,1,3-5,2,1-4,1
+306,DEP02,ROL06,EDU05,0,1,12185,37,10,10,11,Very High,Medium,Better,Male,Divorced,Travel_Frequently,Bachelor,30-39,2,>= 10000,4,6-10,3,10-14,3
+307,DEP03,ROL08,EDU02,0,0,10609,38,16,17,3,High,Low,Good,Male,Divorced,Travel_Rarely,Bachelor,30-39,2,>= 10000,4,11+,4,1-4,1
+308,DEP02,ROL05,EDU04,0,0,4345,31,5,6,1,High,High,Better,Male,Married,Non-Travel,Master,30-39,2,3000-5999,2,3-5,2,1-4,1
+309,DEP02,ROL07,EDU02,0,0,2177,59,1,7,3,Very High,High,Better,Male,Married,Travel_Rarely,Bachelor,50+,4,< 3000,1,0-2,1,1-4,1
+311,DEP03,ROL09,EDU03,0,0,2793,37,9,13,4,Very High,Low,Better,Male,Divorced,Travel_Frequently,Master,30-39,2,< 3000,1,6-10,3,1-4,1
+312,DEP03,ROL08,EDU04,0,0,7918,29,11,11,1,Very High,Medium,Better,Female,Married,Travel_Frequently,Below College,< 30,1,6000-9999,3,11+,4,1-4,1
+314,DEP03,ROL08,EDU03,0,0,8789,35,10,10,1,High,High,Best,Female,Single,Travel_Frequently,Bachelor,30-39,2,6000-9999,3,6-10,3,1-4,1
+315,DEP02,ROL07,EDU04,1,1,2389,29,4,4,18,Very High,High,Good,Male,Single,Travel_Rarely,Below College,< 30,1,< 3000,1,3-5,2,15+,4
+316,DEP02,ROL03,EDU02,0,0,3212,52,2,6,2,Very High,High,Good,Female,Single,Travel_Rarely,Bachelor,50+,4,3000-5999,2,0-2,1,1-4,1
+319,DEP02,ROL04,EDU06,0,0,19232,42,22,22,4,Very High,High,Better,Male,Married,Travel_Rarely,College,40-49,3,>= 10000,4,11+,4,1-4,1
+321,DEP01,ROL02,EDU04,0,0,2267,59,2,7,6,High,Medium,Good,Male,Married,Travel_Rarely,College,50+,4,< 3000,1,0-2,1,5-9,2
+323,DEP03,ROL04,EDU04,0,0,19517,50,7,32,1,Very High,Very High,Good,Female,Divorced,Travel_Rarely,Master,50+,4,>= 10000,4,6-10,3,1-4,1
+325,DEP02,ROL03,EDU04,1,1,2436,33,5,8,14,Very High,High,Bad,Male,Married,Travel_Rarely,Bachelor,30-39,2,< 3000,1,3-5,2,10-14,3
+327,DEP03,ROL04,EDU03,0,1,16064,43,17,22,16,Very High,Very High,Better,Female,Married,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,15+,4
+328,DEP02,ROL03,EDU02,1,0,2707,33,9,13,2,Low,Low,Best,Female,Married,Travel_Rarely,College,30-39,2,< 3000,1,6-10,3,1-4,1
+329,DEP03,ROL04,EDU02,0,1,19068,52,33,33,2,High,Low,Best,Male,Single,Non-Travel,Master,50+,4,>= 10000,4,11+,4,1-4,1
+330,DEP03,ROL09,EDU02,0,0,3931,32,4,6,4,Medium,High,Better,Female,Married,Travel_Rarely,College,30-39,2,3000-5999,2,3-5,2,1-4,1
+331,DEP02,ROL03,EDU02,1,1,3730,32,3,4,1,High,Very High,Bad,Male,Single,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,1-4,1
+332,DEP02,ROL03,EDU04,0,0,2232,39,3,7,1,High,High,Better,Female,Divorced,Travel_Rarely,Master,30-39,2,< 3000,1,3-5,2,1-4,1
+333,DEP03,ROL08,EDU03,0,0,4465,32,3,4,26,Very High,High,Better,Male,Married,Non-Travel,Master,30-39,2,3000-5999,2,3-5,2,15+,4
+334,DEP02,ROL07,EDU02,0,0,3072,41,1,17,19,Low,High,Good,Male,Divorced,Travel_Rarely,College,40-49,3,3000-5999,2,0-2,1,15+,4
+335,DEP02,ROL07,EDU06,0,0,3319,40,9,9,24,Very High,Low,Better,Male,Divorced,Travel_Rarely,College,40-49,3,3000-5999,2,6-10,3,15+,4
+336,DEP02,ROL04,EDU05,0,0,19202,45,24,25,1,Very High,High,Better,Male,Married,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,1-4,1
+337,DEP02,ROL06,EDU04,0,0,13675,31,2,9,3,High,Medium,Better,Male,Divorced,Travel_Frequently,Master,30-39,2,>= 10000,4,0-2,1,1-4,1
+338,DEP02,ROL07,EDU02,0,0,2911,33,2,2,5,Very High,High,Good,Female,Married,Travel_Rarely,Master,30-39,2,< 3000,1,0-2,1,5-9,2
+339,DEP02,ROL05,EDU02,0,0,5957,34,11,13,2,Low,Very High,Better,Male,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,11+,4,1-4,1
+340,DEP02,ROL07,EDU04,0,0,3920,37,3,17,1,Low,High,Good,Female,Married,Travel_Rarely,College,30-39,2,3000-5999,2,3-5,2,1-4,1
+341,DEP02,ROL05,EDU02,0,0,6434,45,3,9,7,High,Low,Better,Male,Married,Travel_Frequently,Master,40-49,3,6000-9999,3,3-5,2,5-9,2
+342,DEP02,ROL05,EDU04,1,0,10048,37,1,17,10,High,Low,Better,Male,Divorced,Travel_Frequently,Bachelor,30-39,2,>= 10000,4,0-2,1,10-14,3
+343,DEP02,ROL01,EDU06,0,0,10938,39,19,20,2,High,High,Better,Female,Single,Travel_Frequently,Master,30-39,2,>= 10000,4,11+,4,1-4,1
+346,DEP02,ROL07,EDU02,0,0,2340,29,6,6,15,Very High,High,Better,Male,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,6-10,3,15+,4
+347,DEP02,ROL07,EDU02,0,1,6545,42,3,10,17,Low,Very High,Better,Female,Single,Travel_Rarely,College,40-49,3,6000-9999,3,3-5,2,15+,4
+349,DEP03,ROL08,EDU03,0,0,6931,29,3,10,20,Very High,Very High,Better,Male,Divorced,Travel_Rarely,College,< 30,1,6000-9999,3,3-5,2,15+,4
+350,DEP02,ROL05,EDU02,0,0,4898,25,4,5,1,High,Low,Better,Female,Married,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,3-5,2,1-4,1
+351,DEP02,ROL03,EDU04,0,1,2593,42,9,10,2,Low,Very High,Better,Female,Divorced,Travel_Rarely,Bachelor,40-49,3,< 3000,1,6-10,3,1-4,1
+352,DEP02,ROL06,EDU04,0,0,19436,40,21,22,2,High,Low,Better,Male,Divorced,Travel_Rarely,College,40-49,3,>= 10000,4,11+,4,1-4,1
+353,DEP02,ROL07,EDU02,0,0,2723,51,1,1,1,Very High,High,Good,Male,Married,Travel_Rarely,Bachelor,50+,4,< 3000,1,0-2,1,1-4,1
+355,DEP02,ROL03,EDU04,1,0,3479,31,5,6,29,Medium,High,Best,Male,Single,Travel_Frequently,College,30-39,2,3000-5999,2,3-5,2,15+,4
+359,DEP02,ROL03,EDU02,0,0,2794,32,5,5,7,Medium,Medium,Bad,Male,Married,Travel_Frequently,Bachelor,30-39,2,< 3000,1,3-5,2,5-9,2
+361,DEP03,ROL08,EDU02,0,0,5249,38,8,13,2,Very High,Very High,Better,Male,Married,Non-Travel,College,30-39,2,3000-5999,2,6-10,3,1-4,1
+362,DEP02,ROL03,EDU06,0,0,2176,32,6,9,2,Low,Very High,Better,Male,Single,Travel_Rarely,Below College,30-39,2,< 3000,1,6-10,3,1-4,1
+363,DEP03,ROL04,EDU06,0,1,16872,46,7,28,2,Medium,High,Good,Female,Married,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,6-10,3,1-4,1
+364,DEP02,ROL03,EDU02,1,0,3485,28,0,5,2,High,Low,Bad,Male,Single,Travel_Rarely,Master,< 30,1,3000-5999,2,0-2,1,1-4,1
+366,DEP03,ROL08,EDU04,0,0,6644,29,0,10,2,Medium,Low,Better,Male,Married,Travel_Rarely,Bachelor,< 30,1,6000-9999,3,0-2,1,1-4,1
+367,DEP02,ROL01,EDU04,0,0,5582,31,9,10,23,Very High,Medium,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,6-10,3,15+,4
+369,DEP02,ROL01,EDU02,0,0,4000,25,6,6,5,Low,Medium,Better,Male,Divorced,Non-Travel,College,< 30,1,3000-5999,2,6-10,3,5-9,2
+372,DEP02,ROL01,EDU04,0,1,13496,45,20,21,20,Very High,High,Better,Male,Married,Travel_Rarely,College,40-49,3,>= 10000,4,11+,4,15+,4
+373,DEP02,ROL03,EDU02,0,0,3210,36,15,16,6,Very High,Very High,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,11+,4,5-9,2
+374,DEP02,ROL04,EDU04,0,1,19045,55,36,37,1,Low,Very High,Better,Male,Single,Travel_Rarely,Bachelor,50+,4,>= 10000,4,11+,4,1-4,1
+376,DEP02,ROL04,EDU02,1,1,11849,47,10,10,29,Medium,Low,Good,Male,Married,Non-Travel,Master,40-49,3,>= 10000,4,6-10,3,15+,4
+377,DEP02,ROL07,EDU04,0,0,2070,28,5,5,9,Very High,Very High,Good,Male,Married,Travel_Rarely,Bachelor,< 30,1,< 3000,1,3-5,2,5-9,2
+378,DEP03,ROL08,EDU04,0,0,6502,37,5,7,6,Very High,High,Best,Male,Married,Travel_Rarely,Master,30-39,2,6000-9999,3,3-5,2,5-9,2
+379,DEP02,ROL07,EDU04,0,0,3230,21,3,3,3,High,Very High,Best,Male,Single,Travel_Rarely,College,< 30,1,3000-5999,2,3-5,2,1-4,1
+380,DEP02,ROL06,EDU04,0,1,13603,37,5,15,1,Very High,Low,Better,Female,Divorced,Non-Travel,Master,30-39,2,>= 10000,4,3-5,2,1-4,1
+381,DEP02,ROL04,EDU02,0,0,11996,35,7,10,22,Medium,Medium,Good,Female,Divorced,Travel_Rarely,Bachelor,30-39,2,>= 10000,4,6-10,3,15+,4
+382,DEP03,ROL08,EDU04,0,1,5605,38,8,8,7,Low,Low,Better,Female,Divorced,Travel_Rarely,College,30-39,2,3000-5999,2,6-10,3,5-9,2
+384,DEP02,ROL05,EDU02,0,0,6397,26,6,6,1,Medium,High,Bad,Female,Divorced,Travel_Frequently,Bachelor,< 30,1,6000-9999,3,6-10,3,1-4,1
+385,DEP02,ROL06,EDU02,0,0,19144,50,10,28,4,Medium,Low,Good,Male,Divorced,Travel_Rarely,Below College,50+,4,>= 10000,4,6-10,3,1-4,1
+386,DEP02,ROL06,EDU04,0,1,17584,53,5,21,3,High,High,Good,Male,Married,Travel_Rarely,Master,50+,4,>= 10000,4,3-5,2,1-4,1
+387,DEP03,ROL08,EDU02,0,0,4907,42,20,20,1,High,Medium,Better,Male,Married,Travel_Rarely,Below College,40-49,3,3000-5999,2,11+,4,1-4,1
+388,DEP03,ROL08,EDU02,0,0,4554,29,10,10,2,Very High,Medium,Good,Male,Single,Travel_Frequently,College,< 30,1,3000-5999,2,6-10,3,1-4,1
+389,DEP02,ROL03,EDU06,0,1,5415,55,10,12,20,Very High,Medium,Better,Male,Married,Travel_Rarely,College,50+,4,3000-5999,2,6-10,3,15+,4
+390,DEP02,ROL01,EDU04,0,1,4741,26,5,5,11,Low,Low,Better,Male,Married,Travel_Frequently,College,< 30,1,3000-5999,2,3-5,2,10-14,3
+391,DEP02,ROL07,EDU02,0,0,2115,37,17,17,1,Very High,Very High,Better,Female,Single,Travel_Rarely,Bachelor,30-39,2,< 3000,1,11+,4,1-4,1
+392,DEP02,ROL03,EDU02,1,1,3161,44,1,19,24,High,Very High,Bad,Male,Divorced,Travel_Frequently,Bachelor,40-49,3,3000-5999,2,0-2,1,15+,4
+393,DEP02,ROL01,EDU02,0,0,5745,38,2,10,23,Very High,Very High,Better,Male,Divorced,Travel_Rarely,Master,30-39,2,3000-5999,2,0-2,1,15+,4
+394,DEP02,ROL03,EDU04,1,1,2373,26,3,5,16,Medium,Low,Better,Male,Divorced,Travel_Rarely,Master,< 30,1,< 3000,1,3-5,2,15+,4
+395,DEP02,ROL07,EDU02,0,0,3310,28,5,5,8,Very High,Very High,Better,Female,Single,Travel_Rarely,College,< 30,1,3000-5999,2,3-5,2,5-9,2
+396,DEP02,ROL06,EDU02,0,1,18665,49,3,22,10,Low,High,Better,Female,Single,Travel_Frequently,Master,40-49,3,>= 10000,4,3-5,2,10-14,3
+397,DEP02,ROL07,EDU06,0,0,4485,36,8,10,3,Medium,High,Better,Male,Single,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,6-10,3,1-4,1
+399,DEP03,ROL09,EDU03,0,0,2789,31,2,2,5,Medium,Very High,Good,Female,Divorced,Travel_Frequently,Bachelor,30-39,2,< 3000,1,0-2,1,5-9,2
+401,DEP03,ROL08,EDU03,1,1,5828,26,8,8,4,Very High,Very High,Better,Male,Single,Travel_Rarely,Master,< 30,1,3000-5999,2,6-10,3,1-4,1
+403,DEP02,ROL07,EDU04,0,1,2326,37,4,4,9,Very High,Medium,Good,Male,Married,Travel_Frequently,Bachelor,30-39,2,< 3000,1,3-5,2,5-9,2
+404,DEP03,ROL08,EDU03,0,0,13525,42,20,23,26,Medium,High,Best,Female,Married,Travel_Frequently,Bachelor,40-49,3,>= 10000,4,11+,4,15+,4
+405,DEP02,ROL03,EDU02,1,0,1420,18,0,0,3,High,High,Better,Male,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,1-4,1
+406,DEP03,ROL08,EDU03,0,0,8020,35,11,12,16,Medium,High,Good,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,11+,4,15+,4
+407,DEP02,ROL03,EDU02,0,0,3688,36,1,4,18,Very High,High,Better,Male,Married,Travel_Frequently,Master,30-39,2,3000-5999,2,0-2,1,15+,4
+408,DEP02,ROL05,EDU04,0,0,5482,51,4,13,2,Medium,Very High,Better,Male,Divorced,Travel_Rarely,Bachelor,50+,4,3000-5999,2,3-5,2,1-4,1
+410,DEP03,ROL04,EDU02,0,0,16015,41,22,22,2,Medium,Very High,Better,Male,Single,Travel_Rarely,Master,40-49,3,>= 10000,4,11+,4,1-4,1
+411,DEP03,ROL09,EDU04,0,0,1200,18,0,0,10,High,Very High,Better,Female,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,10-14,3
+412,DEP02,ROL01,EDU04,0,0,5661,28,8,9,16,Low,Medium,Better,Male,Single,Travel_Rarely,College,< 30,1,3000-5999,2,6-10,3,15+,4
+416,DEP03,ROL08,EDU06,0,0,6929,31,8,10,7,Very High,Medium,Good,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,5-9,2
+417,DEP02,ROL01,EDU04,0,0,9613,39,18,19,1,Very High,High,Good,Male,Divorced,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,11+,4,1-4,1
+419,DEP02,ROL03,EDU02,0,0,5674,36,9,11,24,Medium,Medium,Better,Female,Married,Non-Travel,Master,30-39,2,3000-5999,2,6-10,3,15+,4
+420,DEP03,ROL08,EDU02,0,0,5484,32,13,13,7,High,Very High,Good,Male,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,11+,4,5-9,2
+421,DEP02,ROL06,EDU02,0,0,12061,38,10,19,25,Medium,Low,Better,Female,Married,Travel_Rarely,College,30-39,2,>= 10000,4,6-10,3,15+,4
+422,DEP02,ROL01,EDU02,0,1,5660,58,5,12,1,High,Very High,Better,Male,Divorced,Non-Travel,Master,50+,4,3000-5999,2,3-5,2,1-4,1
+423,DEP02,ROL07,EDU06,0,1,4821,31,5,6,5,Very High,High,Better,Male,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,3-5,2,5-9,2
+424,DEP01,ROL02,EDU01,0,0,6410,31,2,9,2,Low,Low,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,0-2,1,1-4,1
+425,DEP02,ROL03,EDU02,0,0,5210,45,24,24,7,Low,Low,Better,Male,Divorced,Travel_Frequently,Bachelor,40-49,3,3000-5999,2,11+,4,5-9,2
+426,DEP02,ROL07,EDU02,0,1,2695,31,2,3,2,Very High,High,Bad,Male,Divorced,Travel_Rarely,Master,30-39,2,< 3000,1,0-2,1,1-4,1
+428,DEP02,ROL04,EDU02,0,0,11878,33,10,12,5,Medium,Very High,Better,Female,Married,Travel_Frequently,Master,30-39,2,>= 10000,4,6-10,3,5-9,2
+429,DEP02,ROL04,EDU04,0,1,17068,39,21,21,10,Low,High,Better,Male,Married,Travel_Rarely,Below College,30-39,2,>= 10000,4,11+,4,10-14,3
+430,DEP02,ROL03,EDU02,0,0,2455,43,8,9,10,Very High,High,Better,Female,Single,Travel_Frequently,Master,40-49,3,< 3000,1,6-10,3,10-14,3
+431,DEP02,ROL01,EDU06,0,1,13964,49,7,25,1,High,High,Better,Female,Single,Travel_Rarely,College,40-49,3,>= 10000,4,6-10,3,1-4,1
+433,DEP02,ROL07,EDU04,1,0,4941,52,8,11,8,Medium,High,Good,Male,Married,Travel_Rarely,Master,50+,4,3000-5999,2,6-10,3,5-9,2
+434,DEP02,ROL07,EDU02,0,1,2478,27,4,4,5,Medium,High,Good,Female,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,3-5,2,5-9,2
+436,DEP03,ROL08,EDU06,0,1,5228,32,13,13,8,Medium,High,Better,Female,Married,Travel_Rarely,College,30-39,2,3000-5999,2,11+,4,5-9,2
+437,DEP03,ROL08,EDU02,0,1,4478,27,5,5,2,High,Very High,Better,Male,Single,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,3-5,2,1-4,1
+438,DEP03,ROL08,EDU03,0,0,7547,31,7,13,7,Very High,Very High,Better,Male,Divorced,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,5-9,2
+439,DEP02,ROL07,EDU04,0,0,5055,32,7,10,2,Very High,Low,Good,Female,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,6-10,3,1-4,1
+440,DEP02,ROL07,EDU04,1,1,3464,28,3,5,2,Very High,Low,Good,Male,Married,Travel_Rarely,Master,< 30,1,3000-5999,2,3-5,2,1-4,1
+441,DEP02,ROL07,EDU04,0,0,5775,30,10,11,28,Very High,Very High,Better,Female,Married,Travel_Rarely,College,30-39,2,3000-5999,2,6-10,3,15+,4
+442,DEP02,ROL05,EDU02,0,0,8943,31,10,10,7,High,High,Better,Female,Married,Travel_Frequently,College,30-39,2,6000-9999,3,6-10,3,5-9,2
+444,DEP02,ROL04,EDU04,0,0,19272,39,21,21,7,Very High,High,Better,Male,Married,Travel_Frequently,College,30-39,2,>= 10000,4,11+,4,5-9,2
+445,DEP03,ROL08,EDU04,1,1,5238,39,1,12,3,High,Very High,Good,Female,Married,Travel_Rarely,College,30-39,2,3000-5999,2,0-2,1,1-4,1
+446,DEP03,ROL08,EDU03,0,0,4682,33,7,9,10,Very High,Medium,Good,Male,Single,Travel_Frequently,Bachelor,30-39,2,3000-5999,2,6-10,3,10-14,3
+447,DEP02,ROL06,EDU02,0,0,18300,47,3,21,5,High,Very High,Better,Male,Married,Travel_Rarely,Doctor,40-49,3,>= 10000,4,3-5,2,5-9,2
+448,DEP02,ROL03,EDU02,0,0,5257,43,9,9,10,High,High,Best,Female,Divorced,Travel_Frequently,Master,40-49,3,3000-5999,2,6-10,3,10-14,3
+449,DEP03,ROL08,EDU03,0,1,6349,27,5,6,1,Medium,High,Better,Male,Married,Non-Travel,Below College,< 30,1,6000-9999,3,3-5,2,1-4,1
+450,DEP02,ROL07,EDU02,0,0,4869,54,4,20,20,High,Very High,Good,Female,Single,Travel_Frequently,Master,50+,4,3000-5999,2,3-5,2,15+,4
+451,DEP02,ROL01,EDU02,0,0,9985,43,1,10,7,Low,High,Good,Female,Married,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,0-2,1,5-9,2
+452,DEP02,ROL07,EDU05,0,0,3697,45,10,12,8,Very High,Very High,Better,Male,Married,Travel_Rarely,Master,40-49,3,3000-5999,2,6-10,3,5-9,2
+453,DEP03,ROL08,EDU04,0,1,7457,40,4,6,1,Very High,Medium,Good,Male,Married,Travel_Rarely,College,40-49,3,6000-9999,3,3-5,2,1-4,1
+454,DEP02,ROL03,EDU05,1,1,2119,29,7,7,8,Low,Medium,Good,Male,Married,Travel_Rarely,Master,< 30,1,< 3000,1,6-10,3,5-9,2
+455,DEP02,ROL03,EDU05,0,0,3983,29,3,4,9,Very High,Medium,Better,Male,Single,Travel_Rarely,Doctor,< 30,1,3000-5999,2,3-5,2,5-9,2
+456,DEP03,ROL08,EDU03,0,0,6118,30,10,10,5,High,Very High,Better,Female,Divorced,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,5-9,2
+458,DEP03,ROL08,EDU03,0,0,6214,27,8,8,8,Medium,Medium,Better,Female,Married,Travel_Rarely,Master,< 30,1,6000-9999,3,6-10,3,5-9,2
+460,DEP02,ROL05,EDU04,0,0,6347,37,6,8,5,Very High,Very High,Good,Male,Divorced,Travel_Rarely,College,30-39,2,6000-9999,3,6-10,3,5-9,2
+461,DEP02,ROL06,EDU02,0,1,11510,38,11,12,15,Very High,High,Better,Male,Divorced,Travel_Rarely,College,30-39,2,>= 10000,4,11+,4,15+,4
+462,DEP02,ROL05,EDU04,0,1,7143,31,11,11,7,Very High,High,Good,Female,Single,Travel_Rarely,Master,30-39,2,6000-9999,3,11+,4,5-9,2
+463,DEP03,ROL08,EDU03,0,1,8268,29,7,7,10,Medium,Very High,Better,Female,Divorced,Travel_Rarely,Below College,< 30,1,6000-9999,3,6-10,3,10-14,3
+464,DEP02,ROL05,EDU06,0,0,8095,35,16,17,5,Medium,High,Better,Male,Single,Travel_Rarely,Master,30-39,2,6000-9999,3,11+,4,5-9,2
+465,DEP02,ROL07,EDU02,0,0,2904,23,4,4,26,Very High,High,Good,Male,Divorced,Travel_Rarely,Below College,< 30,1,< 3000,1,3-5,2,15+,4
+466,DEP02,ROL05,EDU04,0,1,6032,41,5,8,6,Medium,Very High,Better,Male,Single,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,3-5,2,5-9,2
+467,DEP03,ROL09,EDU04,0,0,2976,47,0,5,4,High,Medium,Better,Male,Single,Travel_Frequently,Below College,40-49,3,< 3000,1,0-2,1,1-4,1
+468,DEP02,ROL06,EDU02,0,0,15992,42,1,16,23,Very High,Low,Better,Female,Single,Travel_Rarely,Doctor,40-49,3,>= 10000,4,0-2,1,15+,4
+469,DEP03,ROL08,EDU02,0,0,4649,29,4,4,2,High,Very High,Good,Male,Married,Non-Travel,Bachelor,< 30,1,3000-5999,2,3-5,2,1-4,1
+470,DEP01,ROL02,EDU06,0,1,2696,42,3,4,2,High,High,Better,Male,Divorced,Travel_Rarely,Below College,40-49,3,< 3000,1,3-5,2,1-4,1
+471,DEP02,ROL03,EDU04,0,0,2370,32,8,8,2,Medium,High,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,< 3000,1,6-10,3,1-4,1
+473,DEP03,ROL04,EDU04,0,0,12504,48,0,15,29,High,Low,Bad,Female,Married,Travel_Rarely,Below College,40-49,3,>= 10000,4,0-2,1,15+,4
+474,DEP02,ROL07,EDU04,0,1,5974,37,7,13,6,Low,High,Better,Male,Divorced,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,6-10,3,5-9,2
+475,DEP03,ROL08,EDU06,0,1,4736,30,2,4,25,High,Very High,Best,Female,Married,Non-Travel,College,30-39,2,3000-5999,2,0-2,1,15+,4
+476,DEP03,ROL08,EDU02,0,0,5296,26,8,8,1,High,High,Better,Male,Married,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,6-10,3,1-4,1
+477,DEP02,ROL01,EDU05,0,0,6781,42,1,14,2,Very High,Low,Better,Male,Single,Travel_Rarely,Master,40-49,3,6000-9999,3,0-2,1,1-4,1
+478,DEP03,ROL09,EDU06,1,1,2174,21,3,3,1,Medium,Low,Better,Female,Single,Travel_Frequently,Below College,< 30,1,< 3000,1,3-5,2,1-4,1
+479,DEP03,ROL08,EDU04,0,0,6653,36,1,7,1,Very High,Very High,Better,Female,Single,Non-Travel,Doctor,30-39,2,6000-9999,3,0-2,1,1-4,1
+481,DEP03,ROL08,EDU04,0,0,9699,36,13,16,3,Very High,Low,Better,Male,Married,Travel_Frequently,Master,30-39,2,6000-9999,3,11+,4,1-4,1
+482,DEP02,ROL01,EDU04,0,0,6755,57,3,15,1,High,Very High,Better,Male,Married,Travel_Rarely,Master,50+,4,6000-9999,3,3-5,2,1-4,1
+483,DEP02,ROL03,EDU02,0,1,2213,40,7,10,10,High,Very High,Better,Female,Married,Travel_Rarely,Master,40-49,3,< 3000,1,6-10,3,10-14,3
+484,DEP03,ROL09,EDU04,0,0,2610,21,3,3,9,Very High,Low,Good,Male,Single,Non-Travel,College,< 30,1,< 3000,1,3-5,2,5-9,2
+485,DEP03,ROL09,EDU03,1,1,2851,33,1,1,5,High,Very High,Better,Female,Single,Travel_Rarely,Bachelor,30-39,2,< 3000,1,0-2,1,5-9,2
+486,DEP02,ROL03,EDU04,0,0,3452,37,5,17,10,Low,High,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,10-14,3
+487,DEP02,ROL05,EDU04,0,0,5258,46,1,7,7,High,High,Best,Female,Married,Non-Travel,Master,40-49,3,3000-5999,2,0-2,1,5-9,2
+488,DEP03,ROL08,EDU03,1,0,9355,41,8,8,4,Medium,Low,Better,Male,Single,Travel_Frequently,Bachelor,40-49,3,6000-9999,3,6-10,3,1-4,1
+491,DEP02,ROL01,EDU06,0,0,10496,50,4,20,10,Very High,Very High,Better,Male,Single,Travel_Rarely,Bachelor,50+,4,>= 10000,4,3-5,2,10-14,3
+492,DEP03,ROL08,EDU03,1,1,6380,40,6,8,22,High,High,Better,Male,Married,Travel_Rarely,College,40-49,3,6000-9999,3,6-10,3,15+,4
+493,DEP02,ROL07,EDU02,0,1,2657,31,2,3,9,Medium,High,Better,Male,Single,Travel_Rarely,Master,30-39,2,< 3000,1,0-2,1,5-9,2
+494,DEP03,ROL09,EDU02,1,0,2716,21,1,1,12,Medium,High,Better,Female,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,10-14,3
+495,DEP02,ROL07,EDU02,0,0,2201,29,3,6,23,Very High,Very High,Better,Male,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,3-5,2,15+,4
+496,DEP02,ROL01,EDU02,0,0,6540,35,1,10,9,Medium,High,Better,Male,Single,Travel_Rarely,Master,30-39,2,6000-9999,3,0-2,1,5-9,2
+497,DEP02,ROL03,EDU04,0,0,3816,27,5,5,1,Medium,Very High,Better,Male,Divorced,Travel_Rarely,College,< 30,1,3000-5999,2,3-5,2,1-4,1
+498,DEP03,ROL08,EDU02,0,0,5253,28,7,7,9,Very High,Medium,Better,Male,Single,Travel_Rarely,Master,< 30,1,3000-5999,2,6-10,3,5-9,2
+499,DEP02,ROL01,EDU05,0,0,10965,49,5,26,7,High,Medium,Better,Male,Single,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,3-5,2,5-9,2
+500,DEP03,ROL08,EDU02,0,0,4936,51,7,18,14,Very High,High,Good,Female,Married,Travel_Rarely,College,50+,4,3000-5999,2,6-10,3,10-14,3
+501,DEP02,ROL07,EDU02,0,0,2543,36,2,6,2,High,Very High,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,< 3000,1,0-2,1,1-4,1
+502,DEP03,ROL08,EDU03,1,1,5304,34,5,9,19,Very High,Low,Good,Male,Single,Non-Travel,Bachelor,30-39,2,3000-5999,2,3-5,2,15+,4
+505,DEP02,ROL04,EDU02,0,1,16659,55,5,30,2,Very High,High,Better,Female,Single,Travel_Rarely,Bachelor,50+,4,>= 10000,4,3-5,2,1-4,1
+507,DEP03,ROL08,EDU03,0,1,4260,24,5,5,10,High,Very High,Best,Female,Divorced,Travel_Rarely,Master,< 30,1,3000-5999,2,3-5,2,10-14,3
+508,DEP03,ROL09,EDU06,0,0,2476,30,1,1,2,Medium,High,Better,Male,Married,Travel_Rarely,Below College,30-39,2,< 3000,1,0-2,1,1-4,1
+510,DEP02,ROL07,EDU06,1,0,3102,26,6,7,3,Low,High,Better,Male,Single,Travel_Frequently,Below College,< 30,1,3000-5999,2,6-10,3,1-4,1
+511,DEP02,ROL07,EDU04,0,0,2244,22,2,2,11,Medium,Low,Better,Female,Married,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,10-14,3
+513,DEP03,ROL08,EDU04,0,0,7596,36,10,10,2,High,Medium,Better,Male,Married,Travel_Rarely,College,30-39,2,6000-9999,3,6-10,3,1-4,1
+514,DEP02,ROL07,EDU06,1,1,2285,30,1,3,4,Very High,High,Better,Male,Single,Travel_Frequently,Bachelor,30-39,2,< 3000,1,0-2,1,1-4,1
+515,DEP02,ROL03,EDU02,0,0,3034,37,18,18,14,Low,Very High,Good,Female,Divorced,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,11+,4,10-14,3
+516,DEP03,ROL08,EDU03,0,0,5715,40,5,8,2,Medium,Very High,Better,Female,Divorced,Travel_Rarely,College,40-49,3,3000-5999,2,3-5,2,1-4,1
+517,DEP02,ROL03,EDU02,0,0,2576,42,5,8,1,Low,Medium,Better,Female,Divorced,Travel_Rarely,Master,40-49,3,< 3000,1,3-5,2,1-4,1
+518,DEP02,ROL05,EDU02,0,1,4197,37,1,18,10,Medium,High,Good,Male,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,0-2,1,10-14,3
+520,DEP02,ROL06,EDU02,0,0,14336,43,25,25,12,Medium,Low,Better,Male,Divorced,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,10-14,3
+521,DEP02,ROL03,EDU04,0,0,3448,40,1,20,2,High,Medium,Better,Female,Married,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,0-2,1,1-4,1
+522,DEP02,ROL06,EDU04,0,0,19406,54,4,24,5,Low,Low,Good,Male,Married,Travel_Rarely,College,50+,4,>= 10000,4,3-5,2,5-9,2
+523,DEP03,ROL08,EDU03,0,0,6538,34,3,6,4,High,High,Better,Female,Married,Non-Travel,Master,30-39,2,6000-9999,3,3-5,2,1-4,1
+524,DEP02,ROL05,EDU04,0,0,4306,31,13,13,7,Low,Medium,Bad,Female,Married,Travel_Rarely,College,30-39,2,3000-5999,2,11+,4,5-9,2
+525,DEP02,ROL03,EDU04,0,0,2258,43,3,8,21,Very High,Very High,Better,Male,Married,Travel_Frequently,Bachelor,40-49,3,< 3000,1,3-5,2,15+,4
+526,DEP02,ROL01,EDU05,0,1,4522,43,5,8,8,High,High,Better,Female,Divorced,Travel_Rarely,Master,40-49,3,3000-5999,2,3-5,2,5-9,2
+527,DEP03,ROL08,EDU02,0,1,4487,25,5,5,4,Very High,Medium,Better,Female,Single,Travel_Rarely,College,< 30,1,3000-5999,2,3-5,2,1-4,1
+529,DEP02,ROL07,EDU04,0,1,4449,37,13,15,25,High,Medium,Better,Female,Married,Non-Travel,Doctor,30-39,2,3000-5999,2,11+,4,15+,4
+530,DEP02,ROL03,EDU02,0,0,2218,31,4,4,1,Low,Very High,Better,Male,Married,Travel_Rarely,College,30-39,2,< 3000,1,3-5,2,1-4,1
+531,DEP02,ROL04,EDU02,0,1,19197,39,21,21,1,High,Medium,Better,Male,Divorced,Travel_Frequently,Below College,30-39,2,>= 10000,4,11+,4,1-4,1
+532,DEP03,ROL08,EDU02,0,0,13212,56,7,36,6,Low,High,Good,Female,Married,Travel_Frequently,Bachelor,50+,4,>= 10000,4,6-10,3,5-9,2
+533,DEP03,ROL08,EDU06,0,0,6577,30,5,6,12,High,Medium,Better,Female,Single,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,3-5,2,10-14,3
+534,DEP03,ROL08,EDU03,0,0,8392,41,10,10,1,Low,Medium,Better,Male,Married,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,6-10,3,1-4,1
+536,DEP02,ROL03,EDU04,0,0,4558,28,10,10,17,Low,High,Better,Male,Divorced,Travel_Rarely,College,< 30,1,3000-5999,2,6-10,3,15+,4
+538,DEP02,ROL03,EDU04,1,0,4031,25,2,6,3,Low,Low,Better,Male,Married,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,0-2,1,1-4,1
+543,DEP02,ROL05,EDU04,0,1,7969,52,5,28,3,High,Very High,Better,Male,Married,Travel_Rarely,Bachelor,50+,4,6000-9999,3,3-5,2,1-4,1
+544,DEP02,ROL07,EDU02,0,0,2654,45,2,8,10,Very High,Low,Good,Male,Married,Travel_Rarely,College,40-49,3,< 3000,1,0-2,1,10-14,3
+546,DEP02,ROL04,EDU02,0,0,16555,52,5,31,4,Very High,Very High,Bad,Female,Married,Travel_Rarely,College,50+,4,>= 10000,4,3-5,2,1-4,1
+547,DEP02,ROL07,EDU02,0,0,4556,42,5,19,29,High,Low,Better,Female,Divorced,Travel_Frequently,College,40-49,3,3000-5999,2,3-5,2,15+,4
+548,DEP02,ROL05,EDU02,0,0,6091,30,5,11,2,Very High,High,Better,Female,Single,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,3-5,2,1-4,1
+549,DEP02,ROL04,EDU02,0,0,19566,60,29,33,7,Low,Low,Bad,Female,Married,Travel_Rarely,Bachelor,50+,4,>= 10000,4,11+,4,5-9,2
+550,DEP02,ROL05,EDU04,0,0,4810,46,10,19,18,High,High,Good,Female,Divorced,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,6-10,3,15+,4
+551,DEP02,ROL01,EDU06,0,0,4523,42,6,7,28,Very High,Very High,Best,Female,Married,Travel_Frequently,Master,40-49,3,3000-5999,2,6-10,3,15+,4
+554,DEP03,ROL09,EDU06,1,1,3202,24,5,6,1,Medium,Low,Better,Female,Single,Travel_Rarely,Below College,< 30,1,3000-5999,2,3-5,2,1-4,1
+555,DEP03,ROL09,EDU03,1,0,2351,34,2,3,6,High,Very High,Good,Female,Divorced,Travel_Frequently,College,30-39,2,< 3000,1,0-2,1,5-9,2
+556,DEP02,ROL03,EDU02,0,1,1702,38,1,1,2,Very High,Very High,Better,Male,Married,Travel_Frequently,College,30-39,2,< 3000,1,0-2,1,1-4,1
+558,DEP03,ROL04,EDU02,0,0,18041,40,20,21,2,High,High,Better,Female,Married,Travel_Rarely,Master,40-49,3,>= 10000,4,11+,4,1-4,1
+560,DEP02,ROL07,EDU02,0,0,2886,26,3,3,23,Very High,Low,Bad,Female,Divorced,Travel_Rarely,Bachelor,< 30,1,< 3000,1,3-5,2,15+,4
+562,DEP02,ROL03,EDU02,0,0,2097,30,5,9,3,Very High,High,Bad,Male,Married,Non-Travel,Bachelor,30-39,2,< 3000,1,3-5,2,1-4,1
+564,DEP02,ROL06,EDU04,0,0,11935,29,10,10,3,High,Medium,Better,Male,Married,Travel_Rarely,Master,< 30,1,>= 10000,4,6-10,3,1-4,1
+565,DEP02,ROL07,EDU06,1,0,2546,29,2,6,25,Medium,High,Best,Female,Married,Travel_Rarely,Doctor,< 30,1,< 3000,1,0-2,1,15+,4
+566,DEP01,ROL02,EDU06,1,0,2564,19,1,1,2,Very High,Low,Best,Male,Single,Travel_Rarely,College,< 30,1,< 3000,1,0-2,1,1-4,1
+567,DEP03,ROL08,EDU05,0,0,8412,30,9,10,22,Low,High,Better,Female,Married,Non-Travel,Master,30-39,2,6000-9999,3,6-10,3,15+,4
+568,DEP03,ROL04,EDU03,0,0,14118,57,1,32,29,Very High,Low,Good,Male,Divorced,Travel_Rarely,Bachelor,50+,4,>= 10000,4,0-2,1,15+,4
+569,DEP02,ROL04,EDU02,0,0,17046,50,27,28,29,High,Medium,Better,Male,Married,Travel_Rarely,Master,50+,4,>= 10000,4,11+,4,15+,4
+571,DEP02,ROL03,EDU04,0,0,2564,30,11,12,2,Very High,High,Good,Female,Single,Non-Travel,Bachelor,30-39,2,< 3000,1,11+,4,1-4,1
+573,DEP03,ROL08,EDU03,0,0,10266,60,18,22,28,Low,High,Best,Female,Married,Travel_Frequently,Bachelor,50+,4,>= 10000,4,11+,4,15+,4
+574,DEP02,ROL05,EDU04,0,0,5070,47,5,20,2,Very High,Low,Better,Female,Divorced,Travel_Rarely,College,40-49,3,3000-5999,2,3-5,2,1-4,1
+575,DEP02,ROL06,EDU02,0,0,17861,46,3,26,2,High,Low,Bad,Male,Married,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,3-5,2,1-4,1
+577,DEP02,ROL03,EDU02,0,0,4230,35,5,6,22,High,Very High,Better,Male,Single,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,15+,4
+578,DEP02,ROL03,EDU02,0,0,3780,54,1,19,8,High,High,Better,Female,Single,Travel_Rarely,Master,50+,4,3000-5999,2,0-2,1,5-9,2
+579,DEP02,ROL07,EDU02,0,0,2768,34,7,14,2,High,Very High,Better,Male,Divorced,Travel_Rarely,Master,30-39,2,< 3000,1,6-10,3,1-4,1
+580,DEP03,ROL08,EDU03,0,1,9071,46,3,15,10,Very High,High,Better,Female,Married,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,3-5,2,10-14,3
+581,DEP02,ROL05,EDU02,0,0,10648,31,13,13,9,Medium,High,Best,Male,Divorced,Travel_Rarely,Below College,30-39,2,>= 10000,4,11+,4,5-9,2
+582,DEP02,ROL04,EDU04,1,1,13610,33,7,15,15,High,Medium,Best,Male,Married,Travel_Rarely,Below College,30-39,2,>= 10000,4,6-10,3,15+,4
+584,DEP02,ROL03,EDU04,1,0,3408,33,4,8,10,Very High,Low,Better,Male,Divorced,Travel_Rarely,Below College,30-39,2,3000-5999,2,3-5,2,10-14,3
+585,DEP03,ROL09,EDU03,0,0,2983,30,3,4,7,Medium,Very High,Better,Male,Single,Travel_Rarely,Below College,30-39,2,< 3000,1,3-5,2,5-9,2
+586,DEP02,ROL01,EDU02,0,1,7632,35,8,10,16,High,Very High,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,15+,4
+587,DEP02,ROL01,EDU02,1,0,9824,31,1,12,20,High,Low,Better,Male,Married,Travel_Frequently,Bachelor,30-39,2,6000-9999,3,0-2,1,15+,4
+590,DEP01,ROL02,EDU01,1,1,9950,34,3,11,23,Low,Medium,Better,Female,Divorced,Travel_Frequently,Bachelor,30-39,2,6000-9999,3,3-5,2,15+,4
+591,DEP02,ROL03,EDU05,0,0,2093,42,2,8,5,High,Medium,Better,Male,Married,Travel_Frequently,College,40-49,3,< 3000,1,0-2,1,5-9,2
+592,DEP03,ROL08,EDU04,0,0,9980,36,10,10,10,Very High,Medium,Good,Male,Single,Non-Travel,Master,30-39,2,6000-9999,3,6-10,3,10-14,3
+593,DEP02,ROL03,EDU06,1,0,3894,22,2,4,4,High,High,Better,Male,Single,Travel_Frequently,Below College,< 30,1,3000-5999,2,0-2,1,1-4,1
+595,DEP03,ROL08,EDU03,0,0,4051,48,9,14,2,Very High,Medium,Better,Female,Married,Travel_Rarely,Doctor,40-49,3,3000-5999,2,6-10,3,1-4,1
+597,DEP03,ROL04,EDU02,0,0,16835,55,10,37,18,Medium,Low,Better,Female,Single,Travel_Rarely,Doctor,50+,4,>= 10000,4,6-10,3,15+,4
+599,DEP03,ROL08,EDU02,0,0,6230,41,14,16,10,Very High,Very High,Better,Male,Single,Non-Travel,College,40-49,3,6000-9999,3,11+,4,10-14,3
+600,DEP03,ROL08,EDU03,0,0,4717,35,11,15,1,High,Medium,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,11+,4,1-4,1
+601,DEP02,ROL05,EDU02,0,0,13237,40,20,22,6,High,Medium,Better,Female,Single,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,5-9,2
+602,DEP02,ROL03,EDU02,0,0,3755,39,8,8,8,High,High,Better,Female,Married,Travel_Frequently,Below College,30-39,2,3000-5999,2,6-10,3,5-9,2
+604,DEP03,ROL08,EDU02,0,1,6582,31,6,10,2,Very High,Medium,Best,Male,Single,Travel_Rarely,Below College,30-39,2,6000-9999,3,6-10,3,1-4,1
+605,DEP02,ROL05,EDU04,0,1,7406,42,10,10,24,Low,Very High,Good,Male,Married,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,6-10,3,15+,4
+606,DEP03,ROL08,EDU05,0,0,4805,45,8,9,2,Medium,Very High,Best,Male,Married,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,6-10,3,1-4,1
+608,DEP01,ROL02,EDU02,1,1,2741,26,7,8,17,High,Medium,Good,Female,Divorced,Travel_Frequently,Master,< 30,1,< 3000,1,6-10,3,15+,4
+611,DEP02,ROL05,EDU06,0,0,4262,29,3,8,19,Very High,Very High,Best,Male,Divorced,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,3-5,2,15+,4
+612,DEP02,ROL06,EDU04,0,0,16184,33,6,10,1,High,Low,Better,Female,Divorced,Travel_Rarely,Doctor,30-39,2,>= 10000,4,6-10,3,1-4,1
+613,DEP03,ROL04,EDU02,0,0,11557,31,5,10,7,Very High,High,Good,Male,Divorced,Travel_Rarely,Bachelor,30-39,2,>= 10000,4,3-5,2,5-9,2
+614,DEP03,ROL09,EDU03,1,1,1878,18,0,0,5,Medium,Medium,Better,Male,Single,Travel_Frequently,Bachelor,< 30,1,< 3000,1,0-2,1,5-9,2
+615,DEP03,ROL08,EDU05,0,0,10932,40,1,20,28,Low,High,Better,Male,Divorced,Non-Travel,Bachelor,40-49,3,>= 10000,4,0-2,1,15+,4
+616,DEP02,ROL01,EDU05,0,1,6811,41,8,10,2,High,Low,Better,Female,Single,Non-Travel,Master,40-49,3,6000-9999,3,6-10,3,1-4,1
+618,DEP03,ROL08,EDU04,0,0,4306,26,0,8,29,High,Low,Better,Male,Divorced,Travel_Rarely,College,< 30,1,3000-5999,2,0-2,1,15+,4
+620,DEP03,ROL08,EDU04,0,0,4859,35,5,5,1,High,Low,Better,Female,Single,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,1-4,1
+621,DEP03,ROL08,EDU02,0,0,5337,34,10,10,21,Very High,Very High,Better,Male,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,6-10,3,15+,4
+622,DEP02,ROL03,EDU06,1,1,2340,26,1,1,24,Very High,High,Bad,Male,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,15+,4
+623,DEP02,ROL05,EDU06,0,0,7491,37,6,12,1,Very High,Medium,Best,Female,Single,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,1-4,1
+624,DEP02,ROL01,EDU04,0,0,10527,46,2,28,18,High,Low,Good,Female,Married,Travel_Frequently,Below College,40-49,3,>= 10000,4,0-2,1,15+,4
+625,DEP03,ROL04,EDU02,0,0,16595,41,18,22,2,Low,Medium,Better,Female,Married,Travel_Rarely,Doctor,40-49,3,>= 10000,4,11+,4,1-4,1
+626,DEP03,ROL08,EDU04,0,0,8834,37,9,9,9,Medium,Low,Better,Male,Divorced,Non-Travel,Master,30-39,2,6000-9999,3,6-10,3,5-9,2
+630,DEP02,ROL07,EDU06,0,1,5577,52,10,18,6,Low,Very High,Better,Male,Divorced,Travel_Rarely,College,50+,4,3000-5999,2,6-10,3,5-9,2
+631,DEP03,ROL08,EDU05,1,0,4707,32,4,6,11,High,Very High,Better,Male,Married,Non-Travel,Master,30-39,2,3000-5999,2,3-5,2,10-14,3
+632,DEP03,ROL09,EDU04,0,0,2400,24,2,3,24,Very High,Very High,Better,Male,Married,Travel_Frequently,Bachelor,< 30,1,< 3000,1,0-2,1,15+,4
+634,DEP02,ROL01,EDU04,0,0,9824,38,1,18,10,High,High,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,0-2,1,10-14,3
+635,DEP02,ROL05,EDU02,0,0,6447,37,6,8,1,Medium,Medium,Good,Female,Married,Travel_Rarely,Master,30-39,2,6000-9999,3,6-10,3,1-4,1
+638,DEP02,ROL06,EDU02,0,1,19502,49,31,31,18,High,Very High,Better,Male,Divorced,Travel_Rarely,Master,40-49,3,>= 10000,4,11+,4,15+,4
+639,DEP02,ROL07,EDU04,0,1,2725,24,6,6,23,Very High,Medium,Better,Male,Married,Travel_Rarely,Bachelor,< 30,1,< 3000,1,6-10,3,15+,4
+641,DEP03,ROL08,EDU03,0,0,6272,26,5,6,28,Medium,Low,Best,Male,Married,Travel_Rarely,College,< 30,1,6000-9999,3,3-5,2,15+,4
+643,DEP02,ROL03,EDU05,0,0,2127,24,1,1,17,Medium,Very High,Better,Male,Married,Travel_Rarely,College,< 30,1,< 3000,1,0-2,1,15+,4
+644,DEP01,ROL04,EDU04,0,0,18200,50,32,32,3,Medium,Low,Better,Male,Married,Travel_Frequently,Bachelor,50+,4,>= 10000,4,11+,4,1-4,1
+645,DEP03,ROL09,EDU04,0,0,2096,25,7,7,13,High,Medium,Better,Male,Married,Travel_Rarely,Below College,< 30,1,< 3000,1,6-10,3,10-14,3
+647,DEP02,ROL03,EDU02,1,1,2886,24,6,6,7,High,Low,Better,Female,Married,Travel_Frequently,Bachelor,< 30,1,< 3000,1,6-10,3,5-9,2
+648,DEP03,ROL09,EDU02,1,0,2033,30,1,1,12,Low,Medium,Best,Male,Married,Travel_Frequently,Master,30-39,2,< 3000,1,0-2,1,10-14,3
+649,DEP02,ROL07,EDU02,0,1,3622,34,6,6,1,Very High,Medium,Better,Male,Married,Travel_Rarely,College,30-39,2,3000-5999,2,6-10,3,1-4,1
+650,DEP03,ROL08,EDU04,1,0,4233,31,3,9,13,Low,Medium,Bad,Male,Divorced,Travel_Rarely,Master,30-39,2,3000-5999,2,3-5,2,10-14,3
+652,DEP02,ROL03,EDU05,0,0,3681,35,3,9,25,Very High,Low,Better,Male,Single,Travel_Rarely,College,30-39,2,3000-5999,2,3-5,2,15+,4
+653,DEP03,ROL08,EDU04,0,0,5460,31,7,13,6,Very High,Low,Best,Male,Divorced,Travel_Rarely,Master,30-39,2,3000-5999,2,6-10,3,5-9,2
+655,DEP02,ROL07,EDU04,0,0,2187,27,5,6,6,High,Low,Good,Female,Divorced,Travel_Rarely,Master,< 30,1,< 3000,1,3-5,2,5-9,2
+656,DEP03,ROL08,EDU03,0,1,9602,37,3,17,2,High,Very High,Good,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,3-5,2,1-4,1
+657,DEP02,ROL07,EDU02,0,0,2836,20,1,1,1,Medium,Very High,Best,Female,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,1-4,1
+659,DEP02,ROL01,EDU02,0,0,4089,42,10,10,2,Very High,High,Better,Female,Married,Travel_Rarely,Master,40-49,3,3000-5999,2,6-10,3,1-4,1
+661,DEP02,ROL06,EDU05,0,1,16627,43,1,21,6,Very High,Medium,Good,Male,Divorced,Travel_Rarely,Master,40-49,3,>= 10000,4,0-2,1,5-9,2
+662,DEP02,ROL07,EDU02,0,0,2619,38,0,8,1,Low,High,Good,Female,Single,Travel_Rarely,Below College,30-39,2,< 3000,1,0-2,1,1-4,1
+663,DEP02,ROL03,EDU04,0,1,5679,43,8,10,9,High,Very High,Better,Male,Divorced,Travel_Frequently,Doctor,40-49,3,3000-5999,2,6-10,3,5-9,2
+664,DEP02,ROL04,EDU02,0,0,15402,48,3,21,1,Low,Very High,Bad,Female,Married,Travel_Rarely,Master,40-49,3,>= 10000,4,3-5,2,1-4,1
+665,DEP01,ROL02,EDU02,0,0,5985,44,2,10,1,High,Low,Best,Female,Single,Travel_Rarely,Master,40-49,3,3000-5999,2,0-2,1,1-4,1
+666,DEP03,ROL09,EDU06,0,1,2579,34,8,8,14,High,High,Better,Female,Divorced,Travel_Rarely,Bachelor,30-39,2,< 3000,1,6-10,3,10-14,3
+667,DEP03,ROL09,EDU03,1,0,3041,27,4,5,2,Low,High,Better,Male,Divorced,Travel_Rarely,Below College,< 30,1,3000-5999,2,3-5,2,1-4,1
+669,DEP03,ROL09,EDU06,0,0,3447,21,3,3,22,High,High,Better,Male,Single,Travel_Rarely,Below College,< 30,1,3000-5999,2,3-5,2,15+,4
+671,DEP02,ROL04,EDU05,0,1,19513,44,2,26,3,Very High,Very High,Best,Male,Married,Travel_Rarely,Master,40-49,3,>= 10000,4,0-2,1,1-4,1
+675,DEP02,ROL07,EDU04,0,0,2773,22,2,3,6,High,Low,Better,Male,Married,Travel_Rarely,Below College,< 30,1,< 3000,1,0-2,1,5-9,2
+677,DEP03,ROL08,EDU03,0,0,7104,33,5,6,8,High,High,Better,Male,Divorced,Travel_Rarely,Master,30-39,2,6000-9999,3,3-5,2,5-9,2
+679,DEP02,ROL07,EDU02,0,1,6322,32,6,6,9,Very High,Low,Good,Female,Married,Travel_Rarely,Master,30-39,2,6000-9999,3,6-10,3,5-9,2
+680,DEP02,ROL07,EDU04,0,0,2083,30,1,1,3,High,High,Better,Female,Divorced,Travel_Frequently,Bachelor,30-39,2,< 3000,1,0-2,1,1-4,1
+682,DEP03,ROL08,EDU04,0,0,8381,53,14,18,1,Low,Very High,Best,Female,Single,Travel_Rarely,Below College,50+,4,6000-9999,3,11+,4,1-4,1
+683,DEP02,ROL07,EDU02,0,0,2691,34,10,10,1,Very High,Medium,Good,Male,Married,Travel_Rarely,Doctor,30-39,2,< 3000,1,6-10,3,1-4,1
+684,DEP03,ROL08,EDU02,1,0,4286,45,1,5,26,Low,Low,Better,Female,Married,Travel_Frequently,Master,40-49,3,3000-5999,2,0-2,1,15+,4
+686,DEP02,ROL03,EDU02,0,1,2659,26,3,3,6,Very High,High,Better,Female,Married,Travel_Rarely,Bachelor,< 30,1,< 3000,1,3-5,2,5-9,2
+689,DEP02,ROL05,EDU05,0,0,9434,37,10,10,3,High,High,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,1-4,1
+690,DEP03,ROL08,EDU04,0,0,5561,29,6,6,3,High,Medium,Good,Female,Married,Travel_Rarely,College,< 30,1,3000-5999,2,6-10,3,1-4,1
+691,DEP02,ROL07,EDU02,0,0,6646,35,17,17,6,Very High,Medium,Better,Male,Single,Travel_Rarely,Master,30-39,2,6000-9999,3,11+,4,5-9,2
+692,DEP02,ROL01,EDU02,0,0,7725,33,13,15,6,Very High,High,Bad,Male,Divorced,Travel_Frequently,Bachelor,30-39,2,6000-9999,3,11+,4,5-9,2
+698,DEP01,ROL02,EDU04,0,0,10725,54,9,16,19,Medium,High,Best,Male,Married,Travel_Rarely,Master,50+,4,>= 10000,4,6-10,3,15+,4
+699,DEP02,ROL05,EDU04,0,1,8847,36,3,13,9,Medium,Medium,Better,Male,Divorced,Travel_Rarely,College,30-39,2,6000-9999,3,3-5,2,5-9,2
+700,DEP02,ROL07,EDU04,0,0,2045,27,4,5,3,Very High,Low,Better,Male,Single,Travel_Rarely,Master,< 30,1,< 3000,1,3-5,2,1-4,1
+701,DEP02,ROL07,EDU04,1,1,1009,20,1,1,10,High,Very High,Better,Male,Single,Travel_Rarely,Below College,< 30,1,< 3000,1,0-2,1,10-14,3
+702,DEP02,ROL07,EDU02,1,1,3348,33,10,10,3,Low,Low,Better,Male,Single,Travel_Frequently,Bachelor,30-39,2,3000-5999,2,6-10,3,1-4,1
+704,DEP02,ROL03,EDU02,0,0,1281,35,1,1,3,High,High,Better,Male,Married,Non-Travel,Bachelor,30-39,2,< 3000,1,0-2,1,1-4,1
+705,DEP02,ROL07,EDU04,0,0,2819,23,3,5,4,Low,Low,Best,Male,Married,Travel_Rarely,Bachelor,< 30,1,< 3000,1,3-5,2,1-4,1
+707,DEP03,ROL08,EDU02,0,0,4851,25,3,4,8,Medium,Very High,Better,Male,Married,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,3-5,2,5-9,2
+709,DEP03,ROL08,EDU03,0,0,4028,38,7,8,7,Very High,Very High,Better,Female,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,6-10,3,5-9,2
+710,DEP02,ROL07,EDU02,0,0,2720,29,10,10,1,Very High,Medium,Better,Male,Divorced,Travel_Frequently,Master,< 30,1,< 3000,1,6-10,3,1-4,1
+712,DEP03,ROL08,EDU03,0,0,8120,48,2,12,2,Medium,Medium,Better,Male,Married,Travel_Rarely,Below College,40-49,3,6000-9999,3,0-2,1,1-4,1
+714,DEP03,ROL08,EDU04,0,1,4647,27,6,6,3,Very High,Very High,Better,Female,Divorced,Travel_Frequently,Below College,< 30,1,3000-5999,2,6-10,3,1-4,1
+715,DEP02,ROL07,EDU02,0,0,4680,37,1,4,10,Very High,Very High,Better,Male,Single,Travel_Rarely,College,30-39,2,3000-5999,2,0-2,1,10-14,3
+716,DEP02,ROL03,EDU04,0,1,3221,50,20,20,28,High,Very High,Better,Male,Married,Travel_Rarely,Below College,50+,4,3000-5999,2,11+,4,15+,4
+717,DEP02,ROL01,EDU04,0,0,8621,34,8,9,9,Medium,Very High,Best,Female,Single,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,5-9,2
+720,DEP03,ROL08,EDU02,1,0,4577,24,2,4,3,High,Low,Better,Female,Single,Travel_Rarely,College,< 30,1,3000-5999,2,0-2,1,1-4,1
+721,DEP02,ROL01,EDU06,0,0,4553,39,20,20,2,High,Very High,Better,Female,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,11+,4,1-4,1
+722,DEP03,ROL08,EDU03,0,0,5396,32,10,10,10,Very High,Very High,Good,Male,Single,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,6-10,3,10-14,3
+723,DEP03,ROL08,EDU06,1,1,6796,50,4,18,8,High,Medium,Better,Male,Married,Travel_Frequently,College,50+,4,6000-9999,3,3-5,2,5-9,2
+724,DEP02,ROL01,EDU02,0,0,7625,38,9,10,1,Very High,Medium,Good,Female,Single,Travel_Rarely,Master,30-39,2,6000-9999,3,6-10,3,1-4,1
+725,DEP02,ROL05,EDU02,0,0,7412,27,9,9,1,Low,High,Better,Female,Married,Travel_Rarely,College,< 30,1,6000-9999,3,6-10,3,1-4,1
+727,DEP02,ROL06,EDU02,0,0,11159,32,7,10,3,Very High,High,Better,Female,Single,Travel_Rarely,College,30-39,2,>= 10000,4,6-10,3,1-4,1
+728,DEP03,ROL08,EDU03,0,0,4960,47,7,20,14,Low,Very High,Better,Male,Single,Travel_Rarely,Master,40-49,3,3000-5999,2,6-10,3,10-14,3
+729,DEP03,ROL08,EDU02,0,1,10475,40,18,20,5,Low,Very High,Better,Male,Married,Travel_Frequently,Master,40-49,3,>= 10000,4,11+,4,5-9,2
+730,DEP02,ROL06,EDU02,0,0,14814,53,5,32,7,High,High,Better,Male,Married,Travel_Rarely,Bachelor,50+,4,>= 10000,4,3-5,2,5-9,2
+731,DEP01,ROL04,EDU01,0,0,19141,41,21,23,10,Very High,Medium,Good,Male,Divorced,Travel_Rarely,Master,40-49,3,>= 10000,4,11+,4,10-14,3
+732,DEP03,ROL08,EDU03,0,0,5405,60,2,10,16,Low,Low,Better,Male,Single,Travel_Rarely,Master,50+,4,3000-5999,2,0-2,1,15+,4
+733,DEP02,ROL05,EDU02,0,0,8793,27,9,9,10,Low,Very High,Good,Male,Divorced,Travel_Frequently,College,< 30,1,6000-9999,3,6-10,3,10-14,3
+734,DEP01,ROL04,EDU01,0,0,19189,41,22,22,1,High,Very High,Better,Male,Married,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,1-4,1
+738,DEP03,ROL09,EDU03,0,0,3875,50,2,4,8,Medium,Very High,Better,Male,Married,Travel_Rarely,Master,50+,4,3000-5999,2,0-2,1,5-9,2
+741,DEP02,ROL07,EDU02,1,1,2216,28,7,10,1,Medium,Low,Better,Female,Single,Travel_Rarely,College,< 30,1,< 3000,1,6-10,3,1-4,1
+742,DEP02,ROL06,EDU02,0,0,11713,36,8,10,8,Low,Low,Better,Female,Married,Non-Travel,Bachelor,30-39,2,>= 10000,4,6-10,3,5-9,2
+743,DEP02,ROL05,EDU02,0,1,7861,38,1,10,1,High,High,Best,Female,Single,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,0-2,1,1-4,1
+744,DEP02,ROL03,EDU04,0,0,3708,44,5,9,24,High,Low,Better,Male,Single,Non-Travel,Bachelor,40-49,3,3000-5999,2,3-5,2,15+,4
+746,DEP03,ROL08,EDU04,0,1,13770,47,22,28,3,High,Very High,Good,Female,Divorced,Travel_Frequently,Bachelor,40-49,3,>= 10000,4,11+,4,1-4,1
+747,DEP03,ROL08,EDU03,0,0,5304,30,8,10,27,Very High,High,Good,Male,Divorced,Travel_Rarely,Doctor,30-39,2,3000-5999,2,6-10,3,15+,4
+749,DEP03,ROL09,EDU02,0,0,2642,29,1,1,10,High,High,Better,Male,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,10-14,3
+752,DEP02,ROL07,EDU04,1,1,2759,42,2,7,19,High,High,Better,Male,Divorced,Travel_Frequently,Bachelor,40-49,3,< 3000,1,0-2,1,15+,4
+754,DEP03,ROL08,EDU02,0,0,6804,43,2,7,15,Very High,Very High,Better,Male,Married,Travel_Frequently,Bachelor,40-49,3,6000-9999,3,0-2,1,15+,4
+757,DEP02,ROL01,EDU04,0,0,6142,34,5,10,8,High,Medium,Better,Female,Single,Travel_Rarely,College,30-39,2,6000-9999,3,3-5,2,5-9,2
+758,DEP02,ROL03,EDU04,0,0,2500,23,4,5,9,Low,Medium,Best,Male,Married,Travel_Rarely,Below College,< 30,1,< 3000,1,3-5,2,5-9,2
+760,DEP01,ROL02,EDU01,0,0,6389,39,8,12,3,Medium,High,Bad,Female,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,1-4,1
+762,DEP02,ROL01,EDU04,0,0,11103,56,10,30,9,Very High,High,Good,Male,Married,Travel_Rarely,Bachelor,50+,4,>= 10000,4,6-10,3,5-9,2
+763,DEP02,ROL07,EDU04,0,1,2342,40,4,5,2,Very High,Very High,Good,Female,Single,Travel_Rarely,Below College,40-49,3,< 3000,1,3-5,2,1-4,1
+764,DEP02,ROL01,EDU04,0,0,6811,27,7,9,7,Low,Very High,Bad,Female,Single,Travel_Rarely,Bachelor,< 30,1,6000-9999,3,6-10,3,5-9,2
+766,DEP03,ROL09,EDU03,0,0,2297,29,2,2,10,Medium,Very High,Better,Male,Divorced,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,10-14,3
+769,DEP02,ROL03,EDU02,0,0,2450,53,2,19,6,Very High,Very High,Better,Male,Single,Travel_Rarely,Bachelor,50+,4,< 3000,1,0-2,1,5-9,2
+771,DEP02,ROL01,EDU02,0,0,5093,35,1,16,2,Low,Very High,Best,Female,Divorced,Non-Travel,Master,30-39,2,3000-5999,2,0-2,1,1-4,1
+772,DEP02,ROL03,EDU02,0,0,5309,32,10,10,24,Very High,Low,Better,Male,Married,Travel_Frequently,Master,30-39,2,3000-5999,2,6-10,3,15+,4
+773,DEP02,ROL07,EDU04,0,1,3057,38,1,6,2,High,Very High,Bad,Male,Married,Travel_Rarely,Doctor,30-39,2,3000-5999,2,0-2,1,1-4,1
+775,DEP02,ROL05,EDU02,0,0,5121,34,0,7,8,Low,Medium,Better,Female,Divorced,Travel_Rarely,Doctor,30-39,2,3000-5999,2,0-2,1,5-9,2
+776,DEP03,ROL04,EDU03,0,0,16856,52,34,34,3,Low,High,Best,Male,Married,Travel_Rarely,Master,50+,4,>= 10000,4,11+,4,1-4,1
+780,DEP02,ROL07,EDU05,1,1,2686,33,10,10,1,Very High,Very High,Good,Male,Single,Travel_Rarely,Master,30-39,2,< 3000,1,6-10,3,1-4,1
+781,DEP03,ROL08,EDU04,0,0,6180,25,6,6,26,Very High,High,Good,Female,Single,Travel_Rarely,Below College,< 30,1,6000-9999,3,6-10,3,15+,4
+783,DEP03,ROL09,EDU06,0,0,6632,45,8,9,2,High,Medium,Better,Male,Single,Travel_Rarely,College,40-49,3,6000-9999,3,6-10,3,1-4,1
+784,DEP02,ROL07,EDU04,0,0,3505,23,2,2,10,High,Low,Better,Male,Single,Travel_Rarely,Below College,< 30,1,3000-5999,2,0-2,1,10-14,3
+785,DEP03,ROL08,EDU02,1,1,6397,47,5,8,27,High,Medium,Better,Female,Single,Travel_Frequently,College,40-49,3,6000-9999,3,3-5,2,15+,4
+786,DEP03,ROL08,EDU05,0,0,6274,34,6,6,2,Very High,Very High,Better,Male,Single,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,1-4,1
+787,DEP02,ROL04,EDU04,1,1,19859,55,5,24,2,Low,Very High,Better,Male,Married,Travel_Rarely,Bachelor,50+,4,>= 10000,4,3-5,2,1-4,1
+789,DEP03,ROL08,EDU02,0,0,7587,36,10,10,8,Low,Low,Better,Male,Single,Non-Travel,Master,30-39,2,6000-9999,3,6-10,3,5-9,2
+791,DEP02,ROL07,EDU04,0,0,4258,52,4,5,19,Very High,Very High,Better,Male,Married,Non-Travel,Master,50+,4,3000-5999,2,3-5,2,15+,4
+792,DEP02,ROL03,EDU02,0,0,4364,26,2,5,1,Very High,Low,Better,Female,Divorced,Travel_Frequently,College,< 30,1,3000-5999,2,0-2,1,1-4,1
+793,DEP02,ROL01,EDU04,0,0,4335,29,8,11,27,High,Medium,Good,Female,Married,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,6-10,3,15+,4
+796,DEP03,ROL08,EDU06,1,0,5326,26,4,6,8,Low,Very High,Good,Male,Single,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,3-5,2,5-9,2
+797,DEP02,ROL07,EDU02,0,0,3280,34,4,10,1,Very High,Medium,Better,Female,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,3-5,2,1-4,1
+799,DEP02,ROL05,EDU04,0,1,5485,54,5,9,19,Low,Very High,Better,Female,Divorced,Travel_Rarely,Master,50+,4,3000-5999,2,3-5,2,15+,4
+800,DEP03,ROL08,EDU03,0,0,4342,27,4,5,8,Very High,High,Better,Male,Married,Travel_Frequently,Below College,< 30,1,3000-5999,2,3-5,2,5-9,2
+802,DEP02,ROL07,EDU02,0,1,2782,37,5,6,10,Low,Very High,Good,Female,Divorced,Travel_Rarely,Below College,30-39,2,< 3000,1,3-5,2,10-14,3
+803,DEP02,ROL05,EDU02,0,1,5980,38,15,17,2,Low,Low,Better,Female,Single,Travel_Frequently,Master,30-39,2,3000-5999,2,11+,4,1-4,1
+804,DEP02,ROL07,EDU04,0,0,4381,34,6,6,2,Low,High,Better,Female,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,6-10,3,1-4,1
+805,DEP03,ROL09,EDU02,0,0,2572,35,3,3,8,Very High,Low,Good,Female,Married,Travel_Rarely,Master,30-39,2,< 3000,1,3-5,2,5-9,2
+806,DEP02,ROL03,EDU02,0,0,3833,30,2,7,1,High,Very High,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,0-2,1,1-4,1
+807,DEP02,ROL01,EDU04,0,0,4244,40,8,8,2,Medium,High,Better,Female,Married,Travel_Frequently,College,40-49,3,3000-5999,2,6-10,3,1-4,1
+808,DEP03,ROL08,EDU02,0,0,6500,34,3,6,8,Low,High,Better,Female,Married,Travel_Rarely,College,30-39,2,6000-9999,3,3-5,2,5-9,2
+809,DEP02,ROL04,EDU02,0,0,18430,42,24,24,8,Very High,Medium,Good,Male,Divorced,Travel_Frequently,Bachelor,40-49,3,>= 10000,4,11+,4,5-9,2
+811,DEP02,ROL03,EDU02,1,1,1601,23,0,1,6,Low,High,Better,Male,Married,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,5-9,2
+812,DEP02,ROL03,EDU02,0,0,2694,24,1,1,9,Medium,High,Better,Male,Divorced,Non-Travel,Bachelor,< 30,1,< 3000,1,0-2,1,5-9,2
+813,DEP02,ROL03,EDU02,0,0,3149,52,5,9,11,High,Very High,Better,Female,Married,Travel_Rarely,Master,50+,4,3000-5999,2,3-5,2,10-14,3
+815,DEP02,ROL06,EDU04,0,0,17639,50,4,30,2,High,High,Better,Male,Married,Travel_Rarely,Bachelor,50+,4,>= 10000,4,3-5,2,1-4,1
+816,DEP02,ROL03,EDU02,1,1,2319,29,1,1,1,Low,Medium,Better,Female,Married,Travel_Rarely,College,< 30,1,< 3000,1,0-2,1,1-4,1
+817,DEP02,ROL06,EDU04,0,0,11691,33,13,14,7,High,High,Best,Male,Married,Travel_Rarely,Bachelor,30-39,2,>= 10000,4,11+,4,5-9,2
+819,DEP03,ROL08,EDU03,1,0,5324,33,3,6,16,Low,Low,Better,Female,Single,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,15+,4
+820,DEP02,ROL04,EDU05,0,1,16752,47,26,26,2,Very High,High,Good,Female,Married,Travel_Rarely,College,40-49,3,>= 10000,4,11+,4,1-4,1
+823,DEP02,ROL05,EDU05,0,0,5228,36,9,10,1,Medium,High,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,6-10,3,1-4,1
+824,DEP02,ROL07,EDU02,0,0,2700,29,10,10,23,High,High,Better,Male,Married,Travel_Rarely,College,< 30,1,< 3000,1,6-10,3,15+,4
+825,DEP02,ROL06,EDU02,1,1,19246,58,31,40,2,Medium,Very High,Better,Male,Single,Travel_Rarely,Master,50+,4,>= 10000,4,11+,4,1-4,1
+826,DEP02,ROL07,EDU02,0,0,2506,35,2,7,1,High,Very High,Better,Female,Single,Travel_Rarely,Master,30-39,2,< 3000,1,0-2,1,1-4,1
+827,DEP02,ROL05,EDU02,0,1,6062,42,4,8,1,Very High,Very High,Better,Female,Married,Travel_Rarely,College,40-49,3,6000-9999,3,3-5,2,1-4,1
+828,DEP02,ROL07,EDU04,1,0,4382,28,2,5,2,High,High,Good,Male,Single,Travel_Rarely,Master,< 30,1,3000-5999,2,0-2,1,1-4,1
+829,DEP01,ROL02,EDU01,0,0,2143,36,5,8,13,Medium,High,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,< 3000,1,3-5,2,10-14,3
+830,DEP02,ROL05,EDU02,0,0,6162,32,14,14,4,High,High,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,11+,4,1-4,1
+832,DEP02,ROL03,EDU04,0,0,5094,40,1,10,16,High,Low,Better,Male,Single,Travel_Frequently,Master,40-49,3,3000-5999,2,0-2,1,15+,4
+833,DEP02,ROL05,EDU04,0,1,6877,30,0,12,2,Very High,High,Good,Female,Single,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,0-2,1,1-4,1
+834,DEP02,ROL07,EDU02,0,0,2274,45,1,1,2,High,Medium,Better,Female,Single,Travel_Rarely,Bachelor,40-49,3,< 3000,1,0-2,1,1-4,1
+836,DEP02,ROL05,EDU02,0,0,4434,42,9,10,29,Medium,Medium,Good,Male,Married,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,6-10,3,15+,4
+837,DEP02,ROL01,EDU02,0,0,6288,38,4,13,12,Low,Low,Good,Male,Divorced,Travel_Frequently,Bachelor,30-39,2,6000-9999,3,3-5,2,10-14,3
+838,DEP02,ROL07,EDU02,0,0,2553,34,5,6,16,Very High,High,Better,Female,Single,Travel_Frequently,Master,30-39,2,< 3000,1,3-5,2,15+,4
+840,DEP03,ROL08,EDU03,1,0,7654,49,9,9,11,Very High,High,Best,Female,Married,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,6-10,3,10-14,3
+842,DEP03,ROL08,EDU04,1,0,5160,55,9,12,2,Very High,High,Good,Male,Single,Travel_Rarely,Below College,50+,4,3000-5999,2,6-10,3,1-4,1
+843,DEP02,ROL06,EDU02,0,0,17159,43,4,22,14,Low,Medium,Better,Male,Married,Travel_Rarely,College,40-49,3,>= 10000,4,3-5,2,10-14,3
+844,DEP02,ROL06,EDU06,0,1,12808,27,9,9,5,Very High,High,Better,Male,Divorced,Travel_Rarely,Below College,< 30,1,>= 10000,4,6-10,3,5-9,2
+845,DEP02,ROL05,EDU05,0,0,10221,35,8,17,7,High,High,Best,Male,Single,Travel_Rarely,Bachelor,30-39,2,>= 10000,4,6-10,3,5-9,2
+846,DEP03,ROL08,EDU03,0,1,4779,28,8,8,2,Medium,Medium,Better,Female,Married,Travel_Rarely,Master,< 30,1,3000-5999,2,6-10,3,1-4,1
+847,DEP01,ROL02,EDU01,0,0,3737,34,3,4,3,Very High,High,Bad,Male,Married,Travel_Rarely,College,30-39,2,3000-5999,2,3-5,2,1-4,1
+848,DEP02,ROL07,EDU04,1,1,2366,26,8,8,5,High,High,Better,Female,Married,Travel_Frequently,College,< 30,1,< 3000,1,6-10,3,5-9,2
+850,DEP02,ROL07,EDU04,0,0,1706,27,0,0,3,Very High,Very High,Good,Male,Married,Non-Travel,Bachelor,< 30,1,< 3000,1,0-2,1,1-4,1
+851,DEP03,ROL04,EDU03,0,0,16307,51,20,29,26,High,Low,Good,Female,Married,Travel_Rarely,Master,50+,4,>= 10000,4,11+,4,15+,4
+852,DEP02,ROL01,EDU04,0,0,5933,44,5,10,4,Medium,Very High,Good,Male,Single,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,3-5,2,1-4,1
+854,DEP02,ROL07,EDU04,0,0,3424,25,4,6,2,Low,Low,Good,Male,Single,Travel_Rarely,Below College,< 30,1,3000-5999,2,3-5,2,1-4,1
+855,DEP03,ROL08,EDU04,0,0,4037,33,9,9,1,Low,Low,Better,Male,Divorced,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,6-10,3,1-4,1
+856,DEP02,ROL07,EDU04,0,0,2559,35,6,6,27,Low,High,Good,Female,Single,Travel_Rarely,Below College,30-39,2,< 3000,1,6-10,3,15+,4
+857,DEP03,ROL08,EDU02,0,1,6201,36,18,18,1,Very High,Medium,Good,Male,Married,Travel_Rarely,College,30-39,2,6000-9999,3,11+,4,1-4,1
+859,DEP03,ROL08,EDU02,0,0,4403,32,5,8,13,Very High,Medium,Good,Male,Divorced,Travel_Rarely,Master,30-39,2,3000-5999,2,3-5,2,10-14,3
+861,DEP02,ROL07,EDU02,0,0,3761,30,5,10,5,Very High,Medium,Good,Male,Divorced,Travel_Frequently,Master,30-39,2,3000-5999,2,3-5,2,5-9,2
+862,DEP03,ROL08,EDU03,0,1,10934,53,5,35,7,Very High,Low,Better,Female,Married,Travel_Rarely,College,50+,4,>= 10000,4,3-5,2,5-9,2
+864,DEP03,ROL08,EDU03,0,1,10761,45,5,18,9,Low,Very High,Better,Male,Divorced,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,3-5,2,5-9,2
+865,DEP02,ROL07,EDU04,0,0,5175,32,5,9,8,High,High,Good,Female,Married,Travel_Rarely,College,30-39,2,3000-5999,2,3-5,2,5-9,2
+867,DEP02,ROL05,EDU04,0,0,13826,52,9,31,25,Very High,High,Better,Female,Married,Travel_Frequently,Master,50+,4,>= 10000,4,6-10,3,15+,4
+868,DEP03,ROL08,EDU03,0,0,6334,37,1,9,16,High,Very High,Better,Male,Divorced,Travel_Rarely,Master,30-39,2,6000-9999,3,0-2,1,15+,4
+869,DEP01,ROL02,EDU04,0,0,4936,28,5,6,8,Very High,Medium,Better,Male,Divorced,Travel_Rarely,College,< 30,1,3000-5999,2,3-5,2,5-9,2
+872,DEP02,ROL05,EDU02,0,0,4775,22,2,4,1,Very High,Very High,Bad,Male,Married,Travel_Rarely,College,< 30,1,3000-5999,2,0-2,1,1-4,1
+874,DEP02,ROL03,EDU02,0,1,2818,44,3,10,8,Very High,Low,Good,Male,Married,Travel_Rarely,Master,40-49,3,< 3000,1,3-5,2,5-9,2
+875,DEP02,ROL07,EDU04,0,1,2515,42,2,8,2,Very High,Medium,Better,Male,Single,Travel_Frequently,Below College,40-49,3,< 3000,1,0-2,1,1-4,1
+878,DEP01,ROL02,EDU02,0,0,2342,36,5,6,8,Low,Low,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,< 3000,1,3-5,2,5-9,2
+879,DEP03,ROL08,EDU05,0,1,4194,25,5,5,3,Low,High,Better,Male,Married,Travel_Rarely,Below College,< 30,1,3000-5999,2,3-5,2,1-4,1
+880,DEP02,ROL05,EDU02,0,1,10685,35,17,17,9,High,Very High,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,>= 10000,4,11+,4,5-9,2
+881,DEP02,ROL07,EDU02,1,1,2022,35,10,10,25,Medium,Very High,Good,Female,Divorced,Travel_Frequently,Master,30-39,2,< 3000,1,6-10,3,15+,4
+882,DEP02,ROL03,EDU02,0,0,2314,32,3,4,1,Very High,Very High,Better,Male,Divorced,Non-Travel,Bachelor,30-39,2,< 3000,1,3-5,2,1-4,1
+885,DEP03,ROL08,EDU03,0,0,4256,25,5,5,4,Low,High,Best,Male,Married,Travel_Rarely,Below College,< 30,1,3000-5999,2,3-5,2,1-4,1
+887,DEP02,ROL07,EDU06,0,0,3580,49,4,7,1,Low,High,Better,Female,Married,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,3-5,2,1-4,1
+888,DEP02,ROL03,EDU02,0,0,3162,24,5,6,4,Very High,Low,Good,Male,Married,Non-Travel,Below College,< 30,1,3000-5999,2,3-5,2,1-4,1
+889,DEP03,ROL08,EDU02,0,0,6524,32,10,10,5,Medium,Medium,Better,Male,Married,Travel_Frequently,College,30-39,2,6000-9999,3,6-10,3,5-9,2
+893,DEP03,ROL09,EDU03,0,0,2899,38,2,3,9,Medium,Medium,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,< 3000,1,0-2,1,5-9,2
+894,DEP02,ROL03,EDU02,0,1,5231,42,5,17,3,Very High,High,Good,Female,Married,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,3-5,2,1-4,1
+895,DEP02,ROL07,EDU02,0,1,2356,31,6,8,11,Very High,Very High,Better,Male,Married,Travel_Rarely,Master,30-39,2,< 3000,1,6-10,3,10-14,3
+896,DEP03,ROL09,EDU04,1,1,2800,29,3,5,1,High,Medium,Better,Female,Divorced,Travel_Rarely,Bachelor,< 30,1,< 3000,1,3-5,2,1-4,1
+897,DEP03,ROL08,EDU03,0,0,11836,53,2,28,8,Very High,Low,Better,Male,Married,Travel_Rarely,Bachelor,50+,4,>= 10000,4,0-2,1,5-9,2
+899,DEP02,ROL05,EDU06,0,0,10903,35,13,16,25,Medium,Very High,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,>= 10000,4,11+,4,15+,4
+900,DEP03,ROL09,EDU04,0,0,2973,37,5,10,21,Very High,High,Better,Female,Married,Travel_Frequently,College,30-39,2,< 3000,1,3-5,2,15+,4
+901,DEP02,ROL06,EDU02,0,0,14275,53,12,33,23,Very High,Very High,Better,Female,Single,Travel_Rarely,Master,50+,4,>= 10000,4,11+,4,15+,4
+902,DEP02,ROL01,EDU02,0,0,5562,43,5,12,1,Very High,Very High,Good,Female,Married,Travel_Frequently,Bachelor,40-49,3,3000-5999,2,3-5,2,1-4,1
+903,DEP03,ROL08,EDU03,0,1,4537,47,7,8,2,Very High,High,Better,Female,Married,Travel_Rarely,College,40-49,3,3000-5999,2,6-10,3,1-4,1
+904,DEP03,ROL08,EDU04,0,1,7642,37,10,10,19,Medium,Low,Better,Male,Single,Non-Travel,College,30-39,2,6000-9999,3,6-10,3,15+,4
+905,DEP02,ROL04,EDU02,0,0,17924,50,31,31,2,Low,Low,Better,Male,Divorced,Non-Travel,Master,50+,4,>= 10000,4,11+,4,1-4,1
+909,DEP01,ROL02,EDU02,0,0,5204,39,5,13,2,Very High,Very High,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,1-4,1
+910,DEP01,ROL02,EDU01,0,1,2277,33,4,7,3,Medium,Very High,Best,Male,Divorced,Travel_Rarely,College,30-39,2,< 3000,1,3-5,2,1-4,1
+911,DEP02,ROL03,EDU02,1,1,2795,32,1,1,25,Very High,Low,Bad,Male,Single,Travel_Rarely,Master,30-39,2,< 3000,1,0-2,1,15+,4
+912,DEP02,ROL03,EDU04,0,0,2532,29,4,8,7,Very High,Low,Better,Female,Divorced,Travel_Rarely,Below College,< 30,1,< 3000,1,3-5,2,5-9,2
+913,DEP02,ROL07,EDU02,0,1,2559,44,8,8,9,Low,Medium,Better,Male,Married,Travel_Rarely,College,40-49,3,< 3000,1,6-10,3,5-9,2
+916,DEP03,ROL08,EDU04,0,0,4908,28,4,4,5,Very High,Low,Better,Male,Single,Travel_Rarely,Master,< 30,1,3000-5999,2,3-5,2,5-9,2
+918,DEP02,ROL03,EDU02,1,1,2380,58,1,3,2,Very High,Very High,Good,Male,Divorced,Travel_Frequently,Below College,50+,4,< 3000,1,0-2,1,1-4,1
+920,DEP02,ROL05,EDU02,0,0,4765,43,1,4,8,Medium,Low,Best,Female,Divorced,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,0-2,1,5-9,2
+922,DEP03,ROL09,EDU04,1,0,2044,20,2,2,2,High,High,Good,Female,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,1-4,1
+923,DEP02,ROL07,EDU05,1,0,2693,21,1,1,18,Very High,Very High,Good,Female,Single,Travel_Rarely,Below College,< 30,1,< 3000,1,0-2,1,15+,4
+924,DEP02,ROL01,EDU02,0,1,6586,36,16,17,14,Very High,High,Good,Male,Married,Travel_Rarely,Below College,30-39,2,6000-9999,3,11+,4,10-14,3
+925,DEP03,ROL09,EDU02,0,1,3294,47,3,3,2,Very High,Very High,Good,Female,Single,Travel_Rarely,Master,40-49,3,3000-5999,2,3-5,2,1-4,1
+926,DEP02,ROL05,EDU02,1,1,4171,22,3,4,3,High,Medium,Best,Female,Married,Travel_Rarely,Below College,< 30,1,3000-5999,2,3-5,2,1-4,1
+927,DEP02,ROL03,EDU02,1,1,2778,41,7,10,2,Very High,Medium,Good,Female,Divorced,Travel_Rarely,Master,40-49,3,< 3000,1,6-10,3,1-4,1
+930,DEP02,ROL07,EDU04,0,0,2377,28,2,6,9,High,High,Better,Female,Divorced,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,5-9,2
+932,DEP02,ROL03,EDU04,1,1,2404,39,2,8,6,Low,Very High,Bad,Male,Married,Travel_Rarely,Bachelor,30-39,2,< 3000,1,0-2,1,5-9,2
+933,DEP02,ROL07,EDU02,0,0,2318,27,1,1,4,High,Medium,Better,Female,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,1-4,1
+934,DEP02,ROL03,EDU02,0,0,2008,34,1,1,10,Medium,Medium,Better,Male,Divorced,Travel_Rarely,Bachelor,30-39,2,< 3000,1,0-2,1,10-14,3
+936,DEP03,ROL08,EDU04,0,0,6244,42,5,10,14,High,High,Better,Female,Single,Travel_Rarely,College,40-49,3,6000-9999,3,3-5,2,10-14,3
+939,DEP02,ROL07,EDU05,0,1,2799,33,3,6,1,Low,High,Better,Male,Single,Travel_Rarely,Master,30-39,2,< 3000,1,3-5,2,1-4,1
+940,DEP02,ROL01,EDU06,0,1,10552,58,6,24,5,Medium,High,Better,Female,Divorced,Travel_Rarely,Bachelor,50+,4,>= 10000,4,6-10,3,5-9,2
+941,DEP03,ROL09,EDU02,0,0,2329,31,7,13,7,High,Medium,Best,Male,Married,Travel_Rarely,Master,30-39,2,< 3000,1,6-10,3,5-9,2
+942,DEP02,ROL01,EDU02,0,1,4014,35,10,10,21,Very High,Very High,Bad,Female,Married,Travel_Rarely,Below College,30-39,2,3000-5999,2,6-10,3,15+,4
+944,DEP02,ROL03,EDU05,0,0,7403,49,26,29,8,Medium,Low,Good,Female,Married,Travel_Rarely,College,40-49,3,6000-9999,3,11+,4,5-9,2
+945,DEP02,ROL07,EDU04,0,0,2259,48,0,13,20,High,Very High,Good,Male,Married,Travel_Rarely,Master,40-49,3,< 3000,1,0-2,1,15+,4
+947,DEP03,ROL08,EDU03,0,0,6932,31,9,9,20,High,Very High,Good,Female,Married,Non-Travel,College,30-39,2,6000-9999,3,6-10,3,15+,4
+949,DEP02,ROL07,EDU05,0,0,4678,36,6,8,7,Very High,Medium,Better,Male,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,6-10,3,5-9,2
+950,DEP02,ROL06,EDU06,0,0,13582,38,15,15,1,Low,Very High,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,>= 10000,4,11+,4,1-4,1
+951,DEP02,ROL03,EDU02,0,0,2332,32,3,5,1,Medium,High,Better,Female,Married,Non-Travel,Bachelor,30-39,2,< 3000,1,3-5,2,1-4,1
+952,DEP03,ROL09,EDU03,1,1,2413,25,1,1,19,Medium,High,Better,Male,Married,Travel_Rarely,College,< 30,1,< 3000,1,0-2,1,15+,4
+954,DEP03,ROL08,EDU03,0,0,9705,40,1,11,10,Medium,Low,Good,Male,Divorced,Travel_Rarely,Master,40-49,3,6000-9999,3,0-2,1,10-14,3
+956,DEP03,ROL08,EDU04,0,0,4294,26,7,7,1,Low,High,Better,Male,Single,Travel_Frequently,Bachelor,< 30,1,3000-5999,2,6-10,3,1-4,1
+957,DEP02,ROL03,EDU04,0,1,4721,41,18,20,6,Low,Very High,Better,Male,Single,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,11+,4,5-9,2
+958,DEP02,ROL03,EDU04,0,0,2519,36,11,16,2,High,High,Better,Male,Single,Travel_Rarely,Master,30-39,2,< 3000,1,11+,4,1-4,1
+959,DEP03,ROL09,EDU05,1,1,2121,19,1,1,21,Medium,Very High,Best,Male,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,15+,4
+960,DEP02,ROL03,EDU06,1,0,2973,20,1,1,4,Low,Low,Better,Male,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,1-4,1
+961,DEP02,ROL01,EDU04,0,1,5855,31,9,10,12,Very High,Very High,Bad,Female,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,6-10,3,10-14,3
+964,DEP02,ROL07,EDU04,0,1,3617,40,1,3,9,Medium,Very High,Better,Male,Divorced,Travel_Frequently,Master,40-49,3,3000-5999,2,0-2,1,5-9,2
+966,DEP02,ROL05,EDU04,0,0,6725,32,8,8,3,Low,High,Best,Female,Married,Travel_Rarely,Master,30-39,2,6000-9999,3,6-10,3,1-4,1
+967,DEP03,ROL08,EDU02,1,1,10325,36,16,16,3,Very High,High,Better,Male,Married,Travel_Rarely,Below College,30-39,2,>= 10000,4,11+,4,1-4,1
+969,DEP02,ROL01,EDU02,0,0,6949,33,5,6,1,Very High,Medium,Better,Female,Single,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,3-5,2,1-4,1
+970,DEP03,ROL08,EDU02,1,0,10609,37,14,17,1,High,Low,Bad,Male,Married,Travel_Rarely,Master,30-39,2,>= 10000,4,11+,4,1-4,1
+972,DEP02,ROL03,EDU02,0,0,4447,45,9,9,4,Medium,High,Good,Male,Married,Non-Travel,College,40-49,3,3000-5999,2,6-10,3,1-4,1
+974,DEP03,ROL09,EDU06,0,0,2157,29,3,3,20,Very High,High,Better,Female,Married,Travel_Frequently,Bachelor,< 30,1,< 3000,1,3-5,2,15+,4
+975,DEP03,ROL08,EDU04,0,0,4601,35,5,5,18,High,High,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,15+,4
+976,DEP02,ROL04,EDU02,0,0,17099,52,9,26,1,Very High,Very High,Good,Male,Married,Travel_Rarely,College,50+,4,>= 10000,4,6-10,3,1-4,1
+977,DEP02,ROL07,EDU06,1,0,2479,58,1,7,2,High,Very High,Better,Male,Single,Travel_Rarely,Bachelor,50+,4,< 3000,1,0-2,1,1-4,1
+981,DEP03,ROL04,EDU04,0,0,14852,53,17,22,2,High,High,Best,Male,Divorced,Travel_Rarely,College,50+,4,>= 10000,4,11+,4,1-4,1
+982,DEP03,ROL08,EDU05,0,0,7264,30,8,10,8,High,High,Best,Male,Divorced,Travel_Rarely,College,30-39,2,6000-9999,3,6-10,3,5-9,2
+983,DEP03,ROL08,EDU06,0,1,5666,38,5,6,10,Very High,High,Better,Female,Single,Non-Travel,Bachelor,30-39,2,3000-5999,2,3-5,2,10-14,3
+984,DEP03,ROL08,EDU02,0,0,7823,35,10,12,3,Very High,Very High,Better,Male,Divorced,Travel_Rarely,Master,30-39,2,6000-9999,3,6-10,3,1-4,1
+985,DEP03,ROL08,EDU02,0,0,7880,39,8,9,2,High,Low,Better,Male,Single,Travel_Rarely,Doctor,30-39,2,6000-9999,3,6-10,3,1-4,1
+986,DEP03,ROL08,EDU02,1,1,13194,40,1,22,24,Medium,Medium,Good,Female,Single,Non-Travel,Bachelor,40-49,3,>= 10000,4,0-2,1,15+,4
+987,DEP02,ROL05,EDU04,0,1,5067,47,19,20,16,High,High,Best,Male,Divorced,Travel_Frequently,Master,40-49,3,3000-5999,2,11+,4,15+,4
+990,DEP03,ROL08,EDU06,0,0,5079,36,7,12,8,Very High,Low,Better,Male,Divorced,Non-Travel,Master,30-39,2,3000-5999,2,6-10,3,5-9,2
+991,DEP02,ROL07,EDU04,1,1,2321,31,3,4,9,Low,High,Better,Male,Single,Non-Travel,College,30-39,2,< 3000,1,3-5,2,5-9,2
+992,DEP03,ROL04,EDU02,0,0,17444,33,10,10,17,High,Very High,Better,Male,Single,Non-Travel,Bachelor,30-39,2,>= 10000,4,6-10,3,15+,4
+994,DEP02,ROL07,EDU02,1,1,2404,29,0,3,10,Low,Very High,Better,Female,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,10-14,3
+995,DEP02,ROL07,EDU02,0,0,3452,33,3,5,13,Very High,Medium,Better,Female,Single,Travel_Rarely,Below College,30-39,2,3000-5999,2,3-5,2,10-14,3
+996,DEP02,ROL03,EDU04,0,0,2270,45,5,8,1,Very High,Very High,Better,Female,Divorced,Travel_Rarely,Master,40-49,3,< 3000,1,3-5,2,1-4,1
+997,DEP02,ROL06,EDU04,0,0,17399,50,5,32,1,Very High,Very High,Good,Male,Divorced,Travel_Rarely,College,50+,4,>= 10000,4,3-5,2,1-4,1
+998,DEP02,ROL01,EDU05,0,1,5488,33,6,6,1,Medium,High,Better,Female,Married,Travel_Frequently,Master,30-39,2,3000-5999,2,6-10,3,1-4,1
+999,DEP02,ROL06,EDU04,0,0,19419,41,18,21,9,High,Low,Best,Male,Divorced,Travel_Frequently,Bachelor,40-49,3,>= 10000,4,11+,4,5-9,2
+1001,DEP02,ROL03,EDU06,0,0,2811,27,2,4,16,Medium,High,Better,Female,Married,Travel_Rarely,Master,< 30,1,< 3000,1,0-2,1,15+,4
+1002,DEP02,ROL03,EDU02,0,1,3633,45,9,9,23,Low,Very High,Better,Male,Married,Non-Travel,College,40-49,3,3000-5999,2,6-10,3,15+,4
+1003,DEP03,ROL08,EDU02,0,1,4163,47,9,9,4,Very High,Very High,Better,Female,Single,Travel_Rarely,College,40-49,3,3000-5999,2,6-10,3,1-4,1
+1004,DEP02,ROL07,EDU02,1,1,2132,30,5,7,22,High,Low,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,< 3000,1,3-5,2,15+,4
+1005,DEP02,ROL05,EDU02,0,1,13973,50,12,22,24,High,Very High,Better,Male,Married,Travel_Rarely,Bachelor,50+,4,>= 10000,4,11+,4,15+,4
+1006,DEP02,ROL07,EDU04,0,0,2684,38,2,3,10,High,High,Good,Male,Married,Travel_Frequently,Below College,30-39,2,< 3000,1,0-2,1,10-14,3
+1007,DEP02,ROL05,EDU04,0,0,10845,46,8,13,7,High,Very High,Better,Male,Divorced,Travel_Rarely,College,40-49,3,>= 10000,4,6-10,3,5-9,2
+1009,DEP02,ROL05,EDU04,0,0,4377,24,4,5,17,High,Very High,Better,Female,Divorced,Travel_Rarely,Below College,< 30,1,3000-5999,2,3-5,2,15+,4
+1010,DEP02,ROL03,EDU05,1,1,3743,35,4,5,14,Medium,High,Bad,Male,Divorced,Travel_Rarely,Master,30-39,2,3000-5999,2,3-5,2,10-14,3
+1011,DEP02,ROL05,EDU02,0,0,4148,31,4,4,1,Low,High,Better,Female,Married,Travel_Frequently,Below College,30-39,2,3000-5999,2,3-5,2,1-4,1
+1012,DEP02,ROL07,EDU02,0,0,1051,18,0,0,5,Very High,Medium,Better,Male,Single,Non-Travel,College,< 30,1,< 3000,1,0-2,1,5-9,2
+1013,DEP02,ROL05,EDU06,0,0,10739,54,10,22,17,High,High,Better,Female,Married,Travel_Rarely,Bachelor,50+,4,>= 10000,4,6-10,3,15+,4
+1014,DEP02,ROL01,EDU04,0,1,10388,35,16,16,25,High,High,Good,Female,Divorced,Travel_Rarely,Master,30-39,2,>= 10000,4,11+,4,15+,4
+1015,DEP02,ROL06,EDU02,0,1,11416,30,8,9,8,Low,Medium,Good,Female,Married,Travel_Rarely,College,30-39,2,>= 10000,4,6-10,3,5-9,2
+1016,DEP02,ROL07,EDU04,1,1,2600,20,1,1,11,Low,Very High,Better,Female,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,10-14,3
+1017,DEP02,ROL03,EDU04,1,0,2422,30,3,4,5,Medium,Medium,Better,Female,Single,Travel_Frequently,Bachelor,30-39,2,< 3000,1,3-5,2,5-9,2
+1018,DEP02,ROL05,EDU04,0,0,5472,26,8,8,2,Very High,Very High,Better,Male,Married,Travel_Rarely,College,< 30,1,3000-5999,2,6-10,3,1-4,1
+1019,DEP02,ROL03,EDU02,0,0,2451,22,4,4,8,Low,Medium,Good,Male,Married,Travel_Rarely,Below College,< 30,1,< 3000,1,3-5,2,5-9,2
+1022,DEP02,ROL01,EDU02,0,0,4240,48,2,19,6,High,Low,Better,Male,Single,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,0-2,1,5-9,2
+1024,DEP02,ROL01,EDU02,0,0,10999,48,15,27,4,High,High,Better,Male,Single,Travel_Rarely,Master,40-49,3,>= 10000,4,11+,4,1-4,1
+1025,DEP02,ROL05,EDU04,0,0,5003,41,2,8,7,High,Very High,Better,Female,Single,Travel_Rarely,College,40-49,3,3000-5999,2,0-2,1,5-9,2
+1026,DEP02,ROL05,EDU02,0,0,12742,39,21,21,1,Very High,Very High,Better,Female,Married,Travel_Rarely,Below College,30-39,2,>= 10000,4,11+,4,1-4,1
+1027,DEP02,ROL05,EDU02,0,0,4227,27,3,4,2,Very High,Low,Better,Female,Married,Travel_Rarely,Master,< 30,1,3000-5999,2,3-5,2,1-4,1
+1028,DEP02,ROL03,EDU05,0,0,3917,35,3,3,10,Very High,Medium,Good,Male,Divorced,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,10-14,3
+1029,DEP03,ROL04,EDU03,0,0,18303,42,1,21,5,High,Very High,Best,Male,Married,Travel_Rarely,College,40-49,3,>= 10000,4,0-2,1,5-9,2
+1030,DEP02,ROL03,EDU02,0,0,2380,50,1,8,9,Very High,Low,Better,Male,Married,Travel_Rarely,Bachelor,50+,4,< 3000,1,0-2,1,5-9,2
+1032,DEP02,ROL05,EDU02,0,1,13726,59,5,30,2,Very High,High,Better,Female,Single,Travel_Rarely,Bachelor,50+,4,>= 10000,4,3-5,2,1-4,1
+1033,DEP02,ROL01,EDU04,1,0,4777,37,1,15,11,Medium,Low,Bad,Female,Married,Travel_Rarely,College,30-39,2,3000-5999,2,0-2,1,10-14,3
+1034,DEP02,ROL01,EDU04,0,1,6385,55,8,17,18,Medium,High,Better,Male,Married,Travel_Frequently,Master,50+,4,6000-9999,3,6-10,3,15+,4
+1035,DEP02,ROL06,EDU02,0,0,19973,41,21,21,7,High,Medium,Better,Female,Divorced,Non-Travel,Below College,40-49,3,>= 10000,4,11+,4,5-9,2
+1036,DEP03,ROL08,EDU02,0,1,6861,38,1,19,3,Very High,Medium,Better,Male,Single,Travel_Rarely,Master,30-39,2,6000-9999,3,0-2,1,1-4,1
+1037,DEP03,ROL08,EDU04,1,0,4969,26,2,7,29,Low,Medium,Better,Male,Single,Non-Travel,College,< 30,1,3000-5999,2,0-2,1,15+,4
+1038,DEP03,ROL04,EDU03,1,0,19845,52,32,33,2,Very High,Low,Better,Female,Married,Travel_Rarely,Below College,50+,4,>= 10000,4,11+,4,1-4,1
+1039,DEP03,ROL08,EDU04,0,1,13320,44,12,23,28,Very High,Very High,Better,Female,Married,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,15+,4
+1040,DEP03,ROL08,EDU02,0,0,6347,50,18,19,1,High,Very High,Better,Female,Married,Non-Travel,Bachelor,50+,4,6000-9999,3,11+,4,1-4,1
+1042,DEP02,ROL03,EDU02,1,0,2743,36,17,18,16,Low,High,Better,Female,Single,Travel_Rarely,Master,30-39,2,< 3000,1,11+,4,15+,4
+1043,DEP02,ROL05,EDU04,0,1,10880,39,21,21,22,Low,Very High,Better,Female,Single,Travel_Frequently,Bachelor,30-39,2,>= 10000,4,11+,4,15+,4
+1044,DEP03,ROL09,EDU02,0,0,2342,33,2,3,8,Very High,Medium,Good,Female,Single,Non-Travel,Below College,30-39,2,< 3000,1,0-2,1,5-9,2
+1045,DEP03,ROL04,EDU02,0,0,17650,45,9,26,11,Very High,Very High,Best,Female,Married,Travel_Rarely,College,40-49,3,>= 10000,4,6-10,3,10-14,3
+1046,DEP02,ROL03,EDU04,0,0,4025,32,8,10,29,High,Very High,Better,Female,Single,Non-Travel,Master,30-39,2,3000-5999,2,6-10,3,15+,4
+1047,DEP03,ROL08,EDU03,0,0,9725,34,15,16,1,Very High,Medium,Good,Male,Divorced,Travel_Rarely,Master,30-39,2,6000-9999,3,11+,4,1-4,1
+1048,DEP03,ROL04,EDU06,0,1,11904,59,6,14,1,Very High,Medium,Bad,Male,Married,Travel_Rarely,College,50+,4,>= 10000,4,6-10,3,1-4,1
+1049,DEP01,ROL02,EDU04,0,0,2177,45,6,6,24,Medium,Medium,Better,Male,Single,Travel_Rarely,Master,40-49,3,< 3000,1,6-10,3,15+,4
+1050,DEP03,ROL08,EDU03,0,0,7525,53,15,30,2,Medium,High,Better,Female,Married,Travel_Frequently,Bachelor,50+,4,6000-9999,3,11+,4,1-4,1
+1052,DEP02,ROL03,EDU05,1,0,4834,36,1,9,15,High,Low,Good,Male,Divorced,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,0-2,1,15+,4
+1053,DEP02,ROL07,EDU02,1,1,2042,26,3,6,2,Low,Low,Better,Male,Married,Travel_Frequently,Bachelor,< 30,1,< 3000,1,3-5,2,1-4,1
+1055,DEP03,ROL09,EDU02,0,1,2220,34,1,1,10,High,High,Better,Female,Married,Travel_Rarely,Master,30-39,2,< 3000,1,0-2,1,10-14,3
+1056,DEP03,ROL09,EDU04,0,0,1052,28,1,1,10,Medium,Very High,Better,Male,Married,Travel_Rarely,Below College,< 30,1,< 3000,1,0-2,1,10-14,3
+1060,DEP02,ROL07,EDU05,0,0,2821,38,2,8,3,High,High,Better,Male,Married,Travel_Frequently,Master,30-39,2,< 3000,1,0-2,1,1-4,1
+1061,DEP02,ROL06,EDU04,0,1,19237,50,8,29,2,High,Medium,Good,Male,Married,Travel_Rarely,Master,50+,4,>= 10000,4,6-10,3,1-4,1
+1062,DEP02,ROL01,EDU05,0,0,4107,37,4,8,3,Medium,Very High,Good,Female,Single,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,1-4,1
+1066,DEP03,ROL08,EDU03,0,0,8396,40,7,8,26,Low,High,Good,Male,Married,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,6-10,3,15+,4
+1068,DEP02,ROL07,EDU04,0,0,2007,26,5,5,1,High,Low,Better,Female,Divorced,Travel_Frequently,Below College,< 30,1,< 3000,1,3-5,2,1-4,1
+1069,DEP02,ROL06,EDU04,0,0,19627,46,2,23,1,Very High,Very High,Better,Male,Divorced,Travel_Rarely,Master,40-49,3,>= 10000,4,0-2,1,1-4,1
+1070,DEP03,ROL08,EDU02,0,0,10686,54,9,13,2,High,High,Better,Female,Married,Travel_Rarely,Master,50+,4,>= 10000,4,6-10,3,1-4,1
+1071,DEP02,ROL07,EDU04,0,0,2942,56,5,18,9,High,Low,Better,Female,Married,Travel_Frequently,Bachelor,50+,4,< 3000,1,3-5,2,5-9,2
+1073,DEP02,ROL05,EDU04,0,0,8858,36,14,15,12,Very High,Very High,Good,Female,Single,Travel_Rarely,Doctor,30-39,2,6000-9999,3,11+,4,10-14,3
+1074,DEP02,ROL04,EDU04,0,0,16756,55,9,31,2,Low,High,Best,Male,Single,Non-Travel,Below College,50+,4,>= 10000,4,6-10,3,1-4,1
+1076,DEP03,ROL08,EDU04,0,0,10798,43,1,18,25,Very High,High,Better,Male,Divorced,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,0-2,1,15+,4
+1077,DEP03,ROL09,EDU03,1,1,2323,20,2,2,9,Very High,Very High,Better,Female,Single,Travel_Frequently,Bachelor,< 30,1,< 3000,1,0-2,1,5-9,2
+1079,DEP02,ROL03,EDU02,1,0,1416,21,1,1,10,Low,High,Good,Female,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,10-14,3
+1080,DEP02,ROL07,EDU02,0,1,4615,46,16,19,8,Low,Very High,Better,Female,Divorced,Travel_Rarely,Master,40-49,3,3000-5999,2,11+,4,5-9,2
+1081,DEP02,ROL07,EDU02,1,1,2461,51,10,18,4,High,Low,Best,Male,Married,Travel_Rarely,Master,50+,4,< 3000,1,6-10,3,1-4,1
+1082,DEP02,ROL01,EDU06,1,0,8722,28,10,10,24,Low,Medium,Good,Male,Single,Non-Travel,College,< 30,1,6000-9999,3,6-10,3,15+,4
+1083,DEP02,ROL03,EDU04,0,0,3955,26,5,6,1,Low,Low,Better,Male,Married,Travel_Rarely,College,< 30,1,3000-5999,2,3-5,2,1-4,1
+1084,DEP02,ROL05,EDU05,0,0,9957,30,6,7,20,Low,High,Good,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,15+,4
+1085,DEP02,ROL07,EDU06,0,0,3376,41,10,10,7,High,Medium,Better,Female,Married,Travel_Rarely,College,40-49,3,3000-5999,2,6-10,3,5-9,2
+1088,DEP02,ROL01,EDU02,0,0,8823,38,19,20,17,High,High,Good,Female,Married,Travel_Rarely,Below College,30-39,2,6000-9999,3,11+,4,15+,4
+1092,DEP02,ROL01,EDU06,0,0,10322,40,11,14,20,Very High,Low,Better,Male,Married,Travel_Rarely,Master,40-49,3,>= 10000,4,11+,4,15+,4
+1094,DEP02,ROL03,EDU02,0,0,4621,27,3,3,8,High,Low,Better,Male,Married,Non-Travel,Doctor,< 30,1,3000-5999,2,3-5,2,5-9,2
+1096,DEP02,ROL05,EDU02,0,0,10976,55,3,23,2,Medium,Very High,Better,Male,Married,Travel_Frequently,Below College,50+,4,>= 10000,4,3-5,2,1-4,1
+1097,DEP02,ROL07,EDU05,0,0,3660,28,8,10,10,High,High,Best,Female,Single,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,6-10,3,10-14,3
+1098,DEP01,ROL02,EDU04,1,0,10482,44,20,24,1,Low,Medium,Better,Male,Married,Travel_Rarely,College,40-49,3,>= 10000,4,11+,4,1-4,1
+1099,DEP02,ROL01,EDU02,0,0,7119,33,3,9,5,Very High,Very High,Better,Male,Divorced,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,3-5,2,5-9,2
+1100,DEP03,ROL08,EDU06,1,1,9582,35,8,9,4,Low,Very High,Better,Male,Single,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,1-4,1
+1101,DEP02,ROL07,EDU04,1,0,4508,33,13,14,29,High,Low,Better,Female,Single,Travel_Frequently,Master,30-39,2,3000-5999,2,11+,4,15+,4
+1102,DEP02,ROL03,EDU02,0,0,2207,28,4,4,15,High,Low,Good,Male,Divorced,Travel_Rarely,College,< 30,1,< 3000,1,3-5,2,15+,4
+1103,DEP02,ROL01,EDU02,0,0,7756,34,6,7,3,Very High,Low,Good,Male,Single,Travel_Frequently,Below College,30-39,2,6000-9999,3,6-10,3,1-4,1
+1105,DEP03,ROL08,EDU02,0,1,6694,37,1,8,10,Very High,Very High,Better,Female,Divorced,Travel_Rarely,Master,30-39,2,6000-9999,3,0-2,1,10-14,3
+1106,DEP02,ROL03,EDU06,1,1,3691,25,7,7,4,Very High,Very High,Best,Male,Married,Travel_Rarely,Below College,< 30,1,3000-5999,2,6-10,3,1-4,1
+1107,DEP02,ROL03,EDU04,1,0,2377,26,1,1,21,High,Low,Good,Male,Divorced,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,15+,4
+1108,DEP02,ROL07,EDU04,1,1,2313,33,2,5,25,Medium,Low,Better,Male,Single,Travel_Rarely,Bachelor,30-39,2,< 3000,1,0-2,1,15+,4
+1109,DEP02,ROL04,EDU04,0,0,17665,42,22,23,2,Low,Very High,Better,Male,Married,Travel_Rarely,College,40-49,3,>= 10000,4,11+,4,1-4,1
+1111,DEP02,ROL03,EDU04,1,0,2596,28,1,1,1,Medium,Low,Better,Male,Divorced,Travel_Frequently,Bachelor,< 30,1,< 3000,1,0-2,1,1-4,1
+1113,DEP03,ROL08,EDU05,1,1,4728,50,0,5,1,High,Very High,Better,Male,Single,Travel_Frequently,Master,50+,4,3000-5999,2,0-2,1,1-4,1
+1114,DEP03,ROL08,EDU02,0,0,4302,33,3,4,7,Medium,Very High,Better,Female,Married,Travel_Frequently,Bachelor,30-39,2,3000-5999,2,3-5,2,5-9,2
+1115,DEP02,ROL07,EDU02,0,0,2979,34,0,6,3,Very High,High,Better,Male,Married,Non-Travel,Master,30-39,2,< 3000,1,0-2,1,1-4,1
+1116,DEP02,ROL04,EDU04,0,0,16885,48,5,27,1,Very High,Low,Good,Male,Single,Non-Travel,Master,40-49,3,>= 10000,4,3-5,2,1-4,1
+1117,DEP03,ROL08,EDU02,0,0,5593,45,15,15,9,High,Medium,Better,Female,Married,Non-Travel,Master,40-49,3,3000-5999,2,11+,4,5-9,2
+1118,DEP02,ROL01,EDU02,0,0,10445,52,8,18,7,Medium,Medium,Better,Male,Single,Travel_Rarely,Master,50+,4,>= 10000,4,6-10,3,5-9,2
+1119,DEP03,ROL08,EDU03,0,1,8740,38,8,9,10,High,High,Better,Male,Divorced,Travel_Rarely,Master,30-39,2,6000-9999,3,6-10,3,10-14,3
+1120,DEP02,ROL07,EDU02,0,0,2514,29,7,11,28,Very High,High,Better,Female,Divorced,Travel_Rarely,Master,< 30,1,< 3000,1,6-10,3,15+,4
+1121,DEP02,ROL05,EDU04,0,0,7655,28,9,10,3,Medium,Very High,Good,Female,Divorced,Travel_Rarely,Bachelor,< 30,1,6000-9999,3,6-10,3,1-4,1
+1124,DEP03,ROL04,EDU03,0,0,17465,46,12,23,3,High,Low,Better,Male,Married,Travel_Rarely,Below College,40-49,3,>= 10000,4,11+,4,1-4,1
+1125,DEP03,ROL08,EDU03,0,0,7351,38,1,10,2,Medium,Very High,Better,Male,Single,Travel_Rarely,College,30-39,2,6000-9999,3,0-2,1,1-4,1
+1126,DEP02,ROL05,EDU02,0,0,10820,43,8,18,27,Low,High,Better,Female,Married,Travel_Frequently,Bachelor,40-49,3,>= 10000,4,6-10,3,15+,4
+1127,DEP02,ROL01,EDU02,1,0,12169,39,18,21,2,Very High,Low,Better,Male,Divorced,Travel_Frequently,Bachelor,30-39,2,>= 10000,4,11+,4,1-4,1
+1128,DEP02,ROL06,EDU04,0,0,19626,40,20,21,14,High,High,Best,Male,Single,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,10-14,3
+1131,DEP02,ROL07,EDU06,0,1,2070,21,2,2,1,Medium,Very High,Best,Female,Single,Travel_Rarely,Below College,< 30,1,< 3000,1,0-2,1,1-4,1
+1132,DEP02,ROL03,EDU02,0,0,6782,39,5,9,9,Medium,High,Good,Male,Single,Non-Travel,Bachelor,30-39,2,6000-9999,3,3-5,2,5-9,2
+1133,DEP02,ROL05,EDU02,0,0,7779,36,11,18,18,Very High,Low,Better,Male,Single,Non-Travel,Master,30-39,2,6000-9999,3,11+,4,15+,4
+1135,DEP03,ROL09,EDU02,0,0,2791,31,2,3,20,Very High,High,Better,Male,Married,Travel_Frequently,Bachelor,30-39,2,< 3000,1,0-2,1,15+,4
+1136,DEP02,ROL07,EDU02,0,0,3201,28,5,6,2,Medium,Low,Bad,Male,Married,Travel_Rarely,Below College,< 30,1,3000-5999,2,3-5,2,1-4,1
+1137,DEP03,ROL08,EDU03,0,0,4968,35,5,5,11,Very High,Very High,Better,Male,Divorced,Travel_Frequently,College,30-39,2,3000-5999,2,3-5,2,10-14,3
+1138,DEP03,ROL08,EDU06,0,0,13120,49,9,22,8,Medium,Very High,Better,Male,Married,Travel_Rarely,Master,40-49,3,>= 10000,4,6-10,3,5-9,2
+1140,DEP02,ROL05,EDU02,0,0,4033,34,3,5,2,High,Very High,Good,Male,Single,Travel_Frequently,College,30-39,2,3000-5999,2,3-5,2,1-4,1
+1143,DEP02,ROL07,EDU02,0,0,3291,29,7,8,10,Medium,Very High,Good,Female,Divorced,Travel_Frequently,Bachelor,< 30,1,3000-5999,2,6-10,3,10-14,3
+1148,DEP02,ROL03,EDU04,0,0,4272,42,1,16,29,Very High,Medium,Better,Male,Single,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,0-2,1,15+,4
+1150,DEP02,ROL05,EDU04,0,1,5056,29,10,10,8,Very High,Medium,Good,Male,Married,Travel_Rarely,Below College,< 30,1,3000-5999,2,6-10,3,5-9,2
+1152,DEP01,ROL02,EDU01,0,0,2844,38,7,7,1,High,High,Best,Male,Married,Travel_Rarely,Bachelor,30-39,2,< 3000,1,6-10,3,1-4,1
+1154,DEP02,ROL07,EDU02,0,1,2703,28,3,3,6,High,High,Better,Male,Divorced,Travel_Frequently,Bachelor,< 30,1,< 3000,1,3-5,2,5-9,2
+1156,DEP02,ROL03,EDU04,1,0,1904,18,0,0,8,High,High,Better,Male,Single,Non-Travel,Below College,< 30,1,< 3000,1,0-2,1,5-9,2
+1157,DEP03,ROL08,EDU03,1,1,8224,33,5,6,9,Low,Low,Better,Female,Single,Travel_Rarely,Master,30-39,2,6000-9999,3,3-5,2,5-9,2
+1158,DEP02,ROL03,EDU02,0,1,4766,41,1,6,12,Very High,Medium,Better,Male,Married,Travel_Rarely,Master,40-49,3,3000-5999,2,0-2,1,10-14,3
+1160,DEP02,ROL03,EDU04,1,0,2610,31,2,2,15,High,High,Good,Male,Married,Travel_Frequently,Bachelor,30-39,2,< 3000,1,0-2,1,15+,4
+1161,DEP02,ROL01,EDU04,0,0,5731,37,6,9,25,Very High,High,Better,Female,Divorced,Travel_Rarely,College,30-39,2,3000-5999,2,6-10,3,15+,4
+1162,DEP02,ROL07,EDU02,0,0,2539,27,4,4,6,High,Very High,Better,Male,Married,Travel_Rarely,Bachelor,< 30,1,< 3000,1,3-5,2,5-9,2
+1163,DEP03,ROL08,EDU02,0,0,5714,34,6,6,9,High,Medium,Good,Female,Married,Travel_Rarely,Below College,30-39,2,3000-5999,2,6-10,3,5-9,2
+1164,DEP01,ROL02,EDU06,0,0,4323,35,5,6,8,High,High,Bad,Male,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,3-5,2,5-9,2
+1165,DEP03,ROL08,EDU02,1,0,7336,29,11,11,23,Low,Very High,Bad,Female,Married,Travel_Rarely,Below College,< 30,1,6000-9999,3,11+,4,15+,4
+1166,DEP02,ROL06,EDU04,0,0,13499,40,18,20,9,High,Medium,Good,Female,Single,Travel_Frequently,Master,40-49,3,>= 10000,4,11+,4,5-9,2
+1167,DEP03,ROL08,EDU02,1,1,13758,42,21,22,12,Low,High,Good,Male,Single,Travel_Frequently,Bachelor,40-49,3,>= 10000,4,11+,4,10-14,3
+1171,DEP03,ROL08,EDU03,0,0,5155,42,6,9,4,Low,Medium,Best,Male,Single,Travel_Rarely,Master,40-49,3,3000-5999,2,6-10,3,1-4,1
+1172,DEP02,ROL03,EDU04,0,0,2258,35,8,10,1,High,Very High,Better,Male,Married,Travel_Rarely,Master,30-39,2,< 3000,1,6-10,3,1-4,1
+1173,DEP02,ROL03,EDU04,0,0,3597,24,4,6,24,Medium,Very High,Better,Male,Single,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,3-5,2,15+,4
+1175,DEP02,ROL03,EDU02,1,1,2515,28,1,1,12,Very High,High,Good,Female,Married,Travel_Rarely,Below College,< 30,1,< 3000,1,0-2,1,10-14,3
+1177,DEP02,ROL03,EDU04,0,0,4420,26,8,8,3,Very High,Low,Better,Male,Married,Travel_Rarely,Master,< 30,1,3000-5999,2,6-10,3,1-4,1
+1179,DEP03,ROL08,EDU03,0,0,6578,30,10,10,10,High,High,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,10-14,3
+1180,DEP02,ROL07,EDU04,0,1,4422,40,1,16,26,Very High,High,Bad,Female,Married,Travel_Frequently,College,40-49,3,3000-5999,2,0-2,1,15+,4
+1182,DEP02,ROL05,EDU02,0,0,10274,35,7,15,2,Medium,High,Best,Male,Divorced,Travel_Rarely,Bachelor,30-39,2,>= 10000,4,6-10,3,1-4,1
+1184,DEP02,ROL01,EDU04,0,0,5343,34,13,14,1,Low,Very High,Better,Male,Single,Travel_Frequently,Bachelor,30-39,2,3000-5999,2,11+,4,1-4,1
+1185,DEP02,ROL03,EDU05,0,0,2376,35,2,2,4,Very High,Very High,Best,Male,Married,Travel_Frequently,Master,30-39,2,< 3000,1,0-2,1,1-4,1
+1188,DEP03,ROL08,EDU03,1,0,5346,43,4,7,9,High,Low,Good,Female,Single,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,3-5,2,5-9,2
+1190,DEP03,ROL09,EDU02,0,0,2827,32,1,1,2,Low,High,Better,Female,Divorced,Non-Travel,Below College,30-39,2,< 3000,1,0-2,1,1-4,1
+1191,DEP02,ROL04,EDU06,0,0,19943,56,5,28,4,Low,Very High,Better,Female,Divorced,Travel_Rarely,Master,50+,4,>= 10000,4,3-5,2,1-4,1
+1192,DEP02,ROL03,EDU04,0,0,3131,29,10,10,6,Very High,Medium,Better,Female,Married,Travel_Rarely,Below College,< 30,1,3000-5999,2,6-10,3,5-9,2
+1193,DEP02,ROL07,EDU02,0,0,2552,19,1,1,9,Low,High,Better,Male,Single,Travel_Rarely,College,< 30,1,< 3000,1,0-2,1,5-9,2
+1195,DEP02,ROL07,EDU04,0,1,4477,45,3,7,7,High,Low,Good,Female,Married,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,3-5,2,5-9,2
+1196,DEP02,ROL05,EDU02,0,0,6474,37,14,14,1,Very High,Very High,Good,Female,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,11+,4,1-4,1
+1198,DEP02,ROL03,EDU02,0,0,3033,20,2,2,3,High,Low,Good,Male,Single,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,0-2,1,1-4,1
+1200,DEP02,ROL07,EDU02,1,1,2936,44,6,6,10,High,High,Better,Male,Single,Travel_Rarely,Master,40-49,3,< 3000,1,6-10,3,10-14,3
+1201,DEP02,ROL04,EDU04,0,0,18606,53,7,26,7,High,Very High,Better,Female,Divorced,Travel_Rarely,College,50+,4,>= 10000,4,6-10,3,5-9,2
+1202,DEP02,ROL07,EDU02,0,1,2168,29,5,6,15,Very High,Medium,Good,Female,Married,Travel_Rarely,Below College,< 30,1,< 3000,1,3-5,2,15+,4
+1203,DEP02,ROL07,EDU02,1,1,2853,22,0,1,3,Very High,High,Better,Male,Married,Travel_Frequently,Master,< 30,1,< 3000,1,0-2,1,1-4,1
+1204,DEP03,ROL04,EDU03,0,0,17048,46,26,28,2,Low,High,Better,Female,Married,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,1-4,1
+1206,DEP02,ROL07,EDU02,0,0,2290,44,0,6,17,High,Very High,Better,Male,Single,Non-Travel,Bachelor,40-49,3,< 3000,1,0-2,1,15+,4
+1207,DEP01,ROL02,EDU01,0,0,3600,33,5,5,2,High,Medium,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,1-4,1
+1210,DEP02,ROL07,EDU02,1,0,2107,41,1,5,5,Low,Low,Bad,Male,Divorced,Non-Travel,College,40-49,3,< 3000,1,0-2,1,5-9,2
+1211,DEP03,ROL08,EDU02,0,0,4115,30,4,8,29,Low,High,Better,Male,Divorced,Travel_Rarely,Master,30-39,2,3000-5999,2,3-5,2,15+,4
+1212,DEP03,ROL08,EDU04,0,0,4327,40,0,5,2,Medium,Medium,Better,Male,Married,Travel_Frequently,Master,40-49,3,3000-5999,2,0-2,1,1-4,1
+1215,DEP02,ROL04,EDU04,0,0,17856,50,2,32,2,Low,Very High,Better,Female,Married,Travel_Frequently,Bachelor,50+,4,>= 10000,4,0-2,1,1-4,1
+1216,DEP02,ROL03,EDU04,0,0,3196,28,6,6,19,Low,Very High,Better,Male,Married,Travel_Rarely,Master,< 30,1,3000-5999,2,6-10,3,15+,4
+1217,DEP02,ROL06,EDU02,0,0,19081,46,4,25,15,Medium,Very High,Better,Male,Married,Travel_Rarely,College,40-49,3,>= 10000,4,3-5,2,15+,4
+1218,DEP03,ROL08,EDU02,0,1,8966,35,7,15,17,Low,High,Better,Male,Married,Travel_Rarely,Master,30-39,2,6000-9999,3,6-10,3,15+,4
+1219,DEP02,ROL03,EDU02,1,0,2210,24,1,1,17,Medium,Very High,Bad,Female,Married,Travel_Rarely,College,< 30,1,< 3000,1,0-2,1,15+,4
+1220,DEP03,ROL08,EDU04,0,0,4539,33,10,10,25,High,Medium,Good,Female,Married,Travel_Frequently,Bachelor,30-39,2,3000-5999,2,6-10,3,15+,4
+1221,DEP02,ROL03,EDU02,0,0,2741,36,7,7,6,High,High,Better,Male,Divorced,Travel_Rarely,Master,30-39,2,< 3000,1,6-10,3,5-9,2
+1224,DEP02,ROL03,EDU02,0,0,3491,30,10,10,7,High,High,Good,Male,Divorced,Travel_Rarely,Master,30-39,2,3000-5999,2,6-10,3,5-9,2
+1225,DEP02,ROL07,EDU05,0,0,4541,44,20,20,29,Very High,Very High,Better,Male,Single,Travel_Rarely,Master,40-49,3,3000-5999,2,11+,4,15+,4
+1226,DEP03,ROL09,EDU03,0,0,2678,20,2,2,21,Very High,High,Better,Male,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,15+,4
+1228,DEP02,ROL05,EDU06,0,0,7379,46,6,12,2,Very High,Very High,Good,Male,Divorced,Travel_Rarely,Master,40-49,3,6000-9999,3,6-10,3,1-4,1
+1231,DEP01,ROL02,EDU04,0,0,6272,42,4,10,2,Low,Very High,Best,Male,Married,Non-Travel,Doctor,40-49,3,6000-9999,3,3-5,2,1-4,1
+1233,DEP03,ROL08,EDU03,0,1,5220,60,11,12,7,Very High,Medium,Better,Male,Divorced,Travel_Rarely,Master,50+,4,3000-5999,2,11+,4,5-9,2
+1234,DEP02,ROL03,EDU05,0,0,2743,32,2,2,13,Medium,High,Better,Female,Married,Travel_Frequently,Bachelor,30-39,2,< 3000,1,0-2,1,10-14,3
+1235,DEP02,ROL07,EDU02,0,1,4998,32,8,10,2,High,Very High,Better,Female,Single,Travel_Frequently,College,30-39,2,3000-5999,2,6-10,3,1-4,1
+1237,DEP02,ROL05,EDU06,0,1,10252,36,7,17,1,Low,High,Better,Female,Divorced,Travel_Rarely,Bachelor,30-39,2,>= 10000,4,6-10,3,1-4,1
+1238,DEP02,ROL07,EDU04,0,0,2781,33,14,15,9,Very High,Low,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,< 3000,1,11+,4,5-9,2
+1239,DEP03,ROL08,EDU06,0,0,6852,40,5,7,10,Medium,Medium,Best,Female,Divorced,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,3-5,2,10-14,3
+1240,DEP03,ROL08,EDU02,0,0,4950,25,4,5,10,Very High,High,Better,Male,Single,Travel_Rarely,Master,< 30,1,3000-5999,2,3-5,2,10-14,3
+1241,DEP02,ROL07,EDU04,0,1,3579,30,11,12,1,Medium,Very High,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,11+,4,1-4,1
+1242,DEP02,ROL06,EDU04,0,1,13191,42,1,20,26,Low,Low,Better,Female,Married,Travel_Frequently,Doctor,40-49,3,>= 10000,4,0-2,1,15+,4
+1243,DEP03,ROL08,EDU03,0,1,10377,35,13,16,8,Very High,High,Good,Female,Married,Non-Travel,College,30-39,2,>= 10000,4,11+,4,5-9,2
+1244,DEP02,ROL07,EDU02,0,1,2235,27,9,9,14,Low,Low,Good,Male,Married,Travel_Rarely,Bachelor,< 30,1,< 3000,1,6-10,3,10-14,3
+1245,DEP02,ROL05,EDU02,0,0,10502,54,5,33,1,High,Very High,Bad,Female,Divorced,Travel_Frequently,Master,50+,4,>= 10000,4,3-5,2,1-4,1
+1246,DEP02,ROL07,EDU02,0,0,2011,44,10,10,2,Very High,Low,Better,Female,Married,Travel_Rarely,Below College,40-49,3,< 3000,1,6-10,3,1-4,1
+1248,DEP02,ROL07,EDU04,1,1,1859,19,1,1,10,Medium,Low,Best,Female,Single,Non-Travel,Bachelor,< 30,1,< 3000,1,0-2,1,10-14,3
+1249,DEP02,ROL07,EDU02,0,0,3760,29,3,3,1,Very High,Low,Better,Female,Divorced,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,3-5,2,1-4,1
+1250,DEP02,ROL06,EDU02,0,0,17779,54,10,36,3,Very High,Very High,Better,Male,Married,Travel_Rarely,Bachelor,50+,4,>= 10000,4,6-10,3,1-4,1
+1251,DEP02,ROL01,EDU04,0,1,6833,31,6,6,11,Low,High,Good,Male,Married,Travel_Rarely,College,30-39,2,6000-9999,3,6-10,3,10-14,3
+1252,DEP02,ROL01,EDU04,0,0,6812,31,10,10,24,Low,High,Better,Female,Single,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,15+,4
+1254,DEP03,ROL08,EDU02,0,0,5171,59,6,13,3,Very High,High,Better,Female,Single,Travel_Rarely,Bachelor,50+,4,3000-5999,2,6-10,3,1-4,1
+1255,DEP02,ROL06,EDU02,0,0,19740,43,8,25,3,Very High,High,Better,Male,Married,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,6-10,3,1-4,1
+1256,DEP02,ROL04,EDU04,0,0,18711,49,1,23,4,High,Low,Best,Male,Married,Travel_Rarely,College,40-49,3,>= 10000,4,0-2,1,1-4,1
+1257,DEP02,ROL07,EDU06,0,0,3692,36,11,12,3,Medium,High,Good,Male,Married,Travel_Frequently,Bachelor,30-39,2,3000-5999,2,11+,4,1-4,1
+1258,DEP02,ROL03,EDU06,0,0,2559,48,1,7,2,Medium,Very High,Good,Male,Single,Travel_Rarely,College,40-49,3,< 3000,1,0-2,1,1-4,1
+1259,DEP02,ROL07,EDU02,0,0,2517,27,5,5,4,High,Low,Better,Male,Divorced,Travel_Rarely,College,< 30,1,< 3000,1,3-5,2,1-4,1
+1260,DEP02,ROL01,EDU02,0,1,6623,29,6,6,7,Very High,High,Better,Male,Divorced,Travel_Rarely,Bachelor,< 30,1,6000-9999,3,6-10,3,5-9,2
+1263,DEP02,ROL06,EDU02,0,0,18265,48,1,25,1,Very High,Very High,Best,Male,Single,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,0-2,1,1-4,1
+1264,DEP02,ROL06,EDU02,0,0,16124,29,7,9,1,Very High,Very High,Good,Female,Divorced,Travel_Rarely,Bachelor,< 30,1,>= 10000,4,6-10,3,1-4,1
+1265,DEP02,ROL07,EDU06,0,0,2585,34,1,2,20,High,High,Good,Female,Married,Travel_Rarely,Bachelor,30-39,2,< 3000,1,0-2,1,15+,4
+1267,DEP03,ROL04,EDU03,0,0,18213,44,22,26,5,Medium,Medium,Better,Male,Married,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,5-9,2
+1268,DEP03,ROL08,EDU03,0,1,8380,33,9,10,10,High,Very High,Better,Male,Divorced,Travel_Rarely,Doctor,30-39,2,6000-9999,3,6-10,3,10-14,3
+1269,DEP02,ROL07,EDU02,0,1,2994,19,1,1,25,Very High,Medium,Better,Female,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,15+,4
+1270,DEP02,ROL07,EDU02,0,0,1223,23,1,1,1,High,Very High,Better,Male,Married,Travel_Rarely,College,< 30,1,< 3000,1,0-2,1,1-4,1
+1273,DEP03,ROL09,EDU02,1,1,1118,25,1,1,24,Very High,High,Better,Male,Single,Travel_Frequently,Below College,< 30,1,< 3000,1,0-2,1,15+,4
+1275,DEP02,ROL07,EDU02,0,1,2875,26,8,8,4,Very High,High,Good,Male,Single,Travel_Rarely,College,< 30,1,< 3000,1,6-10,3,1-4,1
+1277,DEP03,ROL04,EDU03,1,1,18824,45,24,26,2,Medium,Low,Better,Female,Single,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,1-4,1
+1278,DEP02,ROL01,EDU04,0,1,13577,55,33,34,8,Medium,Very High,Better,Male,Divorced,Non-Travel,Below College,50+,4,>= 10000,4,11+,4,5-9,2
+1279,DEP02,ROL03,EDU02,1,0,2625,21,2,2,10,High,Low,Bad,Female,Single,Travel_Frequently,College,< 30,1,< 3000,1,0-2,1,10-14,3
+1280,DEP03,ROL04,EDU03,0,0,18789,46,11,26,4,Medium,Very High,Better,Female,Married,Travel_Rarely,College,40-49,3,>= 10000,4,11+,4,1-4,1
+1281,DEP03,ROL08,EDU03,0,1,4538,34,3,4,2,Low,High,Better,Female,Single,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,1-4,1
+1282,DEP03,ROL04,EDU02,0,1,19847,51,29,31,9,Medium,Very High,Good,Male,Divorced,Travel_Frequently,Bachelor,50+,4,>= 10000,4,11+,4,5-9,2
+1283,DEP02,ROL05,EDU04,0,0,10512,59,9,25,18,Very High,Very High,Good,Male,Single,Travel_Rarely,Master,50+,4,>= 10000,4,6-10,3,15+,4
+1285,DEP02,ROL03,EDU04,0,0,4444,34,11,15,19,Medium,High,Best,Female,Divorced,Travel_Frequently,Bachelor,30-39,2,3000-5999,2,11+,4,15+,4
+1286,DEP02,ROL03,EDU04,0,1,2154,28,4,5,1,High,Very High,Good,Male,Single,Travel_Frequently,Master,< 30,1,< 3000,1,3-5,2,1-4,1
+1288,DEP02,ROL04,EDU02,0,0,19190,44,25,26,4,Low,High,Good,Male,Divorced,Travel_Rarely,College,40-49,3,>= 10000,4,11+,4,1-4,1
+1289,DEP01,ROL02,EDU02,0,0,4490,34,10,14,11,Medium,High,Best,Male,Married,Travel_Frequently,Bachelor,30-39,2,3000-5999,2,6-10,3,10-14,3
+1291,DEP02,ROL07,EDU02,0,1,3506,35,3,4,6,High,High,Better,Male,Married,Travel_Rarely,Below College,30-39,2,3000-5999,2,3-5,2,5-9,2
+1292,DEP02,ROL07,EDU04,0,1,2372,42,1,18,7,Medium,Medium,Better,Female,Married,Travel_Rarely,Master,40-49,3,< 3000,1,0-2,1,5-9,2
+1293,DEP03,ROL08,EDU03,0,0,10231,43,21,23,4,Very High,Very High,Best,Female,Single,Travel_Rarely,Master,40-49,3,>= 10000,4,11+,4,1-4,1
+1294,DEP02,ROL05,EDU02,0,1,5410,36,16,18,2,Medium,High,Better,Female,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,11+,4,1-4,1
+1295,DEP02,ROL01,EDU04,1,0,7978,44,10,10,15,Very High,Low,Better,Female,Married,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,6-10,3,15+,4
+1296,DEP02,ROL03,EDU02,0,1,3867,28,2,2,2,Very High,Very High,Better,Male,Married,Travel_Frequently,Bachelor,< 30,1,3000-5999,2,0-2,1,1-4,1
+1297,DEP02,ROL03,EDU04,0,0,2838,51,7,8,6,High,Medium,Good,Female,Single,Travel_Frequently,College,50+,4,< 3000,1,6-10,3,5-9,2
+1298,DEP02,ROL05,EDU04,0,1,4695,30,8,10,9,High,High,Better,Female,Single,Non-Travel,College,30-39,2,3000-5999,2,6-10,3,5-9,2
+1299,DEP02,ROL03,EDU06,1,1,3339,29,7,10,7,High,Medium,Better,Female,Divorced,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,6-10,3,5-9,2
+1301,DEP02,ROL07,EDU06,0,0,2080,28,3,5,1,Low,Very High,Good,Male,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,3-5,2,1-4,1
+1303,DEP02,ROL07,EDU04,0,0,2096,25,2,2,1,Medium,Very High,Good,Female,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,1-4,1
+1304,DEP03,ROL08,EDU04,0,0,6209,32,10,10,8,Very High,High,Best,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,5-9,2
+1306,DEP02,ROL04,EDU04,0,0,18061,45,0,22,25,Medium,Medium,Better,Female,Single,Travel_Frequently,Bachelor,40-49,3,>= 10000,4,0-2,1,15+,4
+1307,DEP02,ROL04,EDU04,0,1,17123,39,19,21,13,Medium,High,Better,Female,Divorced,Travel_Rarely,Master,30-39,2,>= 10000,4,11+,4,10-14,3
+1308,DEP02,ROL07,EDU02,0,0,2372,58,2,2,23,High,Low,Better,Male,Divorced,Travel_Rarely,Master,50+,4,< 3000,1,0-2,1,15+,4
+1309,DEP02,ROL03,EDU02,1,0,4883,32,10,10,7,High,Very High,Better,Male,Married,Travel_Rarely,College,30-39,2,3000-5999,2,6-10,3,5-9,2
+1310,DEP02,ROL07,EDU04,1,0,3904,39,5,6,23,Low,High,Better,Male,Single,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,15+,4
+1311,DEP02,ROL03,EDU06,0,0,4627,30,9,10,6,Very High,Low,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,6-10,3,5-9,2
+1312,DEP02,ROL01,EDU06,0,0,7094,36,7,10,10,High,Very High,Better,Female,Married,Travel_Rarely,Master,30-39,2,6000-9999,3,6-10,3,10-14,3
+1314,DEP01,ROL02,EDU02,0,0,3423,46,7,10,1,Low,Very High,Best,Female,Single,Travel_Rarely,College,40-49,3,3000-5999,2,6-10,3,1-4,1
+1315,DEP02,ROL03,EDU02,0,0,6674,28,9,10,1,Very High,High,Better,Female,Married,Non-Travel,Bachelor,< 30,1,6000-9999,3,6-10,3,1-4,1
+1317,DEP02,ROL06,EDU02,0,1,16880,50,3,25,28,Low,Very High,Better,Female,Married,Travel_Rarely,Bachelor,50+,4,>= 10000,4,3-5,2,15+,4
+1318,DEP03,ROL08,EDU03,1,1,9094,40,5,9,25,Medium,Very High,Better,Male,Single,Travel_Rarely,Master,40-49,3,6000-9999,3,3-5,2,15+,4
+1319,DEP03,ROL08,EDU02,1,1,8446,52,8,10,5,Medium,Medium,Good,Male,Single,Travel_Rarely,Bachelor,50+,4,6000-9999,3,6-10,3,5-9,2
+1321,DEP02,ROL04,EDU04,0,1,11916,30,9,9,17,Low,Medium,Better,Female,Married,Travel_Rarely,Master,30-39,2,>= 10000,4,6-10,3,15+,4
+1322,DEP02,ROL05,EDU02,0,0,4534,39,8,9,18,High,Low,Better,Male,Single,Travel_Rarely,College,30-39,2,3000-5999,2,6-10,3,15+,4
+1324,DEP03,ROL08,EDU02,0,1,9852,31,10,10,2,High,Very High,Good,Female,Divorced,Non-Travel,Master,30-39,2,6000-9999,3,6-10,3,1-4,1
+1329,DEP03,ROL08,EDU04,0,0,6151,41,19,19,10,Medium,High,Better,Male,Single,Non-Travel,College,40-49,3,6000-9999,3,11+,4,10-14,3
+1331,DEP03,ROL09,EDU02,1,1,2302,31,3,3,1,Medium,Very High,Best,Female,Single,Travel_Frequently,Bachelor,30-39,2,< 3000,1,3-5,2,1-4,1
+1333,DEP02,ROL03,EDU02,1,0,2362,44,3,10,3,Low,Low,Best,Male,Married,Travel_Rarely,Bachelor,40-49,3,< 3000,1,3-5,2,1-4,1
+1334,DEP02,ROL04,EDU02,0,1,17861,42,20,21,2,High,High,Good,Male,Married,Non-Travel,Below College,40-49,3,>= 10000,4,11+,4,1-4,1
+1336,DEP02,ROL04,EDU04,0,0,19187,55,19,23,2,High,Very High,Better,Female,Married,Travel_Rarely,College,50+,4,>= 10000,4,11+,4,1-4,1
+1338,DEP01,ROL04,EDU02,0,0,19717,56,7,36,8,Medium,Very High,Better,Male,Single,Travel_Rarely,Master,50+,4,>= 10000,4,6-10,3,5-9,2
+1340,DEP02,ROL07,EDU02,0,0,3544,40,4,6,16,High,High,Better,Male,Divorced,Non-Travel,College,40-49,3,3000-5999,2,3-5,2,15+,4
+1344,DEP02,ROL01,EDU02,0,0,8500,34,9,10,9,Very High,Very High,Good,Male,Divorced,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,5-9,2
+1346,DEP02,ROL07,EDU02,0,0,4661,40,9,9,2,Very High,High,Better,Male,Single,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,6-10,3,1-4,1
+1349,DEP03,ROL08,EDU03,0,0,4103,41,9,10,1,Low,High,Better,Female,Divorced,Travel_Frequently,Bachelor,40-49,3,3000-5999,2,6-10,3,1-4,1
+1350,DEP02,ROL07,EDU02,0,1,4249,35,9,9,4,High,High,Better,Male,Single,Travel_Frequently,Master,30-39,2,3000-5999,2,6-10,3,1-4,1
+1352,DEP01,ROL04,EDU02,0,1,14026,51,33,33,5,Medium,High,Better,Male,Divorced,Travel_Rarely,Bachelor,50+,4,>= 10000,4,11+,4,5-9,2
+1355,DEP03,ROL08,EDU02,0,0,6893,38,7,11,2,Low,Medium,Better,Female,Divorced,Travel_Rarely,College,30-39,2,6000-9999,3,6-10,3,1-4,1
+1356,DEP03,ROL08,EDU04,0,0,6125,34,10,10,15,Low,High,Best,Female,Single,Travel_Rarely,College,30-39,2,6000-9999,3,6-10,3,15+,4
+1358,DEP02,ROL03,EDU04,0,0,3669,25,3,7,19,Very High,Very High,Good,Male,Married,Travel_Rarely,Below College,< 30,1,3000-5999,2,3-5,2,15+,4
+1360,DEP02,ROL05,EDU04,1,1,10008,58,10,31,7,Low,High,Good,Female,Married,Travel_Rarely,Master,50+,4,>= 10000,4,6-10,3,5-9,2
+1361,DEP02,ROL03,EDU02,0,0,2387,40,4,7,1,Medium,Medium,Better,Male,Married,Travel_Rarely,Master,40-49,3,< 3000,1,3-5,2,1-4,1
+1362,DEP03,ROL08,EDU03,0,0,4639,36,15,17,7,Low,Low,Good,Female,Married,Travel_Frequently,Bachelor,30-39,2,3000-5999,2,11+,4,5-9,2
+1363,DEP02,ROL05,EDU02,0,0,7898,48,10,11,4,Very High,Very High,Better,Male,Single,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,6-10,3,1-4,1
+1364,DEP03,ROL09,EDU04,0,0,2534,27,1,5,11,Very High,High,Better,Female,Married,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,10-14,3
+1367,DEP02,ROL05,EDU06,0,0,13142,51,5,29,11,Medium,Very High,Good,Female,Single,Travel_Rarely,College,50+,4,>= 10000,4,3-5,2,10-14,3
+1368,DEP02,ROL03,EDU02,0,0,1611,18,0,0,1,Very High,Very High,Best,Female,Single,Non-Travel,Bachelor,< 30,1,< 3000,1,0-2,1,1-4,1
+1369,DEP02,ROL03,EDU04,0,0,5363,35,9,10,1,Very High,Very High,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,6-10,3,1-4,1
+1371,DEP03,ROL08,EDU02,0,0,5071,27,6,8,2,Very High,Very High,Better,Male,Single,Travel_Frequently,Below College,< 30,1,3000-5999,2,6-10,3,1-4,1
+1372,DEP03,ROL08,EDU03,1,1,13695,55,19,24,13,High,Low,Good,Male,Single,Travel_Rarely,Master,50+,4,>= 10000,4,11+,4,10-14,3
+1373,DEP02,ROL05,EDU02,0,1,13402,56,19,33,23,Medium,Very High,Better,Male,Married,Travel_Rarely,Bachelor,50+,4,>= 10000,4,11+,4,15+,4
+1374,DEP02,ROL07,EDU06,0,0,2029,34,5,5,26,High,Low,Better,Female,Divorced,Non-Travel,Below College,30-39,2,< 3000,1,3-5,2,15+,4
+1375,DEP02,ROL01,EDU04,0,0,6377,40,12,15,2,High,Medium,Better,Female,Divorced,Travel_Rarely,Below College,40-49,3,6000-9999,3,11+,4,1-4,1
+1377,DEP02,ROL03,EDU04,0,0,5429,34,8,10,29,High,Medium,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,6-10,3,15+,4
+1379,DEP03,ROL09,EDU02,1,0,2785,31,1,3,2,Very High,High,Best,Female,Single,Travel_Frequently,Bachelor,30-39,2,< 3000,1,0-2,1,1-4,1
+1380,DEP03,ROL08,EDU03,1,1,4614,35,4,5,18,High,Very High,Good,Female,Married,Travel_Frequently,Master,30-39,2,3000-5999,2,3-5,2,15+,4
+1382,DEP02,ROL07,EDU02,0,0,2610,38,4,4,7,High,Very High,Better,Male,Divorced,Travel_Frequently,Bachelor,30-39,2,< 3000,1,3-5,2,5-9,2
+1383,DEP02,ROL01,EDU06,0,0,6687,34,14,14,2,Very High,High,Best,Female,Single,Travel_Rarely,Master,30-39,2,6000-9999,3,11+,4,1-4,1
+1387,DEP03,ROL08,EDU02,0,0,4724,28,5,5,26,Low,High,Better,Male,Married,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,3-5,2,15+,4
+1389,DEP02,ROL05,EDU04,1,1,6179,31,10,10,22,High,Very High,Good,Male,Married,Travel_Rarely,Master,30-39,2,6000-9999,3,6-10,3,15+,4
+1390,DEP03,ROL08,EDU02,0,1,6120,39,5,8,21,Very High,Low,Best,Male,Married,Travel_Rarely,Master,30-39,2,6000-9999,3,3-5,2,15+,4
+1391,DEP03,ROL08,EDU03,0,0,10596,51,4,14,2,Medium,Medium,Better,Male,Married,Travel_Frequently,Bachelor,50+,4,>= 10000,4,3-5,2,1-4,1
+1392,DEP02,ROL07,EDU02,0,1,5467,41,6,12,22,Very High,Very High,Good,Female,Divorced,Travel_Frequently,Bachelor,40-49,3,3000-5999,2,6-10,3,15+,4
+1394,DEP02,ROL07,EDU02,0,1,2996,37,6,8,4,High,High,Better,Male,Married,Travel_Rarely,Below College,30-39,2,< 3000,1,6-10,3,1-4,1
+1395,DEP03,ROL08,EDU02,0,0,9998,33,5,8,5,Very High,Medium,Best,Male,Married,Travel_Frequently,Below College,30-39,2,6000-9999,3,3-5,2,5-9,2
+1396,DEP03,ROL08,EDU03,0,1,4078,32,3,4,2,Medium,High,Good,Male,Married,Travel_Rarely,Below College,30-39,2,3000-5999,2,3-5,2,1-4,1
+1397,DEP02,ROL01,EDU02,0,0,10920,39,6,13,25,High,High,Better,Male,Married,Non-Travel,College,30-39,2,>= 10000,4,6-10,3,15+,4
+1399,DEP03,ROL08,EDU02,0,0,6232,25,3,6,18,High,Low,Good,Male,Married,Travel_Rarely,Below College,< 30,1,6000-9999,3,3-5,2,15+,4
+1401,DEP02,ROL05,EDU04,0,1,13247,52,5,24,28,High,Very High,Good,Female,Married,Travel_Frequently,College,50+,4,>= 10000,4,3-5,2,15+,4
+1402,DEP02,ROL07,EDU04,0,1,4081,43,20,20,6,High,Low,Bad,Female,Single,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,11+,4,5-9,2
+1403,DEP03,ROL08,EDU03,0,1,5769,27,6,6,10,Very High,Very High,Better,Female,Married,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,6-10,3,10-14,3
+1405,DEP02,ROL07,EDU02,1,1,2394,27,8,8,17,High,Very High,Better,Female,Single,Travel_Rarely,Master,< 30,1,< 3000,1,6-10,3,15+,4
+1407,DEP02,ROL07,EDU04,0,0,3904,26,4,5,2,Very High,Low,Better,Male,Single,Travel_Rarely,Below College,< 30,1,3000-5999,2,3-5,2,1-4,1
+1408,DEP01,ROL04,EDU01,0,0,16799,42,20,21,10,Low,High,Better,Female,Married,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,10-14,3
+1409,DEP02,ROL03,EDU05,0,0,2950,52,5,12,8,Low,High,Bad,Female,Married,Travel_Rarely,Master,50+,4,< 3000,1,3-5,2,5-9,2
+1411,DEP02,ROL03,EDU04,0,0,3629,37,3,8,11,High,Low,Better,Female,Single,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,10-14,3
+1412,DEP02,ROL05,EDU02,0,0,9362,35,2,10,18,Very High,High,Better,Male,Single,Travel_Frequently,College,30-39,2,6000-9999,3,0-2,1,15+,4
+1415,DEP02,ROL03,EDU06,0,0,3229,25,3,7,1,Very High,Low,Good,Male,Married,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,3-5,2,1-4,1
+1417,DEP02,ROL03,EDU05,0,0,3578,26,7,8,7,Low,High,Better,Male,Single,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,6-10,3,5-9,2
+1419,DEP01,ROL02,EDU05,0,0,7988,29,10,10,17,Low,Medium,Good,Male,Single,Travel_Rarely,Bachelor,< 30,1,6000-9999,3,6-10,3,15+,4
+1420,DEP02,ROL03,EDU02,1,0,4284,49,4,20,28,Low,Low,Better,Male,Single,Travel_Frequently,College,40-49,3,3000-5999,2,3-5,2,15+,4
+1421,DEP02,ROL01,EDU05,1,1,7553,29,8,9,14,Very High,High,Better,Female,Single,Travel_Frequently,Below College,< 30,1,6000-9999,3,6-10,3,10-14,3
+1422,DEP02,ROL06,EDU04,0,0,17328,54,20,29,1,Very High,Very High,Good,Female,Single,Travel_Rarely,Bachelor,50+,4,>= 10000,4,11+,4,1-4,1
+1423,DEP02,ROL06,EDU04,0,1,19701,58,9,32,1,Low,Very High,Better,Female,Married,Travel_Rarely,Bachelor,50+,4,>= 10000,4,6-10,3,1-4,1
+1424,DEP02,ROL06,EDU04,0,0,14732,55,7,31,1,Very High,Medium,Best,Male,Divorced,Travel_Rarely,Master,50+,4,>= 10000,4,6-10,3,1-4,1
+1425,DEP03,ROL08,EDU03,0,1,9278,36,5,15,3,Medium,Low,Better,Female,Single,Travel_Rarely,Master,30-39,2,6000-9999,3,3-5,2,1-4,1
+1427,DEP03,ROL09,EDU02,1,0,1359,31,1,1,1,High,Medium,Better,Female,Single,Travel_Frequently,Master,30-39,2,< 3000,1,0-2,1,1-4,1
+1428,DEP03,ROL08,EDU03,0,0,4779,30,3,8,7,Low,Very High,Better,Female,Divorced,Travel_Rarely,Master,30-39,2,3000-5999,2,3-5,2,5-9,2
+1430,DEP02,ROL06,EDU02,0,0,16422,31,3,9,8,Medium,Low,Best,Female,Single,Travel_Rarely,Doctor,30-39,2,>= 10000,4,3-5,2,5-9,2
+1431,DEP02,ROL07,EDU05,0,0,2996,34,4,10,1,Low,Very High,Better,Male,Divorced,Travel_Frequently,Master,30-39,2,< 3000,1,3-5,2,1-4,1
+1433,DEP02,ROL07,EDU02,1,0,1261,31,1,1,8,Medium,Low,Best,Female,Single,Travel_Rarely,Bachelor,30-39,2,< 3000,1,0-2,1,5-9,2
+1434,DEP02,ROL03,EDU02,0,0,2099,27,5,6,11,Low,Medium,Best,Male,Married,Travel_Rarely,Below College,< 30,1,< 3000,1,3-5,2,10-14,3
+1435,DEP02,ROL03,EDU02,0,0,5810,36,10,10,4,Very High,Low,Good,Male,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,6-10,3,1-4,1
+1436,DEP03,ROL08,EDU03,0,0,5647,36,3,11,16,Low,High,Good,Female,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,3-5,2,15+,4
+1438,DEP02,ROL07,EDU06,0,0,3420,47,6,17,1,Very High,Low,Good,Male,Married,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,6-10,3,1-4,1
+1439,DEP03,ROL09,EDU02,1,0,4400,25,3,6,9,Low,Low,Better,Male,Married,Travel_Rarely,College,< 30,1,3000-5999,2,3-5,2,5-9,2
+1440,DEP02,ROL03,EDU06,0,0,3500,37,6,7,5,High,High,Bad,Male,Single,Non-Travel,College,30-39,2,3000-5999,2,6-10,3,5-9,2
+1441,DEP02,ROL07,EDU02,0,0,2066,56,3,5,1,Low,Low,Best,Female,Married,Travel_Rarely,College,50+,4,< 3000,1,3-5,2,1-4,1
+1443,DEP02,ROL06,EDU04,0,0,17169,47,20,26,2,High,Low,Best,Female,Married,Travel_Rarely,Master,40-49,3,>= 10000,4,11+,4,1-4,1
+1445,DEP03,ROL08,EDU04,0,1,4162,24,5,5,4,High,Very High,Better,Female,Married,Travel_Rarely,Below College,< 30,1,3000-5999,2,3-5,2,1-4,1
+1446,DEP03,ROL08,EDU03,0,0,9204,32,4,7,7,Very High,Very High,Good,Male,Married,Travel_Rarely,Doctor,30-39,2,6000-9999,3,3-5,2,5-9,2
+1447,DEP02,ROL03,EDU02,0,0,3294,34,5,7,1,Medium,Very High,Good,Female,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,1-4,1
+1448,DEP02,ROL07,EDU04,0,1,2127,41,4,7,5,High,Medium,Good,Male,Married,Travel_Rarely,Doctor,40-49,3,< 3000,1,3-5,2,5-9,2
+1449,DEP02,ROL03,EDU05,0,0,3975,40,8,11,9,High,High,Best,Male,Divorced,Non-Travel,Master,40-49,3,3000-5999,2,6-10,3,5-9,2
+1453,DEP03,ROL08,EDU02,0,0,10793,31,13,13,8,Very High,Low,Better,Male,Divorced,Travel_Rarely,College,30-39,2,>= 10000,4,11+,4,5-9,2
+1457,DEP03,ROL08,EDU03,1,0,10096,46,7,28,9,Very High,Low,Best,Male,Divorced,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,6-10,3,5-9,2
+1458,DEP02,ROL03,EDU02,1,1,3646,39,1,11,2,Low,Low,Best,Female,Single,Non-Travel,Bachelor,30-39,2,3000-5999,2,0-2,1,1-4,1
+1459,DEP02,ROL05,EDU02,1,0,7446,31,10,10,1,Medium,High,Better,Female,Single,Travel_Frequently,Doctor,30-39,2,6000-9999,3,6-10,3,1-4,1
+1460,DEP02,ROL01,EDU04,0,1,10851,45,7,24,20,Low,Medium,Better,Male,Divorced,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,6-10,3,15+,4
+1461,DEP01,ROL02,EDU04,0,0,2109,31,3,8,8,Medium,Very High,Better,Female,Single,Travel_Rarely,College,30-39,2,< 3000,1,3-5,2,5-9,2
+1464,DEP02,ROL03,EDU02,1,1,3722,31,2,7,2,Very High,Medium,Bad,Male,Married,Travel_Frequently,Bachelor,30-39,2,3000-5999,2,0-2,1,1-4,1
+1465,DEP02,ROL05,EDU06,0,1,9380,45,3,10,29,Very High,Medium,Best,Male,Married,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,3-5,2,15+,4
+1466,DEP03,ROL08,EDU03,0,0,5486,48,2,15,7,Low,High,Better,Male,Divorced,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,0-2,1,5-9,2
+1467,DEP01,ROL02,EDU06,1,0,2742,34,2,2,9,High,Low,Better,Female,Married,Travel_Rarely,Master,30-39,2,< 3000,1,0-2,1,5-9,2
+1468,DEP02,ROL06,EDU04,0,0,13757,40,9,16,8,Medium,Very High,Better,Male,Divorced,Non-Travel,Below College,40-49,3,>= 10000,4,6-10,3,5-9,2
+1469,DEP03,ROL08,EDU04,0,0,8463,28,5,6,5,Low,Very High,Better,Male,Single,Travel_Rarely,Bachelor,< 30,1,6000-9999,3,3-5,2,5-9,2
+1471,DEP02,ROL03,EDU02,0,0,3162,44,5,7,5,High,High,Better,Male,Single,Non-Travel,Bachelor,40-49,3,3000-5999,2,3-5,2,5-9,2
+1472,DEP02,ROL06,EDU04,0,0,16598,53,9,35,2,Medium,Very High,Good,Male,Single,Travel_Rarely,Bachelor,50+,4,>= 10000,4,6-10,3,1-4,1
+1473,DEP02,ROL01,EDU06,0,0,6651,49,3,20,5,High,Low,Good,Male,Married,Travel_Rarely,Master,40-49,3,6000-9999,3,3-5,2,5-9,2
+1474,DEP02,ROL07,EDU04,0,0,2345,40,3,8,2,High,High,Best,Male,Divorced,Travel_Rarely,Bachelor,40-49,3,< 3000,1,3-5,2,1-4,1
+1475,DEP02,ROL07,EDU02,0,0,3420,44,5,6,20,Medium,Very High,Good,Male,Single,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,3-5,2,15+,4
+1477,DEP03,ROL08,EDU04,0,0,4373,33,4,5,7,Low,Very High,Better,Male,Married,Travel_Frequently,Bachelor,30-39,2,3000-5999,2,3-5,2,5-9,2
+1478,DEP03,ROL08,EDU05,0,0,4759,34,13,15,3,Low,Very High,Better,Male,Single,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,11+,4,1-4,1
+1479,DEP03,ROL08,EDU02,0,0,5301,30,2,4,16,High,Very High,Good,Male,Married,Travel_Rarely,Below College,30-39,2,3000-5999,2,0-2,1,15+,4
+1480,DEP02,ROL03,EDU04,0,0,3673,42,12,12,9,Very High,Low,Better,Female,Single,Travel_Frequently,College,40-49,3,3000-5999,2,11+,4,5-9,2
+1481,DEP03,ROL08,EDU03,0,0,4768,44,1,11,1,High,Low,Good,Female,Married,Travel_Frequently,Doctor,40-49,3,3000-5999,2,0-2,1,1-4,1
+1482,DEP02,ROL07,EDU06,0,0,1274,30,1,1,7,High,High,Good,Male,Divorced,Non-Travel,Bachelor,30-39,2,< 3000,1,0-2,1,5-9,2
+1483,DEP02,ROL07,EDU02,0,0,4900,57,12,13,1,High,Medium,Good,Male,Married,Travel_Rarely,College,50+,4,3000-5999,2,11+,4,1-4,1
+1484,DEP02,ROL01,EDU02,0,0,10466,49,8,29,7,Medium,High,Better,Male,Divorced,Travel_Rarely,Master,40-49,3,>= 10000,4,6-10,3,5-9,2
+1485,DEP02,ROL06,EDU04,0,0,17007,34,14,16,15,Low,Medium,Good,Male,Divorced,Travel_Frequently,Bachelor,30-39,2,>= 10000,4,11+,4,15+,4
+1486,DEP03,ROL09,EDU06,1,0,2909,28,3,5,1,High,Low,Best,Male,Married,Travel_Frequently,Bachelor,< 30,1,< 3000,1,3-5,2,1-4,1
+1487,DEP03,ROL08,EDU06,1,0,5765,29,5,7,13,Medium,Low,Bad,Female,Single,Travel_Frequently,Bachelor,< 30,1,3000-5999,2,3-5,2,10-14,3
+1489,DEP03,ROL08,EDU04,1,1,4599,34,15,16,24,Medium,Low,Best,Female,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,11+,4,15+,4
+1492,DEP03,ROL09,EDU02,0,0,2404,35,1,1,7,High,Very High,Better,Male,Married,Travel_Rarely,Below College,30-39,2,< 3000,1,0-2,1,5-9,2
+1494,DEP02,ROL03,EDU04,1,1,3172,24,0,4,9,Low,Medium,Good,Male,Single,Travel_Frequently,Bachelor,< 30,1,3000-5999,2,0-2,1,5-9,2
+1495,DEP03,ROL09,EDU02,0,0,2033,24,1,1,13,Medium,Very High,Better,Female,Married,Non-Travel,College,< 30,1,< 3000,1,0-2,1,10-14,3
+1496,DEP02,ROL05,EDU04,0,1,10209,44,2,16,2,High,Medium,Good,Male,Single,Travel_Frequently,Below College,40-49,3,>= 10000,4,0-2,1,1-4,1
+1497,DEP03,ROL08,EDU02,0,0,8620,29,10,10,19,High,High,Better,Male,Divorced,Travel_Rarely,Bachelor,< 30,1,6000-9999,3,6-10,3,15+,4
+1499,DEP01,ROL02,EDU02,0,0,2064,30,5,6,1,High,High,Best,Male,Divorced,Travel_Rarely,Bachelor,30-39,2,< 3000,1,3-5,2,1-4,1
+1501,DEP02,ROL01,EDU02,0,1,4035,55,3,4,4,High,Very High,Better,Male,Married,Travel_Rarely,Master,50+,4,3000-5999,2,3-5,2,1-4,1
+1502,DEP02,ROL03,EDU04,0,0,3838,33,5,8,4,Medium,Low,Better,Female,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,3-5,2,1-4,1
+1503,DEP03,ROL08,EDU04,0,1,4591,47,5,11,14,High,High,Good,Female,Married,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,3-5,2,10-14,3
+1504,DEP02,ROL03,EDU04,1,0,2561,28,0,8,2,Low,High,Good,Male,Single,Travel_Frequently,College,< 30,1,< 3000,1,0-2,1,1-4,1
+1506,DEP02,ROL07,EDU02,0,0,1563,28,1,1,1,High,Low,Bad,Male,Divorced,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,1-4,1
+1507,DEP03,ROL08,EDU02,0,0,4898,28,4,5,7,Low,High,Better,Male,Single,Travel_Frequently,Bachelor,< 30,1,3000-5999,2,3-5,2,5-9,2
+1509,DEP02,ROL03,EDU04,0,0,4789,49,3,10,3,Low,High,Better,Female,Married,Travel_Rarely,College,40-49,3,3000-5999,2,3-5,2,1-4,1
+1513,DEP02,ROL03,EDU02,0,0,3180,29,3,4,2,Medium,Very High,Better,Female,Married,Travel_Frequently,Below College,< 30,1,3000-5999,2,3-5,2,1-4,1
+1514,DEP02,ROL05,EDU02,0,0,6549,28,8,8,29,Medium,High,Good,Male,Married,Travel_Rarely,Below College,< 30,1,6000-9999,3,6-10,3,15+,4
+1515,DEP02,ROL01,EDU02,0,1,6388,33,0,14,8,High,Very High,Better,Male,Single,Travel_Rarely,Doctor,30-39,2,6000-9999,3,0-2,1,5-9,2
+1516,DEP02,ROL04,EDU04,0,0,11244,32,5,10,10,Very High,High,Best,Male,Single,Travel_Rarely,Bachelor,30-39,2,>= 10000,4,3-5,2,10-14,3
+1520,DEP02,ROL04,EDU04,0,0,16032,54,14,26,11,Very High,Medium,Better,Female,Divorced,Travel_Frequently,Master,50+,4,>= 10000,4,11+,4,10-14,3
+1522,DEP02,ROL07,EDU06,1,0,2362,29,9,11,1,Low,Low,Bad,Male,Single,Travel_Rarely,Master,< 30,1,< 3000,1,6-10,3,1-4,1
+1523,DEP02,ROL06,EDU02,0,0,16328,44,20,24,28,Low,Very High,Best,Male,Married,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,15+,4
+1525,DEP02,ROL05,EDU02,0,0,8376,39,2,9,6,Medium,Medium,Better,Female,Single,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,0-2,1,5-9,2
+1527,DEP03,ROL04,EDU02,0,0,16606,46,13,23,3,Medium,High,Best,Female,Married,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,1-4,1
+1529,DEP02,ROL01,EDU02,0,0,8606,35,11,11,16,Medium,Very High,Bad,Female,Single,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,11+,4,15+,4
+1533,DEP02,ROL03,EDU02,0,0,2272,23,4,5,20,High,Low,Better,Male,Single,Travel_Rarely,Below College,< 30,1,< 3000,1,3-5,2,15+,4
+1534,DEP02,ROL03,EDU02,1,0,2018,40,5,15,9,Low,Very High,Bad,Male,Single,Travel_Rarely,Master,40-49,3,< 3000,1,3-5,2,5-9,2
+1535,DEP03,ROL08,EDU06,0,1,7083,34,10,10,1,High,Very High,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,1-4,1
+1537,DEP02,ROL07,EDU02,1,0,4084,31,7,7,3,High,Very High,Bad,Female,Single,Travel_Frequently,Bachelor,30-39,2,3000-5999,2,6-10,3,1-4,1
+1539,DEP02,ROL06,EDU04,0,1,14411,50,32,32,22,Very High,High,Better,Male,Single,Travel_Frequently,Doctor,50+,4,>= 10000,4,11+,4,15+,4
+1541,DEP03,ROL09,EDU06,0,1,2308,34,11,12,7,High,Medium,Better,Male,Married,Travel_Rarely,College,30-39,2,< 3000,1,11+,4,5-9,2
+1542,DEP02,ROL03,EDU04,0,0,4841,42,1,4,2,Medium,High,Better,Male,Married,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,0-2,1,1-4,1
+1543,DEP02,ROL07,EDU04,0,0,4285,37,10,10,13,Very High,Low,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,6-10,3,10-14,3
+1544,DEP02,ROL01,EDU05,0,0,9715,29,7,9,8,Low,High,Better,Female,Married,Travel_Rarely,Below College,< 30,1,6000-9999,3,6-10,3,5-9,2
+1545,DEP02,ROL05,EDU02,0,0,4320,33,5,5,25,Medium,Very High,Better,Male,Single,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,15+,4
+1546,DEP02,ROL07,EDU06,0,0,2132,45,5,8,28,Very High,Very High,Better,Male,Married,Travel_Rarely,Bachelor,40-49,3,< 3000,1,3-5,2,15+,4
+1547,DEP02,ROL01,EDU02,0,1,10124,42,20,24,2,Very High,Very High,Bad,Male,Married,Travel_Frequently,Bachelor,40-49,3,>= 10000,4,11+,4,1-4,1
+1548,DEP03,ROL08,EDU04,0,0,5473,40,8,9,9,Low,Low,Best,Male,Married,Travel_Rarely,College,40-49,3,3000-5999,2,6-10,3,5-9,2
+1549,DEP02,ROL03,EDU02,0,1,5207,33,15,15,28,High,Medium,Better,Male,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,11+,4,15+,4
+1550,DEP01,ROL04,EDU04,0,1,16437,40,21,21,6,Very High,High,Better,Male,Single,Travel_Rarely,College,40-49,3,>= 10000,4,11+,4,5-9,2
+1551,DEP02,ROL03,EDU06,0,0,2296,24,1,2,21,Low,High,Better,Male,Divorced,Travel_Rarely,College,< 30,1,< 3000,1,0-2,1,15+,4
+1552,DEP02,ROL01,EDU02,0,1,4069,40,2,8,8,Very High,Very High,Better,Male,Divorced,Non-Travel,College,40-49,3,3000-5999,2,0-2,1,5-9,2
+1553,DEP02,ROL01,EDU06,0,0,7441,45,10,10,1,Medium,Low,Better,Male,Divorced,Travel_Rarely,Master,40-49,3,6000-9999,3,6-10,3,1-4,1
+1554,DEP03,ROL09,EDU02,0,0,2430,35,5,6,28,High,Medium,Better,Female,Married,Travel_Rarely,Master,30-39,2,< 3000,1,3-5,2,15+,4
+1555,DEP02,ROL07,EDU02,0,0,5878,32,7,12,5,Medium,Very High,Better,Female,Married,Travel_Rarely,College,30-39,2,3000-5999,2,6-10,3,5-9,2
+1556,DEP03,ROL09,EDU02,0,1,2644,36,3,7,2,Very High,High,Good,Male,Single,Travel_Rarely,Master,30-39,2,< 3000,1,3-5,2,1-4,1
+1557,DEP03,ROL08,EDU02,0,0,6439,48,8,18,16,High,High,Better,Female,Divorced,Travel_Rarely,Master,40-49,3,6000-9999,3,6-10,3,15+,4
+1558,DEP02,ROL07,EDU02,0,0,2451,29,1,5,9,High,High,Good,Male,Married,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,5-9,2
+1560,DEP03,ROL08,EDU02,0,0,6392,33,2,8,8,Low,Low,Bad,Male,Married,Travel_Rarely,Master,30-39,2,6000-9999,3,0-2,1,5-9,2
+1562,DEP03,ROL08,EDU02,1,0,9714,30,10,10,1,Low,Medium,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,1-4,1
+1563,DEP01,ROL02,EDU01,0,0,6077,38,6,10,10,High,High,Better,Male,Married,Travel_Frequently,Master,30-39,2,6000-9999,3,6-10,3,10-14,3
+1564,DEP02,ROL03,EDU04,0,0,2450,35,3,3,1,Low,Very High,Better,Male,Single,Travel_Rarely,Bachelor,30-39,2,< 3000,1,3-5,2,1-4,1
+1568,DEP03,ROL08,EDU06,0,0,9250,30,4,9,29,Medium,High,Better,Male,Married,Travel_Rarely,Master,30-39,2,6000-9999,3,3-5,2,15+,4
+1569,DEP02,ROL03,EDU02,1,1,2074,35,1,1,2,Low,Low,Better,Female,Divorced,Travel_Rarely,Bachelor,30-39,2,< 3000,1,0-2,1,1-4,1
+1572,DEP02,ROL05,EDU06,1,0,10169,53,33,34,2,Very High,High,Better,Female,Married,Travel_Rarely,Doctor,50+,4,>= 10000,4,11+,4,1-4,1
+1573,DEP02,ROL05,EDU04,1,0,4855,38,5,7,2,Medium,High,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,1-4,1
+1574,DEP02,ROL07,EDU06,0,0,4087,32,6,9,1,Low,Very High,Good,Male,Married,Non-Travel,Master,30-39,2,3000-5999,2,6-10,3,1-4,1
+1576,DEP02,ROL07,EDU05,0,0,2367,48,8,10,15,Low,High,Good,Female,Married,Travel_Rarely,Master,40-49,3,< 3000,1,6-10,3,15+,4
+1577,DEP02,ROL07,EDU04,0,0,2972,34,1,1,7,Very High,Low,Bad,Male,Single,Travel_Rarely,Master,30-39,2,< 3000,1,0-2,1,5-9,2
+1578,DEP03,ROL04,EDU03,0,0,19586,55,36,36,26,Very High,High,Better,Male,Married,Travel_Rarely,Doctor,50+,4,>= 10000,4,11+,4,15+,4
+1580,DEP02,ROL07,EDU02,0,0,5484,34,2,9,1,Very High,Medium,Good,Male,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,0-2,1,1-4,1
+1581,DEP02,ROL07,EDU02,0,0,2061,26,1,1,3,Very High,Low,Better,Female,Married,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,1-4,1
+1582,DEP03,ROL08,EDU02,0,0,9924,38,9,10,14,Medium,High,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,10-14,3
+1583,DEP03,ROL08,EDU02,0,0,4198,38,3,8,16,Medium,Medium,Best,Female,Single,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,15+,4
+1585,DEP03,ROL08,EDU02,0,0,6815,36,1,15,1,High,Medium,Better,Female,Single,Travel_Rarely,Master,30-39,2,6000-9999,3,0-2,1,1-4,1
+1586,DEP02,ROL03,EDU04,0,1,4723,29,10,10,3,Low,Medium,Better,Male,Single,Travel_Rarely,Below College,< 30,1,3000-5999,2,6-10,3,1-4,1
+1587,DEP02,ROL01,EDU04,0,1,6142,35,5,10,10,High,Low,Better,Female,Single,Travel_Rarely,Master,30-39,2,6000-9999,3,3-5,2,10-14,3
+1588,DEP03,ROL08,EDU04,0,0,8237,39,7,11,6,High,Very High,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,5-9,2
+1590,DEP02,ROL01,EDU02,0,0,8853,29,6,6,2,Very High,Low,Best,Male,Divorced,Travel_Frequently,Below College,< 30,1,6000-9999,3,6-10,3,1-4,1
+1591,DEP03,ROL04,EDU03,0,1,19331,50,1,27,9,High,High,Better,Male,Married,Travel_Rarely,Bachelor,50+,4,>= 10000,4,0-2,1,5-9,2
+1592,DEP02,ROL07,EDU06,0,0,2073,23,2,4,10,High,Very High,Better,Male,Married,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,10-14,3
+1594,DEP02,ROL03,EDU02,0,1,5562,36,3,9,6,Low,Low,Better,Male,Married,Travel_Frequently,Master,30-39,2,3000-5999,2,3-5,2,5-9,2
+1595,DEP02,ROL04,EDU05,0,0,19613,42,1,24,9,Very High,Very High,Better,Male,Single,Travel_Rarely,College,40-49,3,>= 10000,4,0-2,1,5-9,2
+1596,DEP02,ROL03,EDU02,0,0,3407,35,10,10,28,High,Medium,Good,Male,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,6-10,3,15+,4
+1597,DEP02,ROL01,EDU06,0,0,5063,34,8,8,10,High,Very High,Good,Male,Married,Travel_Frequently,Master,30-39,2,3000-5999,2,6-10,3,10-14,3
+1598,DEP03,ROL08,EDU02,0,0,4639,40,5,5,14,Low,Very High,Better,Female,Married,Travel_Rarely,College,40-49,3,3000-5999,2,3-5,2,10-14,3
+1599,DEP02,ROL03,EDU06,0,0,4876,43,6,8,27,Medium,Very High,Better,Male,Divorced,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,6-10,3,15+,4
+1601,DEP02,ROL03,EDU02,0,0,2690,35,1,1,7,Very High,High,Good,Male,Married,Travel_Rarely,College,30-39,2,< 3000,1,0-2,1,5-9,2
+1602,DEP03,ROL04,EDU02,0,0,17567,46,26,27,1,Low,Very High,Bad,Male,Single,Travel_Rarely,Master,40-49,3,>= 10000,4,11+,4,1-4,1
+1604,DEP02,ROL03,EDU04,1,1,2408,28,1,1,24,Medium,High,Better,Male,Married,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,15+,4
+1605,DEP02,ROL07,EDU05,0,1,2814,22,4,4,26,High,Medium,Good,Female,Married,Non-Travel,College,< 30,1,< 3000,1,3-5,2,15+,4
+1606,DEP02,ROL01,EDU04,0,1,11245,50,30,32,20,High,Medium,Better,Male,Married,Travel_Frequently,Doctor,50+,4,>= 10000,4,11+,4,15+,4
+1607,DEP02,ROL07,EDU05,0,0,3312,32,3,6,5,Very High,Medium,Better,Female,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,3-5,2,5-9,2
+1608,DEP02,ROL06,EDU04,0,1,19049,44,22,23,7,Very High,Medium,Good,Female,Divorced,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,5-9,2
+1609,DEP02,ROL07,EDU04,0,0,2141,30,6,6,7,Medium,Medium,Good,Male,Married,Travel_Rarely,Bachelor,30-39,2,< 3000,1,6-10,3,5-9,2
+1611,DEP02,ROL03,EDU04,0,1,5769,45,10,10,5,Low,High,Better,Female,Single,Travel_Rarely,Doctor,40-49,3,3000-5999,2,6-10,3,5-9,2
+1612,DEP03,ROL08,EDU03,0,0,4385,45,10,10,26,Low,Low,Better,Male,Married,Non-Travel,Bachelor,40-49,3,3000-5999,2,6-10,3,15+,4
+1613,DEP03,ROL08,EDU05,0,0,5332,31,5,10,2,Low,Very High,Better,Male,Single,Travel_Frequently,Master,30-39,2,3000-5999,2,3-5,2,1-4,1
+1614,DEP02,ROL05,EDU02,0,1,4663,36,3,7,12,High,High,Better,Female,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,3-5,2,10-14,3
+1615,DEP02,ROL05,EDU02,0,0,4724,34,9,9,10,Very High,High,Better,Male,Divorced,Travel_Frequently,Master,30-39,2,3000-5999,2,6-10,3,10-14,3
+1617,DEP02,ROL03,EDU02,0,0,3211,49,9,10,25,Low,High,Good,Female,Married,Travel_Rarely,Master,40-49,3,3000-5999,2,6-10,3,15+,4
+1618,DEP02,ROL05,EDU04,0,0,5377,39,7,10,10,Low,Medium,Better,Male,Married,Travel_Rarely,Doctor,30-39,2,3000-5999,2,6-10,3,10-14,3
+1619,DEP02,ROL03,EDU05,0,0,4066,27,7,7,19,Low,Very High,Better,Male,Divorced,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,6-10,3,15+,4
+1621,DEP02,ROL07,EDU02,0,0,5208,35,16,16,18,Low,Medium,Better,Male,Married,Travel_Rarely,Doctor,30-39,2,3000-5999,2,11+,4,15+,4
+1622,DEP02,ROL05,EDU04,0,0,4877,28,5,6,27,Low,Medium,Good,Female,Divorced,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,3-5,2,15+,4
+1623,DEP02,ROL07,EDU04,0,0,3117,21,2,3,5,Very High,High,Better,Male,Single,Travel_Rarely,Below College,< 30,1,3000-5999,2,0-2,1,5-9,2
+1624,DEP03,ROL09,EDU04,1,1,1569,18,0,0,3,Very High,Medium,Best,Female,Single,Travel_Frequently,College,< 30,1,< 3000,1,0-2,1,1-4,1
+1625,DEP01,ROL04,EDU02,0,0,19658,47,5,27,26,High,Very High,Better,Female,Married,Travel_Rarely,Master,40-49,3,>= 10000,4,3-5,2,15+,4
+1627,DEP02,ROL03,EDU04,0,0,3069,39,10,11,3,High,High,Better,Male,Divorced,Travel_Rarely,College,30-39,2,3000-5999,2,6-10,3,1-4,1
+1628,DEP02,ROL05,EDU02,0,0,10435,40,18,18,15,High,Low,Better,Female,Married,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,15+,4
+1630,DEP02,ROL01,EDU02,0,0,4148,35,14,15,8,High,High,Better,Female,Married,Non-Travel,Master,30-39,2,3000-5999,2,11+,4,5-9,2
+1631,DEP02,ROL05,EDU02,0,0,5768,37,4,9,19,High,High,Good,Male,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,15+,4
+1633,DEP02,ROL05,EDU04,0,0,5042,39,9,10,4,High,Low,Bad,Female,Single,Travel_Frequently,Bachelor,30-39,2,3000-5999,2,6-10,3,1-4,1
+1635,DEP02,ROL05,EDU05,0,0,5770,45,10,10,2,Very High,Very High,Better,Female,Divorced,Travel_Rarely,College,40-49,3,3000-5999,2,6-10,3,1-4,1
+1638,DEP02,ROL05,EDU04,0,1,7756,38,5,10,2,High,Very High,Best,Female,Married,Travel_Rarely,College,30-39,2,6000-9999,3,3-5,2,1-4,1
+1639,DEP03,ROL08,EDU04,1,0,10306,35,13,15,10,Low,Very High,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,>= 10000,4,11+,4,10-14,3
+1640,DEP02,ROL07,EDU04,0,0,3936,37,8,8,10,Medium,Medium,Bad,Female,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,6-10,3,10-14,3
+1641,DEP02,ROL05,EDU02,0,1,7945,40,4,18,16,Very High,High,Good,Female,Single,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,3-5,2,15+,4
+1642,DEP01,ROL02,EDU01,0,1,5743,44,10,14,1,Very High,Low,Better,Male,Married,Travel_Frequently,Doctor,40-49,3,3000-5999,2,6-10,3,1-4,1
+1644,DEP02,ROL04,EDU04,0,0,15202,48,2,23,4,Very High,High,Better,Male,Married,Travel_Frequently,Doctor,40-49,3,>= 10000,4,0-2,1,1-4,1
+1645,DEP03,ROL08,EDU04,1,1,5440,35,2,7,15,Very High,Low,Good,Male,Divorced,Travel_Rarely,College,30-39,2,3000-5999,2,0-2,1,15+,4
+1646,DEP02,ROL07,EDU06,0,1,3760,24,6,6,2,Very High,Low,Better,Female,Single,Travel_Frequently,Below College,< 30,1,3000-5999,2,6-10,3,1-4,1
+1647,DEP02,ROL07,EDU04,0,0,3517,27,3,5,8,High,Medium,Better,Female,Married,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,3-5,2,5-9,2
+1648,DEP02,ROL07,EDU04,0,0,2580,27,4,6,2,Very High,Very High,Good,Male,Single,Travel_Frequently,Bachelor,< 30,1,< 3000,1,3-5,2,1-4,1
+1649,DEP02,ROL03,EDU02,1,1,2166,40,4,10,7,Low,Low,Bad,Male,Single,Travel_Rarely,Bachelor,40-49,3,< 3000,1,3-5,2,5-9,2
+1650,DEP03,ROL08,EDU04,0,0,5869,29,5,8,10,High,High,Better,Male,Single,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,3-5,2,10-14,3
+1651,DEP02,ROL01,EDU02,0,0,8008,36,3,9,5,Low,Medium,Better,Female,Married,Travel_Rarely,Master,30-39,2,6000-9999,3,3-5,2,5-9,2
+1653,DEP02,ROL05,EDU02,0,0,5206,25,7,7,2,High,Very High,Better,Male,Divorced,Travel_Frequently,Below College,< 30,1,3000-5999,2,6-10,3,1-4,1
+1654,DEP02,ROL05,EDU04,0,0,5295,39,5,7,12,Medium,Very High,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,10-14,3
+1655,DEP02,ROL06,EDU05,0,0,16413,49,4,27,22,Medium,Low,Better,Female,Married,Travel_Rarely,Master,40-49,3,>= 10000,4,3-5,2,15+,4
+1656,DEP02,ROL06,EDU02,0,0,13269,50,14,19,17,Low,Very High,Better,Female,Divorced,Travel_Rarely,Doctor,50+,4,>= 10000,4,11+,4,15+,4
+1657,DEP03,ROL09,EDU04,0,0,2783,20,2,2,2,High,High,Better,Female,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,1-4,1
+1658,DEP02,ROL07,EDU02,0,0,5433,34,11,11,3,Medium,Very High,Better,Female,Divorced,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,11+,4,1-4,1
+1659,DEP02,ROL03,EDU02,0,0,2013,36,4,15,7,Medium,Low,Better,Male,Single,Travel_Rarely,Bachelor,30-39,2,< 3000,1,3-5,2,5-9,2
+1661,DEP02,ROL01,EDU02,0,1,13966,49,15,30,6,High,High,Better,Female,Married,Travel_Rarely,Below College,40-49,3,>= 10000,4,11+,4,5-9,2
+1662,DEP02,ROL05,EDU04,0,0,4374,36,3,4,1,High,Very High,Better,Female,Married,Non-Travel,Master,30-39,2,3000-5999,2,3-5,2,1-4,1
+1664,DEP02,ROL01,EDU02,0,0,6842,36,5,13,3,Low,Very High,Better,Male,Divorced,Travel_Rarely,College,30-39,2,6000-9999,3,3-5,2,1-4,1
+1665,DEP02,ROL04,EDU04,0,0,17426,54,10,36,22,High,Medium,Better,Female,Married,Travel_Rarely,Doctor,50+,4,>= 10000,4,6-10,3,15+,4
+1666,DEP02,ROL06,EDU02,0,0,17603,43,14,14,15,High,High,Better,Male,Married,Travel_Rarely,College,40-49,3,>= 10000,4,11+,4,15+,4
+1667,DEP03,ROL08,EDU05,1,1,4581,35,11,13,12,Very High,Very High,Best,Male,Single,Travel_Frequently,Master,30-39,2,3000-5999,2,11+,4,10-14,3
+1668,DEP02,ROL07,EDU02,0,0,4735,38,13,19,1,Very High,Very High,Best,Male,Married,Travel_Frequently,Bachelor,30-39,2,3000-5999,2,11+,4,1-4,1
+1669,DEP03,ROL08,EDU04,0,1,4187,29,10,10,5,Medium,Low,Good,Male,Divorced,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,6-10,3,5-9,2
+1670,DEP03,ROL08,EDU04,0,0,5505,33,6,6,2,Very High,Very High,Better,Male,Divorced,Travel_Rarely,Master,30-39,2,3000-5999,2,6-10,3,1-4,1
+1671,DEP02,ROL07,EDU04,0,0,5470,32,9,10,2,Medium,Very High,Good,Male,Divorced,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,6-10,3,1-4,1
+1673,DEP03,ROL08,EDU02,0,0,5476,31,10,10,5,Very High,Low,Better,Female,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,6-10,3,5-9,2
+1674,DEP02,ROL03,EDU04,0,1,2587,49,2,17,16,Low,Very High,Good,Female,Divorced,Travel_Rarely,Bachelor,40-49,3,< 3000,1,0-2,1,15+,4
+1675,DEP02,ROL03,EDU04,0,0,2440,38,4,4,2,Medium,Very High,Better,Female,Single,Travel_Frequently,Bachelor,30-39,2,< 3000,1,3-5,2,1-4,1
+1676,DEP03,ROL04,EDU02,0,0,15972,47,3,29,2,Medium,Medium,Better,Female,Divorced,Travel_Rarely,Master,40-49,3,>= 10000,4,3-5,2,1-4,1
+1677,DEP02,ROL04,EDU02,0,0,15379,49,8,23,1,High,High,Better,Male,Single,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,6-10,3,1-4,1
+1678,DEP03,ROL08,EDU02,0,1,7082,41,2,21,23,High,Very High,Better,Male,Single,Travel_Rarely,College,40-49,3,6000-9999,3,0-2,1,15+,4
+1680,DEP03,ROL09,EDU02,0,0,2728,20,2,2,9,Low,Very High,Better,Male,Single,Travel_Rarely,Below College,< 30,1,< 3000,1,0-2,1,5-9,2
+1681,DEP03,ROL08,EDU02,0,1,5368,33,6,7,16,Very High,High,Better,Female,Divorced,Non-Travel,Bachelor,30-39,2,3000-5999,2,6-10,3,15+,4
+1682,DEP02,ROL01,EDU02,0,0,5347,36,3,10,26,High,Low,Good,Male,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,3-5,2,15+,4
+1683,DEP01,ROL02,EDU02,0,1,3195,44,2,8,1,Very High,High,Better,Female,Divorced,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,0-2,1,1-4,1
+1684,DEP02,ROL03,EDU04,1,1,3989,23,5,5,8,High,Very High,Better,Male,Single,Travel_Rarely,Below College,< 30,1,3000-5999,2,3-5,2,5-9,2
+1687,DEP02,ROL03,EDU04,0,0,3306,38,0,7,4,High,Very High,Good,Female,Married,Travel_Rarely,College,30-39,2,3000-5999,2,0-2,1,1-4,1
+1689,DEP02,ROL01,EDU04,0,0,7005,53,4,11,24,Very High,Medium,Better,Male,Married,Travel_Rarely,Master,50+,4,6000-9999,3,3-5,2,15+,4
+1691,DEP03,ROL09,EDU04,1,1,2655,48,9,19,7,High,Very High,Better,Female,Married,Travel_Frequently,College,40-49,3,< 3000,1,6-10,3,5-9,2
+1692,DEP02,ROL03,EDU02,1,0,1393,32,1,1,2,Medium,Very High,Better,Male,Single,Travel_Rarely,Master,30-39,2,< 3000,1,0-2,1,1-4,1
+1693,DEP02,ROL03,EDU04,0,0,2570,26,7,7,7,Very High,Very High,Better,Male,Single,Non-Travel,Bachelor,< 30,1,< 3000,1,6-10,3,5-9,2
+1694,DEP02,ROL07,EDU06,0,0,3537,55,4,8,22,Medium,Low,Better,Male,Divorced,Travel_Rarely,Bachelor,50+,4,3000-5999,2,3-5,2,15+,4
+1696,DEP02,ROL03,EDU04,0,0,3986,34,15,15,5,Very High,Medium,Best,Male,Married,Travel_Rarely,College,30-39,2,3000-5999,2,11+,4,5-9,2
+1697,DEP02,ROL01,EDU04,0,0,10883,60,1,19,1,Very High,High,Best,Male,Divorced,Travel_Rarely,Master,50+,4,>= 10000,4,0-2,1,1-4,1
+1698,DEP02,ROL03,EDU04,0,0,2028,33,14,14,21,Medium,Medium,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,< 3000,1,11+,4,15+,4
+1700,DEP03,ROL08,EDU04,0,0,9525,37,6,6,1,Very High,High,Good,Male,Divorced,Travel_Frequently,Master,30-39,2,6000-9999,3,6-10,3,1-4,1
+1701,DEP02,ROL07,EDU02,0,0,2929,34,10,10,19,Very High,Medium,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,< 3000,1,6-10,3,15+,4
+1702,DEP03,ROL09,EDU02,1,1,2275,23,3,3,7,Very High,High,Better,Male,Divorced,Travel_Rarely,Bachelor,< 30,1,< 3000,1,3-5,2,5-9,2
+1703,DEP02,ROL01,EDU02,0,1,7879,44,8,9,2,Very High,High,Better,Female,Married,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,6-10,3,1-4,1
+1704,DEP02,ROL07,EDU04,0,1,4930,35,5,6,2,Very High,Low,Best,Male,Single,Travel_Frequently,Master,30-39,2,3000-5999,2,3-5,2,1-4,1
+1706,DEP03,ROL08,EDU04,0,1,7847,43,10,10,2,Very High,Very High,Better,Male,Married,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,6-10,3,1-4,1
+1707,DEP02,ROL07,EDU04,0,0,4401,24,5,5,9,High,High,Better,Male,Married,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,3-5,2,5-9,2
+1708,DEP03,ROL08,EDU03,0,0,9241,41,10,10,6,High,Very High,Better,Male,Single,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,6-10,3,5-9,2
+1709,DEP02,ROL03,EDU04,0,0,2974,29,5,9,9,High,Very High,Better,Female,Married,Travel_Rarely,Master,< 30,1,< 3000,1,3-5,2,5-9,2
+1710,DEP03,ROL09,EDU02,0,0,4502,36,13,17,2,Very High,High,Good,Female,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,11+,4,1-4,1
+1712,DEP02,ROL01,EDU02,0,0,10748,45,23,25,1,High,High,Good,Male,Married,Non-Travel,Below College,40-49,3,>= 10000,4,11+,4,1-4,1
+1714,DEP01,ROL02,EDU01,1,0,1555,24,1,1,22,High,Very High,Better,Male,Married,Travel_Rarely,Below College,< 30,1,< 3000,1,0-2,1,15+,4
+1716,DEP03,ROL08,EDU02,1,0,12936,47,23,25,9,High,High,Bad,Male,Married,Travel_Frequently,Bachelor,40-49,3,>= 10000,4,11+,4,5-9,2
+1718,DEP02,ROL03,EDU04,0,0,2305,26,3,3,17,High,Very High,Best,Male,Married,Travel_Rarely,Master,< 30,1,< 3000,1,3-5,2,15+,4
+1719,DEP02,ROL06,EDU06,0,0,16704,45,21,21,28,Medium,Very High,Better,Female,Single,Travel_Rarely,College,40-49,3,>= 10000,4,11+,4,15+,4
+1720,DEP02,ROL07,EDU02,0,0,3433,32,5,10,10,High,Low,Good,Male,Married,Travel_Frequently,Bachelor,30-39,2,3000-5999,2,3-5,2,10-14,3
+1721,DEP02,ROL03,EDU02,0,0,3477,31,5,6,2,High,Medium,Best,Male,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,3-5,2,1-4,1
+1722,DEP01,ROL02,EDU01,0,0,6430,41,3,10,4,Medium,High,Better,Male,Married,Non-Travel,Bachelor,40-49,3,6000-9999,3,3-5,2,1-4,1
+1724,DEP02,ROL05,EDU02,0,1,6516,40,1,18,8,Low,Medium,Better,Female,Married,Travel_Rarely,College,40-49,3,6000-9999,3,0-2,1,5-9,2
+1725,DEP02,ROL03,EDU04,0,0,3907,24,6,6,29,Low,Medium,Best,Male,Divorced,Travel_Rarely,Below College,< 30,1,3000-5999,2,6-10,3,15+,4
+1727,DEP02,ROL01,EDU02,0,0,5562,46,10,19,13,Medium,High,Better,Male,Single,Travel_Rarely,Master,40-49,3,3000-5999,2,6-10,3,10-14,3
+1728,DEP02,ROL05,EDU02,0,0,6883,35,7,17,27,High,Very High,Better,Male,Married,Travel_Rarely,Master,30-39,2,6000-9999,3,6-10,3,15+,4
+1729,DEP02,ROL07,EDU02,0,0,2862,30,10,10,16,Very High,Medium,Good,Male,Married,Travel_Rarely,Below College,30-39,2,< 3000,1,6-10,3,15+,4
+1731,DEP03,ROL08,EDU03,0,0,4978,47,1,4,2,Medium,High,Bad,Male,Married,Non-Travel,Master,40-49,3,3000-5999,2,0-2,1,1-4,1
+1732,DEP03,ROL08,EDU02,0,1,10368,46,10,13,2,Very High,High,Good,Male,Divorced,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,6-10,3,1-4,1
+1733,DEP03,ROL08,EDU03,1,1,6134,36,2,16,13,Low,Medium,Better,Male,Divorced,Travel_Rarely,Doctor,30-39,2,6000-9999,3,0-2,1,10-14,3
+1734,DEP03,ROL08,EDU02,1,0,6735,32,0,10,1,Medium,Low,Better,Male,Single,Travel_Rarely,College,30-39,2,6000-9999,3,0-2,1,1-4,1
+1735,DEP02,ROL03,EDU04,0,0,3295,23,3,3,4,Medium,High,Bad,Female,Single,Travel_Rarely,Below College,< 30,1,3000-5999,2,3-5,2,1-4,1
+1736,DEP02,ROL05,EDU06,0,0,5238,31,5,9,24,Very High,Very High,Good,Female,Single,Travel_Frequently,Below College,30-39,2,3000-5999,2,3-5,2,15+,4
+1737,DEP02,ROL03,EDU02,0,1,6472,39,9,9,1,Very High,Very High,Better,Male,Married,Non-Travel,Bachelor,30-39,2,6000-9999,3,6-10,3,1-4,1
+1739,DEP03,ROL08,EDU02,0,0,9610,32,4,10,19,High,Very High,Bad,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,3-5,2,15+,4
+1740,DEP03,ROL04,EDU04,0,0,19833,40,21,21,7,Medium,Medium,Good,Male,Single,Travel_Rarely,Master,40-49,3,>= 10000,4,11+,4,5-9,2
+1744,DEP01,ROL02,EDU02,0,0,9756,45,5,9,4,High,High,Best,Female,Married,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,3-5,2,1-4,1
+1745,DEP02,ROL07,EDU06,0,0,4968,30,9,10,2,Low,Very High,Better,Female,Single,Travel_Frequently,Master,30-39,2,3000-5999,2,6-10,3,1-4,1
+1746,DEP01,ROL02,EDU04,0,0,2145,24,2,3,10,Very High,Low,Better,Male,Married,Travel_Frequently,Bachelor,< 30,1,< 3000,1,0-2,1,10-14,3
+1747,DEP01,ROL02,EDU01,1,0,2180,30,4,6,8,Very High,High,Good,Female,Divorced,Travel_Frequently,Bachelor,30-39,2,< 3000,1,3-5,2,5-9,2
+1749,DEP03,ROL08,EDU06,0,0,8346,31,5,6,5,High,Low,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,3-5,2,5-9,2
+1751,DEP02,ROL07,EDU04,0,0,3445,27,6,6,8,Very High,High,Good,Female,Single,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,6-10,3,5-9,2
+1752,DEP03,ROL09,EDU03,1,0,2760,29,2,2,9,Medium,Medium,Better,Female,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,5-9,2
+1753,DEP02,ROL01,EDU02,0,1,6294,29,3,10,1,High,Very High,Best,Male,Single,Travel_Frequently,Bachelor,< 30,1,6000-9999,3,3-5,2,1-4,1
+1754,DEP03,ROL08,EDU03,0,0,7140,30,7,12,15,Low,High,Better,Male,Divorced,Travel_Rarely,College,30-39,2,6000-9999,3,6-10,3,15+,4
+1755,DEP02,ROL07,EDU04,0,1,2932,34,5,6,2,Very High,Very High,Better,Male,Married,Travel_Rarely,Master,30-39,2,< 3000,1,3-5,2,1-4,1
+1756,DEP03,ROL08,EDU03,0,0,5147,33,11,13,2,Medium,Very High,Good,Female,Single,Non-Travel,Bachelor,30-39,2,3000-5999,2,11+,4,1-4,1
+1757,DEP03,ROL08,EDU03,0,0,4507,49,5,8,11,Very High,Very High,Best,Female,Single,Travel_Rarely,Master,40-49,3,3000-5999,2,3-5,2,10-14,3
+1758,DEP03,ROL08,EDU02,1,1,8564,33,0,11,16,Low,Low,Good,Female,Single,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,0-2,1,15+,4
+1760,DEP02,ROL03,EDU04,0,0,2468,38,6,9,2,Medium,High,Good,Female,Married,Travel_Frequently,College,30-39,2,< 3000,1,6-10,3,1-4,1
+1761,DEP03,ROL08,EDU03,1,0,8161,31,1,10,16,High,Low,Better,Male,Married,Travel_Rarely,Master,30-39,2,6000-9999,3,0-2,1,15+,4
+1762,DEP02,ROL07,EDU06,0,0,2109,29,1,1,4,Low,Very High,Better,Female,Divorced,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,1-4,1
+1763,DEP02,ROL01,EDU02,0,0,5294,30,7,10,16,High,High,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,6-10,3,15+,4
+1764,DEP02,ROL07,EDU06,0,0,2718,32,7,12,5,Medium,Medium,Better,Male,Single,Non-Travel,Master,30-39,2,< 3000,1,6-10,3,5-9,2
+1766,DEP02,ROL01,EDU04,0,1,5811,38,1,15,18,Very High,Medium,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,0-2,1,15+,4
+1767,DEP02,ROL07,EDU06,1,1,2437,43,1,6,17,High,High,Better,Male,Married,Travel_Frequently,Bachelor,40-49,3,< 3000,1,0-2,1,15+,4
+1768,DEP02,ROL03,EDU04,0,0,2766,42,5,7,12,Medium,Medium,Good,Male,Divorced,Travel_Rarely,Bachelor,40-49,3,< 3000,1,3-5,2,10-14,3
+1770,DEP02,ROL06,EDU04,0,0,19038,55,1,34,2,Low,High,Better,Male,Married,Travel_Rarely,Bachelor,50+,4,>= 10000,4,0-2,1,1-4,1
+1771,DEP02,ROL07,EDU06,0,0,3055,33,9,11,4,Medium,Very High,Good,Male,Divorced,Non-Travel,Bachelor,30-39,2,3000-5999,2,6-10,3,1-4,1
+1772,DEP02,ROL03,EDU02,0,0,2289,41,5,5,9,Low,High,Better,Male,Divorced,Travel_Rarely,Master,40-49,3,< 3000,1,3-5,2,5-9,2
+1774,DEP03,ROL08,EDU02,0,1,4001,34,15,15,10,High,Very High,Better,Male,Divorced,Non-Travel,Bachelor,30-39,2,3000-5999,2,11+,4,10-14,3
+1775,DEP02,ROL05,EDU04,0,1,12965,53,3,27,1,High,Low,Good,Female,Married,Non-Travel,Master,50+,4,>= 10000,4,3-5,2,1-4,1
+1778,DEP01,ROL02,EDU02,0,0,3539,43,9,10,2,Very High,Medium,Better,Male,Single,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,6-10,3,1-4,1
+1779,DEP03,ROL08,EDU02,0,0,6029,34,2,6,3,Very High,Very High,Better,Female,Single,Travel_Rarely,College,30-39,2,6000-9999,3,0-2,1,1-4,1
+1780,DEP03,ROL09,EDU03,1,0,2679,21,1,1,7,Medium,Medium,Better,Male,Single,Travel_Rarely,Below College,< 30,1,< 3000,1,0-2,1,5-9,2
+1782,DEP02,ROL03,EDU05,0,0,3702,38,5,5,6,High,Very High,Better,Female,Married,Travel_Rarely,College,30-39,2,3000-5999,2,3-5,2,5-9,2
+1783,DEP02,ROL03,EDU04,1,1,2398,22,1,1,8,Low,High,Better,Female,Married,Travel_Rarely,Below College,< 30,1,< 3000,1,0-2,1,5-9,2
+1784,DEP03,ROL08,EDU03,0,0,5468,31,12,13,29,Very High,Low,Better,Female,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,11+,4,15+,4
+1786,DEP02,ROL04,EDU06,0,0,13116,51,2,15,3,High,Low,Better,Female,Married,Travel_Rarely,Bachelor,50+,4,>= 10000,4,0-2,1,1-4,1
+1787,DEP03,ROL08,EDU03,0,0,4189,37,5,5,9,Medium,Medium,Better,Male,Married,Travel_Rarely,College,30-39,2,3000-5999,2,3-5,2,5-9,2
+1789,DEP02,ROL06,EDU04,0,1,19328,46,2,24,2,Very High,High,Better,Male,Divorced,Travel_Rarely,Master,40-49,3,>= 10000,4,0-2,1,1-4,1
+1790,DEP02,ROL01,EDU02,0,1,8321,36,12,15,10,Low,Very High,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,11+,4,10-14,3
+1792,DEP02,ROL07,EDU04,1,1,2342,44,5,6,1,Medium,High,Good,Male,Divorced,Travel_Frequently,College,40-49,3,< 3000,1,3-5,2,1-4,1
+1794,DEP01,ROL02,EDU05,0,0,4071,37,10,19,8,Medium,High,Good,Male,Divorced,Travel_Rarely,College,30-39,2,3000-5999,2,6-10,3,5-9,2
+1797,DEP03,ROL08,EDU02,1,1,5813,35,10,10,27,Very High,High,Better,Male,Single,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,6-10,3,15+,4
+1798,DEP02,ROL07,EDU02,0,0,3143,33,10,14,8,Low,Very High,Better,Male,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,6-10,3,5-9,2
+1799,DEP02,ROL07,EDU02,0,0,2044,28,5,5,1,Very High,High,Best,Male,Married,Travel_Rarely,Bachelor,< 30,1,< 3000,1,3-5,2,1-4,1
+1800,DEP02,ROL06,EDU04,0,0,13464,39,4,9,10,High,High,Better,Male,Single,Travel_Rarely,Below College,30-39,2,>= 10000,4,3-5,2,10-14,3
+1801,DEP03,ROL08,EDU02,0,0,7991,46,2,6,26,Medium,Medium,Better,Male,Single,Non-Travel,College,40-49,3,6000-9999,3,0-2,1,15+,4
+1802,DEP02,ROL03,EDU02,0,0,3377,40,4,7,2,Low,High,Good,Female,Married,Travel_Rarely,College,40-49,3,3000-5999,2,3-5,2,1-4,1
+1803,DEP02,ROL01,EDU04,0,0,5538,42,0,10,13,Low,Medium,Good,Male,Married,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,0-2,1,10-14,3
+1804,DEP02,ROL05,EDU04,0,0,5762,35,7,15,2,Very High,Medium,Better,Male,Divorced,Non-Travel,College,30-39,2,3000-5999,2,6-10,3,1-4,1
+1805,DEP01,ROL02,EDU01,0,0,2592,38,11,13,2,Medium,Low,Better,Male,Divorced,Non-Travel,Bachelor,30-39,2,< 3000,1,11+,4,1-4,1
+1807,DEP02,ROL03,EDU02,1,0,5346,34,7,11,9,Low,Very High,Good,Male,Married,Travel_Frequently,Master,30-39,2,3000-5999,2,6-10,3,5-9,2
+1809,DEP02,ROL05,EDU04,1,0,4213,37,10,10,10,Low,Very High,Bad,Male,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,6-10,3,10-14,3
+1812,DEP03,ROL08,EDU02,0,0,4127,39,2,7,20,Very High,High,Better,Male,Divorced,Travel_Frequently,Bachelor,30-39,2,3000-5999,2,0-2,1,15+,4
+1813,DEP02,ROL07,EDU02,0,0,2438,43,3,7,9,High,Low,Good,Male,Single,Non-Travel,Bachelor,40-49,3,< 3000,1,3-5,2,5-9,2
+1814,DEP02,ROL01,EDU02,0,0,6870,41,3,11,5,Medium,Medium,Bad,Male,Single,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,3-5,2,5-9,2
+1815,DEP03,ROL08,EDU03,0,1,10447,41,22,23,4,High,High,Best,Female,Divorced,Travel_Rarely,Below College,40-49,3,>= 10000,4,11+,4,1-4,1
+1816,DEP02,ROL05,EDU04,0,0,9667,30,7,9,10,High,Low,Better,Female,Single,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,10-14,3
+1818,DEP01,ROL02,EDU04,1,1,2148,26,5,6,20,Medium,Very High,Better,Female,Married,Travel_Rarely,College,< 30,1,< 3000,1,3-5,2,15+,4
+1821,DEP02,ROL01,EDU04,1,0,8926,46,9,13,21,Medium,Very High,Best,Female,Married,Travel_Rarely,College,40-49,3,6000-9999,3,6-10,3,15+,4
+1822,DEP02,ROL01,EDU02,0,0,6513,40,5,12,1,Very High,High,Better,Female,Divorced,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,3-5,2,1-4,1
+1823,DEP03,ROL08,EDU06,0,0,6799,34,10,10,8,High,Medium,Better,Male,Married,Travel_Rarely,College,30-39,2,6000-9999,3,6-10,3,5-9,2
+1824,DEP03,ROL04,EDU04,0,0,16291,58,16,37,2,Medium,Medium,Good,Male,Divorced,Non-Travel,Bachelor,50+,4,>= 10000,4,11+,4,1-4,1
+1826,DEP02,ROL03,EDU04,0,0,2705,35,5,6,23,High,Medium,Best,Male,Married,Travel_Rarely,Master,30-39,2,< 3000,1,3-5,2,15+,4
+1827,DEP02,ROL05,EDU02,0,1,10333,47,22,28,4,Medium,High,Better,Female,Divorced,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,1-4,1
+1829,DEP02,ROL01,EDU02,0,0,4448,40,7,15,12,Low,Medium,Better,Female,Divorced,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,6-10,3,10-14,3
+1830,DEP02,ROL07,EDU04,0,0,6854,54,7,14,7,Very High,Very High,Good,Female,Married,Travel_Rarely,Master,50+,4,6000-9999,3,6-10,3,5-9,2
+1833,DEP03,ROL08,EDU03,0,0,9637,31,3,9,7,Low,Low,Better,Female,Married,Travel_Frequently,Master,30-39,2,6000-9999,3,3-5,2,5-9,2
+1834,DEP02,ROL07,EDU04,0,0,3591,28,3,3,1,Low,High,Better,Female,Married,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,3-5,2,1-4,1
+1835,DEP03,ROL09,EDU03,0,1,5405,38,4,20,2,Very High,Medium,Good,Female,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,3-5,2,1-4,1
+1836,DEP03,ROL08,EDU04,0,0,4684,26,5,5,10,Very High,High,Better,Male,Single,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,3-5,2,10-14,3
+1837,DEP02,ROL06,EDU02,0,1,15787,58,2,23,15,High,Low,Better,Male,Married,Travel_Frequently,Master,50+,4,>= 10000,4,0-2,1,15+,4
+1839,DEP02,ROL07,EDU04,0,0,1514,18,0,0,14,High,Medium,Bad,Female,Single,Non-Travel,Bachelor,< 30,1,< 3000,1,0-2,1,10-14,3
+1842,DEP01,ROL02,EDU01,1,0,2956,31,1,2,18,Low,Very High,Better,Male,Married,Travel_Rarely,Doctor,30-39,2,< 3000,1,0-2,1,15+,4
+1844,DEP01,ROL02,EDU01,1,1,2335,29,2,4,13,Low,Low,Better,Male,Divorced,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,10-14,3
+1845,DEP03,ROL08,EDU02,0,0,5154,45,8,10,2,High,High,Best,Female,Married,Non-Travel,Master,40-49,3,3000-5999,2,6-10,3,1-4,1
+1847,DEP02,ROL07,EDU05,0,1,6962,36,1,15,2,Medium,Very High,Better,Female,Married,Travel_Rarely,Master,30-39,2,6000-9999,3,0-2,1,1-4,1
+1849,DEP03,ROL08,EDU02,0,0,5675,43,7,7,2,Very High,Low,Better,Male,Married,Travel_Frequently,Master,40-49,3,3000-5999,2,6-10,3,1-4,1
+1850,DEP02,ROL03,EDU02,0,1,2379,27,5,6,5,Very High,Very High,Good,Female,Single,Travel_Frequently,College,< 30,1,< 3000,1,3-5,2,5-9,2
+1852,DEP02,ROL03,EDU04,0,0,3812,29,11,11,20,Very High,Very High,Best,Male,Married,Travel_Frequently,Below College,< 30,1,3000-5999,2,11+,4,15+,4
+1853,DEP03,ROL08,EDU03,0,0,4648,32,0,4,10,Very High,Very High,Best,Male,Single,Travel_Frequently,Master,30-39,2,3000-5999,2,0-2,1,10-14,3
+1854,DEP02,ROL07,EDU06,0,0,2936,42,6,10,10,High,High,Good,Male,Married,Non-Travel,Master,40-49,3,< 3000,1,6-10,3,10-14,3
+1856,DEP02,ROL03,EDU02,0,0,2105,47,2,7,9,High,Medium,Better,Female,Single,Travel_Rarely,Master,40-49,3,< 3000,1,0-2,1,5-9,2
+1857,DEP02,ROL05,EDU02,0,0,8578,46,9,12,2,Very High,Very High,Good,Male,Divorced,Travel_Rarely,College,40-49,3,6000-9999,3,6-10,3,1-4,1
+1858,DEP01,ROL02,EDU02,0,0,2706,28,3,3,1,Very High,High,Better,Male,Divorced,Non-Travel,College,< 30,1,< 3000,1,3-5,2,1-4,1
+1859,DEP02,ROL01,EDU02,0,0,6384,29,7,11,29,High,Very High,Better,Male,Divorced,Travel_Rarely,Below College,< 30,1,6000-9999,3,6-10,3,15+,4
+1860,DEP02,ROL03,EDU02,0,0,3968,42,0,8,8,High,Very High,Better,Male,Single,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,0-2,1,5-9,2
+1862,DEP03,ROL08,EDU03,1,1,9907,32,2,7,2,Medium,High,Good,Male,Single,Travel_Rarely,Master,30-39,2,6000-9999,3,0-2,1,1-4,1
+1863,DEP03,ROL08,EDU06,0,0,13225,46,19,25,3,Low,Low,Better,Female,Divorced,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,1-4,1
+1864,DEP03,ROL09,EDU04,0,0,3540,27,9,9,23,High,Medium,Better,Female,Married,Travel_Rarely,Below College,< 30,1,3000-5999,2,6-10,3,15+,4
+1865,DEP01,ROL02,EDU04,0,0,2804,29,1,1,6,Medium,Very High,Better,Male,Married,Travel_Rarely,Below College,< 30,1,< 3000,1,0-2,1,5-9,2
+1866,DEP02,ROL04,EDU04,0,0,19392,43,16,21,6,High,Low,Better,Female,Married,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,5-9,2
+1867,DEP02,ROL06,EDU02,0,0,19665,48,22,29,10,Medium,Very High,Better,Male,Married,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,10-14,3
+1868,DEP02,ROL07,EDU02,1,1,2439,29,1,1,24,Very High,Very High,Good,Male,Single,Travel_Frequently,College,< 30,1,< 3000,1,0-2,1,15+,4
+1869,DEP03,ROL08,EDU02,1,0,7314,46,8,14,10,Medium,High,Better,Female,Married,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,6-10,3,10-14,3
+1870,DEP02,ROL07,EDU02,0,0,4774,27,7,8,15,Low,Very High,Good,Female,Married,Travel_Frequently,Bachelor,< 30,1,3000-5999,2,6-10,3,15+,4
+1871,DEP02,ROL07,EDU05,0,0,3902,39,2,7,19,Very High,Very High,Better,Male,Divorced,Travel_Rarely,Master,30-39,2,3000-5999,2,0-2,1,15+,4
+1873,DEP02,ROL07,EDU06,0,0,2662,55,5,19,2,Very High,Medium,Best,Male,Married,Travel_Rarely,Master,50+,4,< 3000,1,3-5,2,1-4,1
+1875,DEP03,ROL09,EDU04,0,0,2856,28,1,1,3,Medium,Medium,Better,Female,Married,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,1-4,1
+1876,DEP03,ROL09,EDU04,1,0,1081,30,1,1,9,Very High,Medium,Good,Male,Single,Travel_Rarely,Bachelor,30-39,2,< 3000,1,0-2,1,5-9,2
+1878,DEP02,ROL07,EDU02,1,1,2472,22,1,1,7,Medium,Very High,Better,Male,Single,Travel_Rarely,Below College,< 30,1,< 3000,1,0-2,1,5-9,2
+1880,DEP03,ROL08,EDU06,0,1,5673,36,10,10,10,High,Medium,Better,Female,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,6-10,3,10-14,3
+1881,DEP02,ROL03,EDU02,0,0,4197,31,10,10,20,High,Medium,Better,Male,Divorced,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,6-10,3,15+,4
+1882,DEP03,ROL08,EDU02,0,1,9713,34,5,9,4,Very High,High,Better,Male,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,3-5,2,1-4,1
+1883,DEP02,ROL03,EDU02,0,0,2062,29,3,11,7,Low,Very High,Better,Male,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,3-5,2,5-9,2
+1885,DEP02,ROL07,EDU04,0,1,4284,37,5,16,7,Low,Very High,Better,Male,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,3-5,2,5-9,2
+1886,DEP02,ROL05,EDU05,0,1,4788,35,3,4,16,Medium,Very High,Better,Female,Married,Travel_Rarely,College,30-39,2,3000-5999,2,3-5,2,15+,4
+1888,DEP02,ROL05,EDU02,0,0,5906,45,9,10,25,Very High,Medium,Good,Female,Married,Travel_Rarely,College,40-49,3,3000-5999,2,6-10,3,15+,4
+1890,DEP01,ROL02,EDU01,0,0,3886,36,10,10,2,Very High,Medium,Good,Male,Single,Travel_Frequently,Below College,30-39,2,3000-5999,2,6-10,3,1-4,1
+1892,DEP02,ROL04,EDU02,0,0,16823,40,19,22,1,Low,Low,Better,Male,Divorced,Travel_Rarely,Master,40-49,3,>= 10000,4,11+,4,1-4,1
+1893,DEP02,ROL07,EDU02,0,1,2933,26,1,1,1,High,Medium,Good,Female,Married,Travel_Rarely,College,< 30,1,< 3000,1,0-2,1,1-4,1
+1898,DEP03,ROL08,EDU04,0,0,6500,27,8,9,2,High,Low,Good,Female,Single,Travel_Rarely,College,< 30,1,6000-9999,3,6-10,3,1-4,1
+1900,DEP02,ROL04,EDU04,0,0,17174,48,22,24,22,Very High,Very High,Better,Female,Divorced,Travel_Frequently,Bachelor,40-49,3,>= 10000,4,11+,4,15+,4
+1903,DEP02,ROL01,EDU02,0,0,5033,44,2,10,1,Low,Medium,Better,Male,Married,Travel_Rarely,Master,40-49,3,3000-5999,2,0-2,1,1-4,1
+1905,DEP02,ROL07,EDU06,1,1,2307,34,5,5,16,Low,Very High,Better,Male,Married,Non-Travel,Master,30-39,2,< 3000,1,3-5,2,15+,4
+1907,DEP02,ROL03,EDU02,1,0,2587,56,4,5,24,Very High,Low,Better,Male,Single,Travel_Rarely,College,50+,4,< 3000,1,3-5,2,15+,4
+1908,DEP03,ROL08,EDU03,0,0,5507,36,4,12,17,Medium,High,Bad,Male,Married,Travel_Rarely,College,30-39,2,3000-5999,2,3-5,2,15+,4
+1909,DEP03,ROL08,EDU03,0,0,4393,41,5,14,8,Medium,High,Better,Female,Married,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,3-5,2,5-9,2
+1911,DEP02,ROL06,EDU04,0,0,13348,42,13,18,6,Low,High,Best,Male,Married,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,5-9,2
+1912,DEP03,ROL08,EDU04,0,1,6583,31,5,8,10,Very High,High,Better,Female,Divorced,Travel_Rarely,College,30-39,2,6000-9999,3,3-5,2,10-14,3
+1915,DEP03,ROL08,EDU04,0,1,8103,34,4,9,3,Very High,Very High,Good,Female,Married,Travel_Rarely,Below College,30-39,2,6000-9999,3,3-5,2,1-4,1
+1916,DEP02,ROL03,EDU04,0,0,3978,31,2,4,4,High,Low,Good,Female,Divorced,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,0-2,1,1-4,1
+1918,DEP02,ROL03,EDU05,0,0,2544,26,7,8,6,Very High,High,Better,Male,Married,Travel_Frequently,Bachelor,< 30,1,< 3000,1,6-10,3,5-9,2
+1922,DEP02,ROL01,EDU04,0,0,5399,45,4,12,1,High,Medium,Better,Male,Single,Travel_Frequently,Master,40-49,3,3000-5999,2,3-5,2,1-4,1
+1924,DEP03,ROL08,EDU03,0,0,5487,33,10,10,10,High,Medium,Good,Male,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,6-10,3,10-14,3
+1927,DEP03,ROL08,EDU02,0,1,6834,28,7,7,1,Very High,High,Better,Male,Married,Travel_Frequently,College,< 30,1,6000-9999,3,6-10,3,1-4,1
+1928,DEP03,ROL09,EDU06,1,0,1091,29,1,1,24,Low,High,Better,Male,Single,Travel_Frequently,Bachelor,< 30,1,< 3000,1,0-2,1,15+,4
+1929,DEP03,ROL08,EDU02,0,0,5736,39,3,10,21,High,Low,Better,Female,Married,Non-Travel,Master,30-39,2,3000-5999,2,3-5,2,15+,4
+1931,DEP02,ROL07,EDU06,0,0,2226,27,5,6,2,Medium,Medium,Good,Male,Married,Travel_Rarely,Master,< 30,1,< 3000,1,3-5,2,1-4,1
+1932,DEP02,ROL07,EDU05,0,1,5747,34,15,16,22,Very High,High,Better,Male,Married,Travel_Frequently,Master,30-39,2,3000-5999,2,11+,4,15+,4
+1933,DEP03,ROL08,EDU03,1,1,9854,28,2,6,13,High,Very High,Better,Female,Single,Travel_Rarely,College,< 30,1,6000-9999,3,0-2,1,10-14,3
+1934,DEP02,ROL07,EDU06,0,0,5467,47,8,16,14,Medium,High,Best,Male,Married,Non-Travel,Master,40-49,3,3000-5999,2,6-10,3,10-14,3
+1935,DEP03,ROL08,EDU03,0,0,5380,56,0,6,11,Low,Very High,Better,Female,Married,Travel_Rarely,Doctor,50+,4,3000-5999,2,0-2,1,10-14,3
+1936,DEP02,ROL05,EDU04,0,0,5151,39,10,10,9,Low,Low,Better,Male,Married,Travel_Rarely,College,30-39,2,3000-5999,2,6-10,3,5-9,2
+1937,DEP02,ROL07,EDU04,0,1,2133,38,20,20,8,Medium,Very High,Better,Female,Divorced,Travel_Frequently,Bachelor,30-39,2,< 3000,1,11+,4,5-9,2
+1938,DEP03,ROL04,EDU02,0,1,17875,58,1,29,21,Very High,Very High,Good,Female,Married,Travel_Rarely,Bachelor,50+,4,>= 10000,4,0-2,1,15+,4
+1939,DEP02,ROL07,EDU02,1,1,2432,32,4,8,5,High,Low,Better,Female,Single,Travel_Frequently,College,30-39,2,< 3000,1,3-5,2,5-9,2
+1940,DEP02,ROL07,EDU02,0,0,4771,38,5,10,9,Very High,Medium,Best,Male,Divorced,Travel_Rarely,College,30-39,2,3000-5999,2,3-5,2,5-9,2
+1941,DEP02,ROL06,EDU02,0,0,19161,49,5,28,2,Very High,Medium,Better,Male,Married,Travel_Frequently,Below College,40-49,3,>= 10000,4,3-5,2,1-4,1
+1943,DEP03,ROL08,EDU03,0,1,5087,42,0,14,12,Very High,Medium,Better,Male,Divorced,Travel_Rarely,Master,40-49,3,3000-5999,2,0-2,1,10-14,3
+1944,DEP01,ROL02,EDU01,1,0,2863,27,1,1,22,Medium,Low,Better,Female,Married,Travel_Frequently,Bachelor,< 30,1,< 3000,1,0-2,1,15+,4
+1945,DEP03,ROL08,EDU04,0,0,5561,35,5,6,18,Low,Medium,Bad,Male,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,3-5,2,15+,4
+1947,DEP02,ROL07,EDU04,0,0,2144,28,5,5,16,High,High,Good,Male,Single,Non-Travel,Bachelor,< 30,1,< 3000,1,3-5,2,15+,4
+1948,DEP02,ROL07,EDU04,0,1,3065,31,4,4,3,Low,High,Best,Male,Divorced,Non-Travel,College,30-39,2,3000-5999,2,3-5,2,1-4,1
+1949,DEP02,ROL03,EDU02,0,0,2810,36,5,5,9,Medium,Low,Better,Male,Married,Non-Travel,Master,30-39,2,< 3000,1,3-5,2,5-9,2
+1950,DEP03,ROL08,EDU03,0,0,9888,34,14,14,1,Very High,Low,Good,Male,Single,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,11+,4,1-4,1
+1951,DEP03,ROL08,EDU04,0,0,8628,34,8,9,13,High,Very High,Good,Male,Divorced,Travel_Rarely,Master,30-39,2,6000-9999,3,6-10,3,10-14,3
+1952,DEP02,ROL03,EDU04,0,0,2867,26,7,8,1,Low,High,Good,Male,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,6-10,3,1-4,1
+1954,DEP02,ROL01,EDU02,0,0,5373,29,5,6,1,Low,Low,Good,Male,Married,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,3-5,2,1-4,1
+1955,DEP02,ROL01,EDU04,0,0,6667,32,5,9,15,Very High,High,Better,Female,Divorced,Non-Travel,Master,30-39,2,6000-9999,3,3-5,2,15+,4
+1956,DEP02,ROL07,EDU02,0,0,5003,31,10,10,1,Low,Very High,Better,Male,Married,Travel_Frequently,Bachelor,30-39,2,3000-5999,2,6-10,3,1-4,1
+1960,DEP02,ROL03,EDU06,1,0,2367,28,4,6,17,Very High,High,Good,Male,Divorced,Travel_Rarely,Bachelor,< 30,1,< 3000,1,3-5,2,15+,4
+1961,DEP03,ROL09,EDU02,0,0,2858,38,1,20,1,Low,Low,Good,Male,Single,Travel_Rarely,Bachelor,30-39,2,< 3000,1,0-2,1,1-4,1
+1962,DEP03,ROL08,EDU02,0,1,5204,35,10,10,7,Very High,High,Better,Female,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,6-10,3,5-9,2
+1965,DEP03,ROL08,EDU03,0,0,4105,27,7,7,9,Very High,Very High,Better,Male,Single,Travel_Rarely,Bachelor,< 30,1,3000-5999,2,6-10,3,5-9,2
+1966,DEP02,ROL05,EDU02,0,0,9679,32,1,8,5,Very High,Very High,Better,Male,Single,Travel_Rarely,Master,30-39,2,6000-9999,3,0-2,1,5-9,2
+1967,DEP03,ROL08,EDU03,1,1,5617,31,10,10,26,Very High,Low,Better,Male,Married,Travel_Frequently,Master,30-39,2,3000-5999,2,6-10,3,15+,4
+1968,DEP03,ROL08,EDU02,1,1,10448,53,2,15,24,Low,Low,Good,Male,Single,Travel_Rarely,Master,50+,4,>= 10000,4,0-2,1,15+,4
+1969,DEP02,ROL07,EDU02,0,0,2897,54,4,9,9,High,Low,Good,Female,Married,Travel_Rarely,College,50+,4,< 3000,1,3-5,2,5-9,2
+1970,DEP02,ROL01,EDU02,0,0,5968,33,9,9,7,High,Very High,Better,Male,Divorced,Travel_Frequently,College,30-39,2,3000-5999,2,6-10,3,5-9,2
+1971,DEP02,ROL01,EDU02,0,0,7510,43,10,10,11,High,Low,Better,Male,Married,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,6-10,3,10-14,3
+1972,DEP01,ROL02,EDU05,0,1,2991,38,6,7,1,Medium,Very High,Better,Male,Married,Travel_Frequently,Master,30-39,2,< 3000,1,6-10,3,1-4,1
+1973,DEP01,ROL04,EDU01,0,1,19636,55,10,35,26,Medium,High,Better,Male,Married,Travel_Rarely,Master,50+,4,>= 10000,4,6-10,3,15+,4
+1974,DEP02,ROL03,EDU04,0,1,1129,31,1,1,2,Very High,Very High,Better,Female,Divorced,Travel_Rarely,Below College,30-39,2,< 3000,1,0-2,1,1-4,1
+1975,DEP03,ROL08,EDU03,0,0,13341,39,20,21,15,Low,Medium,Better,Male,Single,Travel_Rarely,Master,30-39,2,>= 10000,4,11+,4,15+,4
+1976,DEP02,ROL07,EDU02,0,0,4332,42,20,20,23,High,Very High,Better,Male,Single,Non-Travel,College,40-49,3,3000-5999,2,11+,4,15+,4
+1979,DEP02,ROL06,EDU04,0,0,11031,31,11,13,10,High,High,Best,Female,Married,Non-Travel,Bachelor,30-39,2,>= 10000,4,11+,4,10-14,3
+1980,DEP02,ROL05,EDU04,0,1,4440,54,5,9,10,Low,High,Better,Female,Single,Travel_Rarely,Bachelor,50+,4,3000-5999,2,3-5,2,10-14,3
+1981,DEP02,ROL01,EDU02,0,0,4617,24,4,4,1,High,Medium,Good,Male,Single,Travel_Rarely,College,< 30,1,3000-5999,2,3-5,2,1-4,1
+1982,DEP02,ROL03,EDU05,0,0,2647,23,5,5,12,Very High,Very High,Best,Male,Single,Travel_Rarely,College,< 30,1,< 3000,1,3-5,2,10-14,3
+1985,DEP02,ROL03,EDU06,0,0,6323,40,10,10,11,High,Very High,Best,Female,Married,Travel_Frequently,Bachelor,40-49,3,6000-9999,3,6-10,3,10-14,3
+1986,DEP03,ROL08,EDU03,0,0,5677,40,11,15,2,Medium,Medium,Better,Female,Married,Travel_Rarely,College,40-49,3,3000-5999,2,11+,4,1-4,1
+1987,DEP01,ROL02,EDU01,0,0,2187,25,2,6,2,Medium,High,Better,Female,Married,Travel_Rarely,Bachelor,< 30,1,< 3000,1,0-2,1,1-4,1
+1989,DEP02,ROL03,EDU04,0,0,3748,30,12,12,1,Medium,Very High,Good,Male,Married,Travel_Rarely,College,30-39,2,3000-5999,2,11+,4,1-4,1
+1992,DEP02,ROL03,EDU05,0,1,3977,25,2,7,2,High,Very High,Good,Male,Divorced,Travel_Rarely,Below College,< 30,1,3000-5999,2,0-2,1,1-4,1
+1993,DEP02,ROL01,EDU04,0,0,8633,47,17,25,25,High,Low,Better,Male,Single,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,11+,4,15+,4
+1994,DEP02,ROL03,EDU04,0,0,2008,33,1,1,1,High,Medium,Good,Male,Divorced,Non-Travel,College,30-39,2,< 3000,1,0-2,1,1-4,1
+1995,DEP03,ROL08,EDU02,0,0,4440,38,15,16,1,Medium,Very High,Better,Male,Married,Travel_Rarely,Master,30-39,2,3000-5999,2,11+,4,1-4,1
+1996,DEP03,ROL09,EDU02,0,0,3067,31,2,3,2,High,Low,Better,Male,Married,Travel_Rarely,College,30-39,2,3000-5999,2,0-2,1,1-4,1
+1997,DEP02,ROL05,EDU02,0,0,5321,38,8,10,6,High,Low,Better,Male,Married,Travel_Frequently,Master,30-39,2,3000-5999,2,6-10,3,5-9,2
+1998,DEP02,ROL07,EDU02,0,1,5410,42,4,9,18,Low,Very High,Good,Male,Divorced,Travel_Rarely,Master,40-49,3,3000-5999,2,3-5,2,15+,4
+1999,DEP02,ROL07,EDU02,0,0,2782,41,5,12,1,Very High,Very High,Better,Male,Married,Travel_Rarely,Bachelor,40-49,3,< 3000,1,3-5,2,1-4,1
+2000,DEP02,ROL06,EDU04,0,0,11957,47,13,14,1,Medium,High,Bad,Female,Married,Non-Travel,Below College,40-49,3,>= 10000,4,11+,4,1-4,1
+2003,DEP02,ROL03,EDU04,0,1,2660,35,2,5,11,High,Very High,Better,Male,Married,Travel_Rarely,Master,30-39,2,< 3000,1,0-2,1,10-14,3
+2007,DEP02,ROL07,EDU02,0,0,3375,22,3,4,1,High,Very High,Best,Male,Single,Travel_Rarely,College,< 30,1,3000-5999,2,3-5,2,1-4,1
+2008,DEP02,ROL07,EDU04,0,0,5098,35,10,10,9,High,Medium,Better,Male,Single,Travel_Rarely,Master,30-39,2,3000-5999,2,6-10,3,5-9,2
+2009,DEP02,ROL01,EDU04,0,1,4878,33,9,10,15,Very High,Medium,Better,Female,Married,Travel_Rarely,College,30-39,2,3000-5999,2,6-10,3,15+,4
+2010,DEP02,ROL03,EDU02,0,0,2837,32,6,6,29,Medium,High,Better,Female,Single,Travel_Rarely,Master,30-39,2,< 3000,1,6-10,3,15+,4
+2012,DEP02,ROL03,EDU02,0,0,2406,40,1,8,1,Very High,Low,Good,Male,Married,Travel_Rarely,Master,40-49,3,< 3000,1,0-2,1,1-4,1
+2013,DEP03,ROL09,EDU04,0,0,2269,32,2,3,1,Medium,Medium,Better,Male,Married,Travel_Rarely,Master,30-39,2,< 3000,1,0-2,1,1-4,1
+2014,DEP02,ROL07,EDU02,0,0,4108,39,7,18,24,Very High,Low,Better,Male,Single,Travel_Rarely,Below College,30-39,2,3000-5999,2,6-10,3,15+,4
+2015,DEP02,ROL06,EDU04,0,0,13206,38,18,20,10,High,Medium,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,>= 10000,4,11+,4,10-14,3
+2016,DEP03,ROL08,EDU03,0,0,10422,32,14,14,1,Very High,High,Better,Female,Married,Travel_Rarely,Master,30-39,2,>= 10000,4,11+,4,1-4,1
+2017,DEP02,ROL06,EDU02,0,1,13744,37,16,16,10,Very High,High,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,>= 10000,4,11+,4,10-14,3
+2018,DEP03,ROL08,EDU05,0,1,4907,25,5,6,8,High,Low,Good,Female,Divorced,Travel_Rarely,College,< 30,1,3000-5999,2,3-5,2,5-9,2
+2019,DEP03,ROL09,EDU02,0,0,3482,52,9,16,29,Very High,Low,Good,Male,Divorced,Non-Travel,Master,50+,4,3000-5999,2,6-10,3,15+,4
+2020,DEP02,ROL07,EDU04,0,1,2436,44,4,6,1,Very High,Medium,Better,Male,Single,Travel_Rarely,Bachelor,40-49,3,< 3000,1,3-5,2,1-4,1
+2021,DEP03,ROL09,EDU04,0,1,2380,21,2,2,5,Low,High,Better,Male,Single,Travel_Rarely,Below College,< 30,1,< 3000,1,0-2,1,5-9,2
+2022,DEP02,ROL04,EDU02,0,0,19431,39,6,21,9,Very High,Very High,Good,Male,Single,Non-Travel,Bachelor,30-39,2,>= 10000,4,6-10,3,5-9,2
+2023,DEP03,ROL09,EDU03,1,0,1790,23,1,1,9,Low,Very High,Good,Male,Married,Travel_Frequently,Bachelor,< 30,1,< 3000,1,0-2,1,5-9,2
+2024,DEP03,ROL08,EDU04,0,0,7644,36,9,10,3,Very High,Low,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,1-4,1
+2025,DEP02,ROL05,EDU02,0,0,5131,36,4,18,4,Medium,Very High,Better,Female,Divorced,Travel_Frequently,College,30-39,2,3000-5999,2,3-5,2,1-4,1
+2026,DEP02,ROL01,EDU02,0,0,6306,56,13,13,1,High,High,Good,Male,Divorced,Non-Travel,Master,50+,4,6000-9999,3,11+,4,1-4,1
+2027,DEP02,ROL07,EDU04,1,1,4787,29,2,4,1,Very High,Low,Best,Male,Married,Travel_Rarely,Master,< 30,1,3000-5999,2,0-2,1,1-4,1
+2031,DEP02,ROL04,EDU02,0,0,18880,42,22,24,2,High,Low,Good,Male,Married,Travel_Rarely,Bachelor,40-49,3,>= 10000,4,11+,4,1-4,1
+2032,DEP02,ROL03,EDU06,1,0,2339,56,10,14,7,High,Very High,Bad,Male,Married,Travel_Rarely,College,50+,4,< 3000,1,6-10,3,5-9,2
+2034,DEP02,ROL05,EDU02,0,0,13570,41,20,21,28,Medium,Low,Better,Female,Married,Travel_Rarely,Master,40-49,3,>= 10000,4,11+,4,15+,4
+2035,DEP03,ROL08,EDU03,0,0,6712,34,8,8,28,High,Very High,Better,Female,Married,Travel_Rarely,Bachelor,30-39,2,6000-9999,3,6-10,3,15+,4
+2036,DEP03,ROL08,EDU03,0,0,5406,36,15,15,15,Very High,Very High,Good,Male,Divorced,Non-Travel,Master,30-39,2,3000-5999,2,11+,4,15+,4
+2037,DEP03,ROL08,EDU02,0,0,8938,41,5,14,3,Medium,High,Better,Male,Divorced,Travel_Rarely,Bachelor,40-49,3,6000-9999,3,3-5,2,1-4,1
+2038,DEP02,ROL07,EDU06,0,0,2439,32,4,4,2,Low,Very High,Better,Male,Single,Travel_Rarely,Bachelor,30-39,2,< 3000,1,3-5,2,1-4,1
+2040,DEP01,ROL02,EDU02,0,1,8837,35,9,9,26,Very High,High,Better,Female,Single,Travel_Rarely,Master,30-39,2,6000-9999,3,6-10,3,15+,4
+2041,DEP03,ROL08,EDU02,0,0,5343,38,10,10,10,Very High,Low,Better,Female,Married,Travel_Rarely,College,30-39,2,3000-5999,2,6-10,3,10-14,3
+2044,DEP03,ROL08,EDU02,1,0,6728,50,6,12,1,High,Medium,Better,Male,Divorced,Travel_Frequently,Master,50+,4,6000-9999,3,6-10,3,1-4,1
+2045,DEP03,ROL08,EDU03,0,0,6652,36,6,8,11,Very High,Medium,Good,Female,Married,Travel_Rarely,Master,30-39,2,6000-9999,3,6-10,3,10-14,3
+2046,DEP03,ROL08,EDU02,0,0,4850,45,5,8,20,High,Very High,Better,Female,Single,Travel_Rarely,Bachelor,40-49,3,3000-5999,2,3-5,2,15+,4
+2048,DEP02,ROL07,EDU02,0,0,2809,40,2,8,2,High,High,Better,Male,Single,Travel_Rarely,Master,40-49,3,< 3000,1,0-2,1,1-4,1
+2049,DEP02,ROL01,EDU02,0,1,5689,35,10,10,18,High,High,Best,Male,Married,Travel_Frequently,Master,30-39,2,3000-5999,2,6-10,3,15+,4
+2051,DEP02,ROL07,EDU04,0,0,2001,40,5,20,2,High,High,Better,Female,Married,Travel_Rarely,Master,40-49,3,< 3000,1,3-5,2,1-4,1
+2052,DEP02,ROL07,EDU02,0,0,2977,35,4,4,1,Very High,High,Better,Female,Married,Travel_Rarely,Master,30-39,2,< 3000,1,3-5,2,1-4,1
+2053,DEP02,ROL03,EDU05,0,1,4025,29,4,10,13,Medium,Very High,Better,Male,Married,Travel_Rarely,College,< 30,1,3000-5999,2,3-5,2,10-14,3
+2054,DEP02,ROL07,EDU04,0,0,3785,29,5,5,28,Low,Very High,Bad,Female,Single,Travel_Rarely,Master,< 30,1,3000-5999,2,3-5,2,15+,4
+2055,DEP03,ROL08,EDU03,1,1,10854,50,3,20,28,Low,Very High,Better,Male,Divorced,Travel_Rarely,Bachelor,50+,4,>= 10000,4,3-5,2,15+,4
+2056,DEP03,ROL08,EDU03,0,0,12031,39,20,21,24,Very High,Medium,Good,Female,Married,Travel_Rarely,Below College,30-39,2,>= 10000,4,11+,4,15+,4
+2057,DEP02,ROL05,EDU04,0,0,9936,31,9,10,5,Low,Medium,Better,Male,Single,Non-Travel,Bachelor,30-39,2,6000-9999,3,6-10,3,5-9,2
+2060,DEP03,ROL09,EDU05,0,0,2966,26,4,5,5,High,Very High,Better,Female,Single,Travel_Rarely,Bachelor,< 30,1,< 3000,1,3-5,2,5-9,2
+2061,DEP02,ROL03,EDU04,0,0,2571,36,5,17,23,Very High,High,Better,Male,Married,Travel_Frequently,College,30-39,2,< 3000,1,3-5,2,15+,4
+2062,DEP02,ROL01,EDU04,0,0,9991,39,7,9,6,Low,Very High,Better,Male,Married,Travel_Rarely,Below College,30-39,2,6000-9999,3,6-10,3,5-9,2
+2064,DEP02,ROL05,EDU02,0,1,6142,27,6,6,4,Medium,Medium,Better,Male,Married,Travel_Rarely,Bachelor,< 30,1,6000-9999,3,6-10,3,1-4,1
+2065,DEP03,ROL08,EDU04,0,0,5390,49,9,17,2,Medium,Very High,Good,Male,Married,Travel_Frequently,Bachelor,40-49,3,3000-5999,2,6-10,3,1-4,1
+2068,DEP02,ROL03,EDU04,0,0,4404,34,4,6,8,High,Medium,Best,Male,Married,Travel_Rarely,Bachelor,30-39,2,3000-5999,2,3-5,2,5-9,2

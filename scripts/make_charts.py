@@ -12,13 +12,13 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import pandas as pd
 
-# ---- palet warna konsisten ----
-TEAL = "#1F7A8C"    # utama
-TEAL_DK = "#14505C"  # aksen gelap
-ORANGE = "#E86A33"  # sorotan risiko tinggi
-GREY = "#B0BEC5"    # netral
-BG = "#F7F9FA"
-TXT = "#2B3A42"
+# ---- palet warna konsisten (tema T1: marine, bright red, butter) ----
+TEAL = "#0E4D7A"    # utama: marine blue
+TEAL_DK = "#0B2A44"  # ink marine gelap
+ORANGE = "#E5322D"  # sorotan risiko tinggi: bright red
+GREY = "#A8B6BE"    # netral
+BG = "#F7F4EE"
+TXT = "#0B2A44"
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DB = BASE_DIR / "data" / "hr_attrition.db"
@@ -28,6 +28,7 @@ OUT.mkdir(exist_ok=True)
 plt.rcParams.update({
     "figure.facecolor": BG,
     "axes.facecolor": BG,
+    "font.family": "Noto Sans",
     "font.size": 11,
     "axes.titlesize": 14,
     "axes.titleweight": "bold",
@@ -58,6 +59,8 @@ def bar(ax, labels, values, title, xlabel, colors=None, annotate=True):
     ax.set_ylabel("Attrition (%)")
     ax.set_ylim(0, max(values) * 1.22 if max(values) else 1)
     ax.spines[["top", "right"]].set_visible(False)
+    ax.grid(axis="y", color="#D9D2C2", linewidth=0.6, linestyle="-")
+    ax.set_axisbelow(True)
     if annotate:
         for b, v in zip(bars, values):
             ax.text(b.get_x() + b.get_width() / 2, v + 0.4,
@@ -95,6 +98,8 @@ bars = ax.barh(df["JobRole"], df["rate"], color=colors, edgecolor="white")
 ax.set_title("Attrition per Job Role (diurutkan, dengan jumlah karyawan)", pad=14)
 ax.set_xlabel("Attrition (%)")
 ax.spines[["top", "right"]].set_visible(False)
+ax.grid(axis="x", color="#D9D2C2", linewidth=0.6, linestyle="-")
+ax.set_axisbelow(True)
 for b, v, n in zip(bars, df["rate"], df["n"]):
     ax.text(v + 0.6, b.get_y() + b.get_height() / 2, f"{v:.1f}%  (n={n})",
             va="center", fontsize=9.5)
@@ -104,10 +109,10 @@ save(fig, "03_attrition_jobrole.png")
 # ---------- 04. overtime ----------
 df = query("""SELECT OverTime, ROUND(100.0*SUM(Attrition='Yes')/COUNT(*),1) rate,
                      COUNT(*) n FROM employees GROUP BY OverTime ORDER BY OverTime DESC""")
-labels = ["Tidak lembur (No)", "Lembur (Yes)"]
+labels = ["Lembur (Yes)", "Tidak lembur (No)"]
 fig, ax = plt.subplots(figsize=(6.6, 4.6))
 bar(ax, labels, df["rate"], "Attrition: Lembur vs Tidak Lembur", "",
-    colors=[TEAL, ORANGE])
+    colors=[ORANGE, TEAL])
 for t, n in zip(ax.get_xticklabels(), df["n"]):
     t.set_text(f"{t.get_text()}\n(n={n})")
 save(fig, "04_attrition_overtime.png")

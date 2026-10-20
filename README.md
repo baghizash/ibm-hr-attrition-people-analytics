@@ -98,3 +98,16 @@ python scripts/load_to_sqlite.py   # membuat data/hr_attrition.db, verifikasi 14
 5. **Intervensi dini berbasis survei kepuasan.** Lingkungan *Low* (25,4%) dan work-life balance
    *Bad* (31,3%) adalah sinyal yang terdeteksi sebelum resign — tindak lanjuti hasil survei per tim
    dengan rencana perbaikan konkret.
+
+## Dashboard Power BI
+
+Kit Power BI tersedia di folder `powerbi/`: satu tabel fakta `fact_karyawan.csv` (grain 1 baris per karyawan, 1.470 baris) plus tiga dimensi (`dim_departemen.csv`, `dim_peran.csv`, `dim_pendidikan.csv`), dibangun dari data mentah oleh `powerbi/build_kit.py`. Dokumentasinya: `measures_dax.md` (measures DAX beserta angka verifikasinya), `dashboard_layout.md` (rancangan 4 halaman), dan `build_guide.md` (panduan membangun dashboard langkah demi langkah).
+
+Ringkasan 4 halaman dashboard:
+
+1. **Ringkasan Eksekutif** — KPI utama (1.470 karyawan, 237 resign, attrition 16,1%), donut resign vs bertahan, attrition per departemen, dan lembur vs tidak lembur (30,5% vs 10,4%).
+2. **Segmen Risiko** — attrition per peran (tertinggi Sales Representative 39,8%), per kelompok gaji, kelompok usia, dan kelompok masa kerja.
+3. **Kepuasan dan Kondisi Kerja** — work-life balance, kepuasan lingkungan dan kepuasan kerja, jarak rumah, perjalanan dinas, dan status perkawinan.
+4. **Profil dan Metodologi** — tabel matriks per peran, perbandingan gaji karyawan resign vs bertahan, metodologi, dan rekomendasi ringkas.
+
+File `.pbix` dibangun secara lokal di Power BI Desktop mengikuti `powerbi/build_guide.md` (nama berkas yang disarankan: `HR-Attrition-Analytics.pbix`) dan tidak disimpan di repo ini. Pratinjau tata letak halaman 1 tersedia di `powerbi/dashboard_preview_halaman1.png`; screenshot dashboard hasil build akan ditambahkan setelah `.pbix` selesai dibangun.

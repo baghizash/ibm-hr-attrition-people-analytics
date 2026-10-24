@@ -20,6 +20,7 @@ divisualisasikan dalam 12 chart (`charts/`), dan dinarasikan dalam notebook (`an
 - **Sumber:** IBM HR Analytics Employee Attrition & Performance — dataset publik untuk latihan people analytics.
 - **Ukuran:** 1.470 baris karyawan × 35 kolom (tidak ada missing value pada kolom analisis).
 - **File mentah:** `data/raw/WA_Fn-UseC_-HR-Employee-Attrition.csv` (diawali BOM, dibaca dengan `encoding='utf-8-sig'`).
+- **File bersih:** `data/clean/hr_employee_attrition_clean.csv` (1.470 baris × 35 kolom, dibuat oleh `scripts/clean_data.py`; dataset ini tidak memerlukan penghapusan baris, log pemeriksaan lengkapnya ada di `data/clean/README.md`).
 - **Database:** `data/hr_attrition.db` (SQLite, dibuat ulang oleh script; tidak di-commit ke git).
 - **Catatan:** kolom kepuasan (`JobSatisfaction`, `EnvironmentSatisfaction`) tersimpan sebagai label
   *Low / Medium / High / Very High*, dan `WorkLifeBalance` sebagai *Bad / Good / Better / Best*.
@@ -40,6 +41,7 @@ hr-attrition/
 ├── .gitignore
 ├── scripts/
 │   ├── load_to_sqlite.py           # load CSV -> data/hr_attrition.db (+ index), verifikasi 1470 baris
+│   ├── clean_data.py               # buat data/clean/hr_employee_attrition_clean.csv dari data mentah
 │   └── make_charts.py              # membuat ulang 12 chart dari database
 ├── sql/
 │   └── queries.sql                 # semua query analisis dengan komentar Bahasa Indonesia
@@ -58,6 +60,7 @@ hr-attrition/
 │   └── 12_attrition_demografi_travel.png
 └── data/
     ├── raw/WA_Fn-UseC_-HR-Employee-Attrition.csv
+    ├── clean/hr_employee_attrition_clean.csv   # 1.470 baris bersih (log: data/clean/README.md)
     └── hr_attrition.db             # dibuat oleh script, diabaikan git
 ```
 
@@ -79,6 +82,7 @@ hr-attrition/
 ```bash
 pip install -r requirements.txt
 python scripts/load_to_sqlite.py   # membuat data/hr_attrition.db, verifikasi 1470 baris
+python scripts/clean_data.py       # membuat data/clean/hr_employee_attrition_clean.csv, verifikasi 1470 baris
 # buka analysis.ipynb di Jupyter lalu jalankan semua sel,
 # atau buat ulang chart: python scripts/make_charts.py
 ```
